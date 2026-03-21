@@ -1,0 +1,20 @@
+﻿{
+    "pass":  true,
+    "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\runtime\\temp_receipt_validation\\decision_20260315T184449Z_f1d6aea3.json",
+    "receiptId":  "decision_20260315T184449Z_f1d6aea3",
+    "finalDecision":  "QUEUED",
+    "recommendedAction":  "QUEUE_AND_REVIEW",
+    "governanceEventCount":  6,
+    "governanceFamilies":  [
+                               "approval",
+                               "domain_session",
+                               "known_pattern",
+                               "poisoning",
+                               "route_slippage",
+                               "signature"
+                           ],
+    "missingFamilies":  [
+
+                        ],
+    "sha256":  "f1d6aea3621fbf888c5fef84c6a97f7cc81d889366317d26c01d647e71bcc104"
+}

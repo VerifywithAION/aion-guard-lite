@@ -1,0 +1,27 @@
+﻿[
+    {
+        "name":  "Health",
+        "pass":  true,
+        "detail":  "Health endpoint responded."
+    },
+    {
+        "name":  "DomainGuard",
+        "pass":  true,
+        "detail":  "QUEUED / MISSING_DOMAIN_REVIEW"
+    },
+    {
+        "name":  "SessionGuard",
+        "pass":  true,
+        "detail":  "QUEUED / RISKY_SESSION_REUSE_REVIEW"
+    },
+    {
+        "name":  "KnownPatternGuard",
+        "pass":  true,
+        "detail":  "QUEUED / UNKNOWN_DESTINATION_LARGE_AMOUNT_REVIEW"
+    },
+    {
+        "name":  "ReceiptEmission",
+        "pass":  true,
+        "detail":  "C:\\Lab_Research\\aion-guard-lite\\runtime\\staged_runtime_receipts\\decision_20260315T213709Z_661cf943.json"
+    }
+]

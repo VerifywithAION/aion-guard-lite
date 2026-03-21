@@ -1,0 +1,21 @@
+Wallet Lite Public Repository Terms
+Copyright (c) 2026 AION. All rights reserved.
+
+This repository is made publicly visible for documentation, evaluation, interoperability planning, and integration with Wallet Lite.
+
+Subject to the restrictions below, permission is granted to view, download, and internally use the public-safe documentation, schemas, and example integration materials contained in this repository solely for evaluation of, or integration with, Wallet Lite.
+
+No open-source license is granted for any source-closed implementation, runtime internals, premium heuristics, private validation harnesses, classified materials, or other non-public components related to Wallet Lite.
+
+Except to the limited extent expressly stated above, no permission is granted to:
+- copy, modify, redistribute, sublicense, or sell the source-closed implementation
+- create derivative works from non-public Wallet Lite components
+- reverse engineer proprietary implementation details from protected materials
+- use AION or Wallet Lite names, marks, or branding except for accurate nominative reference
+
+No trademark license is granted by this notice.
+No patent license is granted by this notice.
+
+If you require broader rights, commercial rights, OEM rights, redistribution rights, or other permissions, written authorization from the rights holder is required.
+
+THE MATERIALS IN THIS REPOSITORY ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE MATERIALS OR THE USE OF THE MATERIALS.

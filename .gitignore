@@ -1,0 +1,54 @@
+# Wallet Lite public-safe source-closed boundary
+.git
+.audit/
+.safety/
+dist/
+node_modules/
+bin/wallet-lite-runtime/
+*.map
+*.tsbuildinfo
+*.bak*
+*.old
+*.orig
+*.tmp
+*.moved_*
+*.pdb
+
+# private / non-public-safe source and build surfaces
+*.ts
+*.tsx
+*.mts
+*.cts
+*.sol
+*.lean
+package.json
+package-lock.json
+tsconfig.base.json
+packages/
+
+# local runtime and validation material
+proof/
+runtime/proofs/
+runtime/hardening/
+runtime/real_flow_receipts/
+runtime/release_candidate_reports/
+runtime/release_export/
+runtime/staged_public_runtime/
+runtime/staged_runtime_receipts/
+runtime/temp_receipt_validation/
+runtime/validation/
+
+# local runtime output / internal state
+.aion/
+.codara/
+RFL/
+bounty-daemon/
+_git_history_backup_*
+
+# post-rewrite local leftovers
+docs/api/WALLET_LITE_EVM_ADAPTER_PROOF_REPORT_FIRST_PASS.md
+docs/api/WALLET_LITE_REFERENCE_UX_PROOF_REPORT_FIRST_PASS.md
+
+# final public-root exclusions
+docs/hardening/
+runtime/cross_platform_audit/

@@ -1,0 +1,72 @@
+{
+    "generatedAt":  "2026-03-23T16:28:37",
+    "proofLabel":  "Wallet Lite Testnet Connectivity Proof",
+    "overall":  "PASS_WITH_CHAIN_PREVIEW_BLOCKER",
+    "captureCount":  9,
+    "walletConnectCount":  3,
+    "previewCount":  5,
+    "walletSendCount":  0,
+    "walletSendErrorCount":  1,
+    "walletConnectionProven":  true,
+    "sepoliaObserved":  true,
+    "previewAttemptsProven":  true,
+    "walletSendCaptureProven":  false,
+    "chainBackedPreviewSuccess":  false,
+    "chainPreviewBlocker":  "Current Sepolia placeholder policy address has no deployed code, so runtime preview cannot yet return a valid chain-backed governance result.",
+    "uniqueWallets":  [
+                          "0x5c2f...1056"
+                      ],
+    "uniqueChainIds":  [
+                           "0xaa36a7"
+                       ],
+    "scenarios":  [
+                      {
+                          "scenario":  "approval_style_review",
+                          "decision":  "",
+                          "policyDecision":  "",
+                          "recommendedAction":  "",
+                          "receiptId":  "",
+                          "reasonSurfaceKeys":  [
+
+                                                ],
+                          "previewOk":  false,
+                          "previewError":  "The remote server returned an error: (500) Internal Server Error."
+                      },
+                      {
+                          "scenario":  "native_self_zero",
+                          "decision":  "",
+                          "policyDecision":  "",
+                          "recommendedAction":  "",
+                          "receiptId":  "",
+                          "reasonSurfaceKeys":  [
+
+                                                ],
+                          "previewOk":  false,
+                          "previewError":  "The remote server returned an error: (500) Internal Server Error."
+                      },
+                      {
+                          "scenario":  "native_unknown_small",
+                          "decision":  "",
+                          "policyDecision":  "",
+                          "recommendedAction":  "",
+                          "receiptId":  "",
+                          "reasonSurfaceKeys":  [
+
+                                                ],
+                          "previewOk":  false,
+                          "previewError":  "The remote server returned an error: (500) Internal Server Error."
+                      },
+                      {
+                          "scenario":  "route_context_review",
+                          "decision":  "",
+                          "policyDecision":  "",
+                          "recommendedAction":  "",
+                          "receiptId":  "",
+                          "reasonSurfaceKeys":  [
+
+                                                ],
+                          "previewOk":  false,
+                          "previewError":  "The remote server returned an error: (500) Internal Server Error."
+                      }
+                  ]
+}

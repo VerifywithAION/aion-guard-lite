@@ -3,7 +3,7 @@
 ## Purpose
 This document explains, in plain language, what Wallet Lite has already proven and where that proof can be inspected in this public repository.
 
-Wallet Lite is presented here as a **source-free, evidence-backed governed wallet runtime**.
+Wallet Lite is presented here as a **source-closed, evidence-backed governed wallet runtime**.
 
 That means this repo is not asking reviewers to trust marketing language alone.
 It provides concrete proof artifacts and validation reports.
@@ -244,3 +244,13 @@ This public evidence still does not claim that Wallet Lite has already completed
 - full compatibility matrix completion
 
 Those remain part of the next proof wave.
+
+## Real Wallet Testnet Connectivity
+
+What is proven:
+- Wallet Lite can attach to a real browser wallet session in the testnet harness.
+- Wallet connection and Sepolia selection are evidenced from harness captures.
+- Real preview attempts are evidenced through the harness path.
+
+What is not yet proven:
+- Successful chain-backed Sepolia governance preview still requires a real deployed policy contract address compatible with the runtime.

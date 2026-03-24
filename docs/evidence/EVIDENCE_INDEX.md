@@ -76,3 +76,7 @@ Curated terminal transcripts may be placed under:
 
 Only sanitized final successful transcripts should be included publicly.
 Do not include raw logs that reveal private paths, private repo layout, secrets, or premium implementation details.
+
+## Live Wallet Testnet Connectivity Evidence
+- [WALLET_LITE_TESTNET_CONNECTIVITY_PROOF_LATEST.md](validation/WALLET_LITE_TESTNET_CONNECTIVITY_PROOF_LATEST.md)
+- [WALLET_LITE_TESTNET_CONNECTIVITY_PROOF_LATEST.json](validation/WALLET_LITE_TESTNET_CONNECTIVITY_PROOF_LATEST.json)

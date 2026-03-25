@@ -1,8 +1,10 @@
 # Wallet Lite
 
-Wallet Lite is a **source-closed governed execution backend/runtime** with a public API and adapter-ready integration surface.
+Wallet Lite is a closed-core governed execution runtime and API surface that evaluates requests before irreversible execution.
 
-It is designed to let wallets, apps, and integrators call a governed decision engine **before irreversible execution**, receive a stable decision result, and preserve receipt and evidence output around that result.
+It is designed to let wallets, apps, and partner systems move from blind signing posture toward structured pre-execution decisioning with receipts and evidence.
+
+---
 
 ## Core idea
 
@@ -10,15 +12,15 @@ Traditional wallet posture often collapses into:
 
 key -> sign -> execute
 
-Wallet Lite is built around a different posture:
+Wallet Lite introduces a different posture:
 
-request -> preview -> classify -> govern -> decide -> preserve receipt
+request -> preview -> decide -> preserve receipt -> then execute or not
 
-The core principle is simple:
+The underlying principle is simple:
 
-**Key Is Not Enough**
+**Key is not enough.**
 
-Valid signing authority alone should not automatically mean immediate execution.
+Valid signing authority alone should not automatically imply immediate execution.
 
 ---
 
@@ -28,161 +30,155 @@ Wallet Lite is:
 
 - a governed execution backend
 - a local or deployable runtime
-- an API called before irreversible execution
-- an evidence and receipt engine
+- an API called before execution
+- a receipt and evidence engine
 - an adapter-ready integration surface
 
 Wallet Lite is not:
 
-- a full retail wallet UI
-- a mass-market desktop wallet app
-- an open-source declassification of the core
+- a retail wallet UI
+- a mass-market desktop wallet shell
+- an open-source declassification of the core engine
 - a generic analytics dashboard
 
-This repository is intended to expose the **public-safe integration and evidence layer** around Wallet Lite, not the crown-jewel private implementation internals.
+This repository exposes the public-safe contract, integration, and evidence layer around Wallet Lite without declassifying the private core.
 
 ---
 
-## Public repo posture
+## Strongest current public-safe posture
 
-This repository is public-safe and source-closed.
+The strongest current proof-backed posture is:
 
-That means it is intended to expose:
+- Windows-first
+- EVM-first
+- local runtime or packaged runtime artifact
+- browser-wallet harness validation
+- Sepolia-backed governed preview proof
+- reproducible X5 verification flow
+- one-command C2 proof-pack runner
 
-- product boundary and API contract docs
-- request, response, reason-code, and receipt schemas
-- adapter and deployment docs
-- integrator guidance
-- public-safe proof posture and evidence summaries
-
-It is not intended to expose:
-
-- private engine internals
-- proprietary runtime composition logic
-- premium heuristics
-- classified harnesses
-- confidential orchestration details
-
-Public visibility here should not be interpreted as open-source declassification.
+This is the reference posture evaluators and integrators should use first.
 
 ---
 
-## Current strongest posture
+## Fastest way to understand the system
 
-The strongest current public-safe posture is:
+Start here:
 
-- Windows-first runtime path
-- packaged runtime artifact or controlled local runtime
-- EVM-first adapter direction
+- `docs/WALLET_LITE_PROOF_NARRATIVE.md`
+- `docs/evidence/validation/WALLET_LITE_C2_PROOF_PACK_LATEST.md`
+- `docs/evidence/validation/WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.md`
+- `docs/evidence/validation/WALLET_LITE_REAL_TX_FLOW_PROOF.md`
 
-This is the strongest proven path today and should be treated as the main reference posture for evaluation and integration.
-
----
-
-## Strongest current evidence-backed claims
-
-The strongest current public-safe claims are:
-
-- Wallet Lite has a locked product boundary
-- Wallet Lite has a locked API contract
-- Wallet Lite has locked request, response, reason-code, and receipt contract artifacts
-- Wallet Lite has a defined adapter contract with EVM as the strongest current adapter path
-- Wallet Lite has a defined deployment and runtime artifact posture
-- Wallet Lite has strong Windows-first proof posture
-- Wallet Lite has first-pass EVM adapter proof support
-- Wallet Lite has first-pass UX proof support for queue and receipt visibility semantics
+These documents explain:
+- what problem Wallet Lite addresses
+- what has been built
+- what has actually been proven
+- how to reason about the current claim boundary
 
 ---
 
-## Current limits that remain explicit
+## Fastest way to verify the system
 
-The following limits remain intentionally explicit:
+The strongest current proof path is the C2 proof pack.
 
-- Windows is strongest, but this is not proof of all-platform parity
-- EVM is strongest, but this is not proof of full multi-chain parity
-- UX proof exists, but not every final UX state has equal evidence coverage
-- Wallet Lite is a governed backend and integration surface, not a finished retail wallet shell
+Run:
 
-These limits are part of the intended truth-first posture.
+    .\scripts\RUN_WALLET_LITE_C2_PROOF_PACK.ps1
 
----
+Current expected result:
 
-## Integration model
+- X5 verify OK = True
+- Sepolia 200 = True
+- Overall = PASS
 
-The intended integration flow is:
+That proof path exercises:
 
-1. your wallet, app, or adapter captures an upstream request
-2. you normalize that request into the Wallet Lite request contract
-3. you call the Wallet Lite runtime before execution
-4. you receive a governed response
-5. you map that response into your own UX or workflow
-6. you preserve receipt continuity
-
-Wallet Lite provides the authoritative governed core.
-Integrators and partners build their own surrounding UX, wallet shell, review flow, or product surface.
+- runtime boot and health
+- harness-backed runtime posture
+- governed preview verification
+- live Sepolia policy verification
+- latest validation artifact generation
 
 ---
 
-## Start here
+## Core API and contract documents
 
-For the cleanest public-safe understanding of Wallet Lite, start here:
+The main API product surface is defined here:
 
-- `docs/api/WALLET_LITE_API_PRODUCT_BOUNDARY.md`
 - `docs/api/WALLET_LITE_API_SPEC_V1.md`
+- `docs/api/WALLET_LITE_REQUEST_SCHEMA_V1.json`
 - `docs/api/WALLET_LITE_REQUEST_SCHEMA_GUIDE.md`
+- `docs/api/WALLET_LITE_RESPONSE_SCHEMA_V1.json`
 - `docs/api/WALLET_LITE_REASON_CODE_CATALOG.md`
+- `docs/api/WALLET_LITE_RECEIPT_SCHEMA_V1.json`
 - `docs/api/WALLET_LITE_RECEIPT_POLICY.md`
 - `docs/api/WALLET_LITE_ADAPTER_SPEC_V1.md`
 - `docs/api/ADAPTER_EVM_MAPPING_V1.md`
 - `docs/api/WALLET_LITE_DEPLOYMENT_MODELS.md`
 - `docs/api/WALLET_LITE_RUNTIME_ARTIFACT_SPEC.md`
 - `docs/api/WALLET_LITE_INTEGRATOR_GUIDE.md`
-- `docs/api/WALLET_LITE_API_PROOF_PLAN.md`
-- `docs/api/WALLET_LITE_PUBLIC_EVIDENCE_INDEX.md`
+- `docs/api/WALLET_LITE_API_FUTURE_EXTENSIONS.md`
+
+Together, these define the complete public-safe API and integration spine of Wallet Lite.
 
 ---
 
-## Runtime and deployment note
+## Evidence layer
 
-Wallet Lite should be understood as a **runtime product surface**, not only as a documentation set.
+Wallet Lite is not presented here as a theory-only system.
 
-At the current stage, the strongest practical runtime posture is the Windows-first path with packaged runtime artifact or controlled local runtime use.
+The repo already contains public-safe evidence for:
 
-Public repo documentation should therefore be read as:
+- governed request/response behavior
+- reason surfaces
+- receipt surfaces
+- runtime proof posture
+- testnet harness posture
+- live Sepolia policy verification
+- real browser-wallet flow
+- one-command proof-pack execution
 
-- public-safe contract and integration layer
-- public-safe runtime and deployment guidance
-- public-safe evidence posture
+Evidence entry points:
 
-and not as a blanket release of all implementation internals.
+- `docs/evidence/EVIDENCE_INDEX.md`
+- `docs/evidence/WHAT_HAS_BEEN_PROVEN.md`
+- `docs/evidence/validation/WALLET_LITE_C2_PROOF_PACK_LATEST.md`
+- `docs/evidence/validation/WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.md`
+- `docs/evidence/validation/WALLET_LITE_REAL_TX_FLOW_PROOF.md`
 
 ---
 
-## What integrators should preserve
+## Example integrations
 
-If you are building on top of Wallet Lite, preserve:
+Public-safe example integration surfaces are available under:
 
-- decision semantics
-- reason-code semantics
-- receipt continuity
-- queue/review meaning
-- block meaning
-- public-safe versus private receipt boundaries
+- `examples/api-client-basic/README.md`
+- `examples/adapter-evm-demo/README.md`
+- `examples/review-console-mock/README.md`
 
-Wallet Lite should not be flattened into a simple boolean allow or deny abstraction.
+These examples do not expose private internals.
+They show how external systems can understand and preserve Wallet Lite semantics.
+
+---
+
+## What is explicitly not claimed yet
+
+To preserve credibility, this repository does not currently claim:
+
+- full multi-chain maturity
+- equal Windows, macOS, and Linux packaged parity
+- final retail wallet UI
+- fully mature hosted gateway posture
+- full org-governance control plane
+- complete policy-pack ecosystem
+
+The strongest current truth remains bounded by the Windows-first, EVM-first, proof-backed posture already evidenced here.
 
 ---
 
 ## Canonical summary
 
-Wallet Lite is a **source-closed governed execution backend/runtime** with a public API and adapter-ready integration surface.
+Wallet Lite is a closed-core governed execution runtime and API surface.
 
-It is currently strongest in a **Windows-first, EVM-first** posture and is intended to let wallets, apps, and integrators call a governed decision engine before irreversible execution while preserving stable receipt and evidence output.
-
-This repository exists to expose the **public-safe contract, deployment, integrator, and evidence layer** for that product without declassifying the private implementation core.
-
-## Proof Narrative
-
-For a structured explanation of what Wallet Lite is, what has been proven, and how to reproduce it:
-
-- `docs/WALLET_LITE_PROOF_NARRATIVE.md`
+It sits between intent and irreversible execution, returns structured decisions, preserves reason surfaces, emits receipts, and now has a real public-safe proof path demonstrating that this behavior works in the strongest current Windows-first, EVM-first posture.

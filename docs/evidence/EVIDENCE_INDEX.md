@@ -98,3 +98,6 @@ Do not include raw logs that reveal private paths, private repo layout, secrets,
 
 ### EVM Lock Declaration
 - [WALLET_LITE_EVM_LOCK_DECLARATION.md](validation/WALLET_LITE_EVM_LOCK_DECLARATION.md)
+
+### BTC5 Bitcoin Preview Validation
+- [BTC5_BITCOIN_PREVIEW_VALIDATION.md](validation/BTC5_BITCOIN_PREVIEW_VALIDATION.md)

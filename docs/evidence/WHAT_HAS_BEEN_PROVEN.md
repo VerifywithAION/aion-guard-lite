@@ -331,3 +331,20 @@ Evidence:
 Current boundary:
 - This locks EVM as the current Wallet Lite reference tier.
 - It does not yet claim same-tier parity for macOS, Linux, Bitcoin, Solana, or Cosmos.
+
+## BTC5 Bitcoin Preview Validation
+
+What is proven:
+- Bitcoin now has a live runtime preview path in Wallet Lite.
+- `chainFamily = bitcoin` traverses the runtime and returns a structured Wallet Lite-compatible preview response.
+- Receipt continuity is preserved for the Bitcoin preview path.
+- A Lite-safe Bitcoin consequence block is present in the preview response.
+- Bitcoin is now represented in the evidence layer as a proof-backed runtime path.
+
+Evidence:
+- [BTC5_BITCOIN_PREVIEW_VALIDATION.md](validation/BTC5_BITCOIN_PREVIEW_VALIDATION.md)
+- [BTC4_BITCOIN_PREVIEW_VALIDATION_LATEST.md](validation/BTC4_BITCOIN_PREVIEW_VALIDATION_LATEST.md)
+
+Current boundary:
+- This proves Bitcoin runtime preview exists and is evidence-backed.
+- It does not yet declare Bitcoin locked at EVM parity.

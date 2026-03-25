@@ -348,3 +348,21 @@ Evidence:
 Current boundary:
 - This proves Bitcoin runtime preview exists and is evidence-backed.
 - It does not yet declare Bitcoin locked at EVM parity.
+
+## Bitcoin Lock Declaration
+
+What is proven:
+- Bitcoin is now a locked Wallet Lite proof tier.
+- Bitcoin has a live runtime preview path, receipt continuity, multiple proof families, deterministic repeat behavior, and evidence-layer representation.
+- Bitcoin now serves alongside EVM as a locked reference tier for future chain parity work.
+
+Evidence:
+- [WALLET_LITE_BITCOIN_LOCK_DECLARATION.md](validation/WALLET_LITE_BITCOIN_LOCK_DECLARATION.md)
+- [BTC5_BITCOIN_PREVIEW_VALIDATION.md](validation/BTC5_BITCOIN_PREVIEW_VALIDATION.md)
+- [BTC6_3A_BITCOIN_NO_CHANGE_VALIDATION_LATEST.md](validation/BTC6_3A_BITCOIN_NO_CHANGE_VALIDATION_LATEST.md)
+- [BTC6_3B_BITCOIN_HIGH_FEE_VALIDATION_LATEST.md](validation/BTC6_3B_BITCOIN_HIGH_FEE_VALIDATION_LATEST.md)
+- [BTC6_2_BITCOIN_REPEAT_VALIDATION_LATEST.md](validation/BTC6_2_BITCOIN_REPEAT_VALIDATION_LATEST.md)
+
+Current boundary:
+- This locks Bitcoin at the Wallet Lite proof tier.
+- It does not claim Guard Pro-grade Bitcoin intelligence, mempool-aware optimization, or enterprise mainnet maturity across all edge cases.

@@ -4,7 +4,7 @@
 
 Wallet Lite is a closed-core execution governance infrastructure where no action executes without deterministic policy, meaning-aware interpretation, and replayable evidence.
 
--
+---
 
 ## Structure Overview
 
@@ -18,7 +18,7 @@ The system is organized across four coordinated tracks:
 Tracks A, B, and C define the product.
 Track X ensures the product becomes operationally real.
 
--
+---
 
 # Track X - Execution Locks (Reality Gates)
 
@@ -29,7 +29,7 @@ Execution Locks are milestone gates that must turn from design intent into repro
 These are not optional.
 They are the layer that prevents the system from remaining only theoretical.
 
--
+---
 
 ## X1 - Runtime Authority Lock
 
@@ -50,7 +50,7 @@ Locked.
 - runtime health observed at `http://127.0.0.1:8787/health`
 - [WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.md](evidence/validation/WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.md)
 
--
+---
 
 ## X2 - Preview Execution Lock
 
@@ -73,7 +73,7 @@ Locked for the Sepolia governed preview path.
 - [WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.md](evidence/validation/WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.md)
 - [WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.json](evidence/validation/WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.json)
 
--
+---
 
 ## X3 - Harness Integration Lock
 
@@ -96,7 +96,7 @@ Locked.
 - preview result shown in UI
 - [WALLET_LITE_REAL_TX_FLOW_PROOF.md](evidence/validation/WALLET_LITE_REAL_TX_FLOW_PROOF.md)
 
--
+---
 
 ## X4 - First Real Demo Lock
 
@@ -123,7 +123,7 @@ Substantially achieved for the pre-sign governed flow.
 This lock currently proves the pre-sign governance layer.
 It does not yet claim final Wallet Lite-enforced execution blocking at the wallet layer.
 
--
+---
 
 ## X5 - Reproducibility Lock
 
@@ -145,7 +145,7 @@ Locked.
 - verification result `X5_VERIFY_OK`
 - [WALLET_LITE_REAL_TX_FLOW_PROOF.md](evidence/validation/WALLET_LITE_REAL_TX_FLOW_PROOF.md)
 
--
+---
 
 ## X6 - External Evaluator Reproducibility Lock
 
@@ -160,7 +160,7 @@ Planned.
 - packaged runtime artifact discipline
 - verification without private implementation disclosure
 
--
+---
 
 # Track A - Core Product (Wallet Lite Backend)
 
@@ -174,7 +174,7 @@ Deliver a private, deployable backend runtime + API that:
 - produces receipts
 - exposes a stable integration contract
 
--
+---
 
 ## A0 - Product Boundary Lock
 Locked.
@@ -182,7 +182,7 @@ Locked.
 ### Evidence
 - `docs/api/WALLET_LITE_API_PRODUCT_BOUNDARY.md`
 
--
+---
 
 ## A1 - Canonical API Contract
 Locked.
@@ -190,7 +190,7 @@ Locked.
 ### Evidence
 - `docs/api/WALLET_LITE_API_SPEC_V1.md`
 
--
+---
 
 ## A2 - Request Schema Normalization
 Planned.
@@ -204,7 +204,7 @@ Normalize all upstream request types and preserve enough context for governance 
 - route guard
 - known-pattern guard
 
--
+---
 
 ## A3 - Response Schema + Reason Codes
 Planned.
@@ -217,7 +217,7 @@ Formalize:
 - reason-code catalog
 - receipt linkage
 
--
+---
 
 ## A4 - Receipt System (Moat Layer)
 Planned.
@@ -229,7 +229,7 @@ Define:
 - reproducibility metadata
 - public-safe vs integrator-safe vs internal-only receipt fields
 
--
+---
 
 ## A5 - Adapter Contract
 Planned, with EVM as first-class path.
@@ -240,7 +240,7 @@ Planned, with EVM as first-class path.
 - Solana preview adapter
 - Cosmos preview adapter
 
--
+---
 
 ## A6 - Deployment Models
 Planned.
@@ -251,7 +251,7 @@ Planned.
 - self-hosted backend
 - OEM / embedded deployment
 
--
+---
 
 ## A7 - Runtime Packaging
 In progress and partially evidenced through Track X locks.
@@ -261,12 +261,12 @@ This phase now depends directly on:
 - X1 runtime authority
 - X5 reproducibility
 
--
+---
 
 ## A8 - Integrator Guide
 Planned.
 
--
+---
 
 ## A9 - Example Integrations
 In progress.
@@ -275,7 +275,7 @@ In progress.
 - real browser wallet harness flow
 - reproducible X5 demo scripts
 
--
+---
 
 ## A10 - Future Extensions
 Planned.
@@ -289,7 +289,7 @@ Planned.
 - hosted gateway
 - Pro UI hooks
 
--
+---
 
 # Track B - Intelligence / Commercial (Guard Pro)
 
@@ -297,7 +297,7 @@ Planned.
 
 Turn the primitive into a higher-value intelligence and operations platform.
 
--
+---
 
 ## B1 - Meaning Layer
 Partially evidenced in live results.
@@ -308,7 +308,7 @@ Partially evidenced in live results.
 - transaction narrative verification
 - decision receipts
 
--
+---
 
 ## B2 - Deep Simulation Layer
 Planned.
@@ -320,37 +320,37 @@ Planned.
 - hidden external call detection
 - persistent permission detection
 
--
+---
 
 ## B3 - Reputation Intelligence
 Planned.
 
--
+---
 
 ## B4 - Risk Scoring Engine
 Partially visible in current runtime outputs, but not yet formally locked as a public-safe contract.
 
--
+---
 
 ## B5 - Adversarial Defense Layer
 Planned.
 
--
+---
 
 ## B6 - Signer Isolation
 Planned.
 
--
+---
 
 ## B7 - Org / Treasury Governance
 Planned.
 
--
+---
 
 ## B8 - Operational Layer
 Planned.
 
--
+---
 
 # Track C - Proof & Publication
 
@@ -358,17 +358,17 @@ Planned.
 
 Make the system credible, verifiable, defensible, and integrator-trustworthy.
 
--
+---
 
 ## C1 - Proof Coverage Matrix
 Planned.
 
--
+---
 
 ## C2 - Validator Proof Family
 Planned.
 
--
+---
 
 ## C3 - Platform Packaging Proof
 Planned.
@@ -380,7 +380,7 @@ Planned.
 - not yet macOS parity
 - not yet Linux parity
 
--
+---
 
 ## C4 - Chain-Backed Proof
 Now partially locked for the EVM / Sepolia governed preview path.
@@ -389,7 +389,7 @@ Now partially locked for the EVM / Sepolia governed preview path.
 - [WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.md](evidence/validation/WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.md)
 - [WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.json](evidence/validation/WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.json)
 
--
+---
 
 ## C5 - Adapter Proofs
 Now partially locked for the real browser wallet harness path.
@@ -397,7 +397,7 @@ Now partially locked for the real browser wallet harness path.
 ### Current evidence
 - [WALLET_LITE_REAL_TX_FLOW_PROOF.md](evidence/validation/WALLET_LITE_REAL_TX_FLOW_PROOF.md)
 
--
+---
 
 ## C6 - Clean Reproducibility
 Now materially advanced via X5.
@@ -406,7 +406,7 @@ Now materially advanced via X5.
 - `scripts/RUN_WALLET_LITE_X5_DEMO.ps1`
 - `scripts/VERIFY_WALLET_LITE_X5.ps1`
 
--
+---
 
 ## C7 - Claim ' Proof Traceability
 In progress.
@@ -414,7 +414,7 @@ In progress.
 ### Important current principle
 Claims must remain bounded by what the proof artifacts actually support.
 
--
+---
 
 ## C8 - Public-Safe Documentation
 In progress and actively expanding.
@@ -427,7 +427,7 @@ In progress and actively expanding.
 - commercial preview
 - reproducible demo proof
 
--
+---
 
 # Final Product Shape
 
@@ -453,7 +453,7 @@ Built by others:
 - mobile apps
 - browser extensions
 
--
+---
 
 # Final Strategic Position
 
@@ -466,7 +466,7 @@ It is not:
 
 It is a governed execution runtime and API that external systems can call before irreversible action.
 
--
+---
 
 # Current Truth
 

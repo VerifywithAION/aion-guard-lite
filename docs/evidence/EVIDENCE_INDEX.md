@@ -89,3 +89,6 @@ Do not include raw logs that reveal private paths, private repo layout, secrets,
 - [WALLET_LITE_REAL_TX_FLOW_PROOF.md](validation/WALLET_LITE_REAL_TX_FLOW_PROOF.md)
 
 ---
+
+### B2 Deep Simulation V1
+- [B2_DEEP_SIMULATION_V1_VALIDATION.md](validation/B2_DEEP_SIMULATION_V1_VALIDATION.md)

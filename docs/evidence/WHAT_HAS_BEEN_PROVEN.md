@@ -283,3 +283,18 @@ Evidence:
 Operational artifacts:
 - `scripts/RUN_WALLET_LITE_X5_DEMO.ps1`
 - `scripts/VERIFY_WALLET_LITE_X5.ps1`
+
+## B2 Deep Simulation V1
+
+What is proven:
+- Wallet Lite now returns an additive `simulation` block in the live EVM preview response.
+- The simulation block is deterministic and structured.
+- The simulation block can surface native value movement, external call surface summary, and persistent-risk posture.
+- B2 V1 was integrated without breaking X5 verify, Sepolia verify, or the C2 proof pack.
+
+Evidence:
+- [B2_DEEP_SIMULATION_V1_VALIDATION.md](validation/B2_DEEP_SIMULATION_V1_VALIDATION.md)
+
+Current boundary:
+- This proves a first live EVM deep-simulation layer.
+- It does not yet prove full trace-based execution simulation or multi-chain parity.

@@ -313,3 +313,21 @@ Evidence:
 Current boundary:
 - This proves broader EVM consequence coverage.
 - It does not yet prove full trace-based simulation or multi-chain parity.
+
+## EVM Lock Declaration
+
+What is proven:
+- EVM is now the canonical locked reference tier for Wallet Lite.
+- Wallet Lite EVM includes governed preview, receipts, proof-pack compatibility, native transfer simulation, approval proof, and transfer proof.
+- Future platform and chain work must meet this proof grade before parity can be claimed.
+
+Evidence:
+- [WALLET_LITE_EVM_LOCK_DECLARATION.md](validation/WALLET_LITE_EVM_LOCK_DECLARATION.md)
+- [B2_DEEP_SIMULATION_V1_VALIDATION.md](validation/B2_DEEP_SIMULATION_V1_VALIDATION.md)
+- [B2_1_EVM_COVERAGE_VALIDATION.md](validation/B2_1_EVM_COVERAGE_VALIDATION.md)
+- [B2_2_APPROVAL_SIMULATION_VALIDATION_LATEST.md](validation/B2_2_APPROVAL_SIMULATION_VALIDATION_LATEST.md)
+- [B2_3_TRANSFER_SIMULATION_VALIDATION_LATEST.md](validation/B2_3_TRANSFER_SIMULATION_VALIDATION_LATEST.md)
+
+Current boundary:
+- This locks EVM as the current Wallet Lite reference tier.
+- It does not yet claim same-tier parity for macOS, Linux, Bitcoin, Solana, or Cosmos.

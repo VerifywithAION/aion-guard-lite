@@ -95,3 +95,6 @@ Do not include raw logs that reveal private paths, private repo layout, secrets,
 
 ### B2.1 EVM Coverage Expansion
 - [B2_1_EVM_COVERAGE_VALIDATION.md](validation/B2_1_EVM_COVERAGE_VALIDATION.md)
+
+### EVM Lock Declaration
+- [WALLET_LITE_EVM_LOCK_DECLARATION.md](validation/WALLET_LITE_EVM_LOCK_DECLARATION.md)

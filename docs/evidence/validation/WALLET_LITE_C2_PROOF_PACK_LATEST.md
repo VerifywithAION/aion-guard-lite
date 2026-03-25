@@ -1,6 +1,6 @@
 # Wallet Lite C2 Proof Pack
 
-Generated: 2026-03-25T00:07:02
+Generated: 2026-03-25T00:19:20
 Overall: PASS
 RuntimeBase: http://127.0.0.1:8787
 HarnessBase: http://127.0.0.1:8899
@@ -22,7 +22,7 @@ RpcUrl: https://ethereum-sepolia-rpc.publicnode.com
 - Found: True
 - HasCode: True
 - PreviewStatus: HTTP_200
-- Path: C:\Lab_Research\aion-guard-lite\runtime\release_candidate_reports\WALLET_LITE_SEPOLIA_POLICY_VERIFY_20260325_000702.json
+- Path: C:\Lab_Research\aion-guard-lite\runtime\release_candidate_reports\WALLET_LITE_SEPOLIA_POLICY_VERIFY_20260325_001919.json
 
 ## Claim Boundary
 - This proof pack demonstrates runtime, verification, and chain-backed preview proof in the strongest current Windows-first, EVM-first posture.

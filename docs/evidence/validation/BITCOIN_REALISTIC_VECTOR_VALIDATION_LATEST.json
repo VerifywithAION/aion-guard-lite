@@ -1,0 +1,113 @@
+{
+    "generatedAt":  "2026-03-25T13:38:19",
+    "proof":  "bitcoin_realistic_vector",
+    "pass":  true,
+    "baseUrl":  "http://127.0.0.1:8787",
+    "request":  {
+                    "source":  "wallet-lite-bitcoin-realistic-vector",
+                    "chainFamily":  "bitcoin",
+                    "network":  "bitcoin-signet",
+                    "walletAddress":  "signet-wallet-demo",
+                    "outputs":  [
+                                    {
+                                        "address":  "tb1q8f0p4x7m8c3r5n2v9k6j4z0s7u5h2l9q3w8e7r",
+                                        "valueSats":  "125000",
+                                        "label":  "recipient",
+                                        "scriptType":  "p2wpkh"
+                                    },
+                                    {
+                                        "address":  "tb1q4m2k9s6v8r1n5c7x3z0u2h4p8w6e9y1t5q3r2s",
+                                        "valueSats":  "74320",
+                                        "label":  "change",
+                                        "change":  true,
+                                        "scriptType":  "p2wpkh"
+                                    }
+                                ],
+                    "totalValueSats":  "199320",
+                    "feeSats":  "1680",
+                    "feeRateSatVb":  "7",
+                    "inputCount":  2,
+                    "outputCount":  2,
+                    "changeOutputPresent":  true,
+                    "rawPsbt":  "cHNidP8BAHECAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AqgBAAAAAAAAFgAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAGXapFAAAAAAAAAAAAAAAAAAAAAAAAAAAAIcAAAAAAAEBHwAA",
+                    "context":  {
+                                    "scenario":  "bitcoin_realistic_test_vector",
+                                    "note":  "realistic address + fee + output pattern, no broadcast",
+                                    "debug":  true
+                                }
+                },
+    "response":  {
+                     "ok":  true,
+                     "version":  "aion.decision.v1",
+                     "chainFamily":  "bitcoin",
+                     "policyDecision":  "EXECUTE_NOW",
+                     "decision":  "EXECUTE_NOW",
+                     "reasonCodes":  [
+
+                                     ],
+                     "tx":  {
+                                "network":  "bitcoin-signet",
+                                "inputCount":  2,
+                                "outputCount":  2,
+                                "totalValueSats":  "199320",
+                                "feeSats":  "1680",
+                                "feeRateSatVb":  "7",
+                                "changeOutputPresent":  true
+                            },
+                     "narrative":  {
+                                       "kind":  "btc_psbt_or_multisig",
+                                       "summary":  "Bitcoin PSBT or multisig flow",
+                                       "confidence":  0.88
+                                   },
+                     "risk":  {
+                                  "score":  40,
+                                  "level":  "medium",
+                                  "reasons":  [
+                                                  "BTC_BASIC_SEND"
+                                              ]
+                              },
+                     "consequence":  {
+                                         "applied":  true,
+                                         "chainFamily":  "bitcoin",
+                                         "status":  "COMPLETE",
+                                         "summaryFlags":  [
+                                                              "BITCOIN_VALUE_MOVEMENT"
+                                                          ],
+                                         "valueMovement":  {
+                                                               "totalValueSats":  "199320",
+                                                               "outputCount":  2,
+                                                               "recipientOutputCount":  1
+                                                           },
+                                         "feePosture":  {
+                                                            "feeSats":  "1680",
+                                                            "feeRateSatVb":  "7",
+                                                            "classification":  "normal",
+                                                            "summary":  "Bitcoin fee posture appears normal."
+                                                        },
+                                         "outputStructure":  {
+                                                                 "outputCount":  2,
+                                                                 "unusualOutputCount":  0,
+                                                                 "dustLikePattern":  false,
+                                                                 "unknownDestinationCount":  0
+                                                             },
+                                         "changePosture":  {
+                                                               "changeOutputPresent":  true,
+                                                               "classification":  "expected",
+                                                               "summary":  "Change structure appears normal."
+                                                           }
+                                     },
+                     "recommendedAction":  "EXECUTE",
+                     "adapter":  {
+                                     "name":  "bitcoin-adapter-mvp",
+                                     "status":  "runtime-hardened"
+                                 },
+                     "receipt":  {
+                                     "receiptId":  "decision_20260325T193819Z_163f3633",
+                                     "sha256":  "163f363369635f6a4b7fd17db756efdaa03fb76e30aedceff10ad01413e42902",
+                                     "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T193819Z_163f3633.json"
+                                 }
+                 },
+    "failures":  [
+
+                 ]
+}

@@ -1,0 +1,304 @@
+{
+    "generatedAt":  "2026-03-25T13:09:09",
+    "proof":  "btc6_2_bitcoin_repeat_determinism",
+    "pass":  true,
+    "baseUrl":  "http://127.0.0.1:8787",
+    "runs":  3,
+    "request":  {
+                    "source":  "wallet-lite-btc6-2-repeat-proof",
+                    "chainFamily":  "bitcoin",
+                    "network":  "bitcoin-signet",
+                    "walletAddress":  "btc-wallet-demo",
+                    "outputs":  [
+                                    {
+                                        "address":  "tb1qrepeatrecipient0000000000000000000000000",
+                                        "valueSats":  "50000",
+                                        "label":  "recipient"
+                                    },
+                                    {
+                                        "address":  "tb1qrepeatchange000000000000000000000000000",
+                                        "valueSats":  "49000",
+                                        "label":  "change",
+                                        "change":  true
+                                    }
+                                ],
+                    "totalValueSats":  "99000",
+                    "feeSats":  "1000",
+                    "feeRateSatVb":  "5",
+                    "inputCount":  2,
+                    "outputCount":  2,
+                    "changeOutputPresent":  true,
+                    "context":  {
+                                    "scenario":  "bitcoin_repeat_determinism",
+                                    "debug":  true
+                                }
+                },
+    "normalizedRuns":  [
+                           {
+                               "chainFamily":  "bitcoin",
+                               "decision":  "EXECUTE_NOW",
+                               "recommendedAction":  "EXECUTE",
+                               "reasonCodes":  {
+
+                                               },
+                               "riskLevel":  "low",
+                               "riskReasons":  "BTC_BASIC_SEND",
+                               "narrativeKind":  "btc_send",
+                               "consequenceStatus":  "COMPLETE",
+                               "consequenceFlags":  "BITCOIN_VALUE_MOVEMENT",
+                               "totalValueSats":  "99000",
+                               "feeClassification":  "normal",
+                               "changeClassification":  "expected"
+                           },
+                           {
+                               "chainFamily":  "bitcoin",
+                               "decision":  "EXECUTE_NOW",
+                               "recommendedAction":  "EXECUTE",
+                               "reasonCodes":  {
+
+                                               },
+                               "riskLevel":  "low",
+                               "riskReasons":  "BTC_BASIC_SEND",
+                               "narrativeKind":  "btc_send",
+                               "consequenceStatus":  "COMPLETE",
+                               "consequenceFlags":  "BITCOIN_VALUE_MOVEMENT",
+                               "totalValueSats":  "99000",
+                               "feeClassification":  "normal",
+                               "changeClassification":  "expected"
+                           },
+                           {
+                               "chainFamily":  "bitcoin",
+                               "decision":  "EXECUTE_NOW",
+                               "recommendedAction":  "EXECUTE",
+                               "reasonCodes":  {
+
+                                               },
+                               "riskLevel":  "low",
+                               "riskReasons":  "BTC_BASIC_SEND",
+                               "narrativeKind":  "btc_send",
+                               "consequenceStatus":  "COMPLETE",
+                               "consequenceFlags":  "BITCOIN_VALUE_MOVEMENT",
+                               "totalValueSats":  "99000",
+                               "feeClassification":  "normal",
+                               "changeClassification":  "expected"
+                           }
+                       ],
+    "rawResponses":  [
+                         {
+                             "ok":  true,
+                             "version":  "aion.decision.v1",
+                             "chainFamily":  "bitcoin",
+                             "policyDecision":  "EXECUTE_NOW",
+                             "decision":  "EXECUTE_NOW",
+                             "reasonCodes":  [
+
+                                             ],
+                             "tx":  {
+                                        "network":  "bitcoin-signet",
+                                        "inputCount":  2,
+                                        "outputCount":  2,
+                                        "totalValueSats":  "99000",
+                                        "feeSats":  "1000",
+                                        "feeRateSatVb":  "5",
+                                        "changeOutputPresent":  true
+                                    },
+                             "narrative":  {
+                                               "kind":  "btc_send",
+                                               "summary":  "Send BTC",
+                                               "confidence":  0.92
+                                           },
+                             "risk":  {
+                                          "score":  15,
+                                          "level":  "low",
+                                          "reasons":  [
+                                                          "BTC_BASIC_SEND"
+                                                      ]
+                                      },
+                             "consequence":  {
+                                                 "applied":  true,
+                                                 "chainFamily":  "bitcoin",
+                                                 "status":  "COMPLETE",
+                                                 "summaryFlags":  [
+                                                                      "BITCOIN_VALUE_MOVEMENT"
+                                                                  ],
+                                                 "valueMovement":  {
+                                                                       "totalValueSats":  "99000",
+                                                                       "outputCount":  2,
+                                                                       "recipientOutputCount":  1
+                                                                   },
+                                                 "feePosture":  {
+                                                                    "feeSats":  "1000",
+                                                                    "feeRateSatVb":  "5",
+                                                                    "classification":  "normal",
+                                                                    "summary":  "Bitcoin fee posture appears normal."
+                                                                },
+                                                 "outputStructure":  {
+                                                                         "outputCount":  2,
+                                                                         "unusualOutputCount":  0,
+                                                                         "dustLikePattern":  false,
+                                                                         "unknownDestinationCount":  0
+                                                                     },
+                                                 "changePosture":  {
+                                                                       "changeOutputPresent":  true,
+                                                                       "classification":  "expected",
+                                                                       "summary":  "Change structure appears normal."
+                                                                   }
+                                             },
+                             "recommendedAction":  "EXECUTE",
+                             "adapter":  {
+                                             "name":  "bitcoin-adapter-mvp",
+                                             "status":  "runtime-hardened"
+                                         },
+                             "receipt":  {
+                                             "receiptId":  "decision_20260325T190909Z_fa9edb14",
+                                             "sha256":  "fa9edb14d779cfbcd8843e07a30cd560753a04e96336536a81b7ea11502a1fef",
+                                             "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T190909Z_fa9edb14.json"
+                                         }
+                         },
+                         {
+                             "ok":  true,
+                             "version":  "aion.decision.v1",
+                             "chainFamily":  "bitcoin",
+                             "policyDecision":  "EXECUTE_NOW",
+                             "decision":  "EXECUTE_NOW",
+                             "reasonCodes":  [
+
+                                             ],
+                             "tx":  {
+                                        "network":  "bitcoin-signet",
+                                        "inputCount":  2,
+                                        "outputCount":  2,
+                                        "totalValueSats":  "99000",
+                                        "feeSats":  "1000",
+                                        "feeRateSatVb":  "5",
+                                        "changeOutputPresent":  true
+                                    },
+                             "narrative":  {
+                                               "kind":  "btc_send",
+                                               "summary":  "Send BTC",
+                                               "confidence":  0.92
+                                           },
+                             "risk":  {
+                                          "score":  15,
+                                          "level":  "low",
+                                          "reasons":  [
+                                                          "BTC_BASIC_SEND"
+                                                      ]
+                                      },
+                             "consequence":  {
+                                                 "applied":  true,
+                                                 "chainFamily":  "bitcoin",
+                                                 "status":  "COMPLETE",
+                                                 "summaryFlags":  [
+                                                                      "BITCOIN_VALUE_MOVEMENT"
+                                                                  ],
+                                                 "valueMovement":  {
+                                                                       "totalValueSats":  "99000",
+                                                                       "outputCount":  2,
+                                                                       "recipientOutputCount":  1
+                                                                   },
+                                                 "feePosture":  {
+                                                                    "feeSats":  "1000",
+                                                                    "feeRateSatVb":  "5",
+                                                                    "classification":  "normal",
+                                                                    "summary":  "Bitcoin fee posture appears normal."
+                                                                },
+                                                 "outputStructure":  {
+                                                                         "outputCount":  2,
+                                                                         "unusualOutputCount":  0,
+                                                                         "dustLikePattern":  false,
+                                                                         "unknownDestinationCount":  0
+                                                                     },
+                                                 "changePosture":  {
+                                                                       "changeOutputPresent":  true,
+                                                                       "classification":  "expected",
+                                                                       "summary":  "Change structure appears normal."
+                                                                   }
+                                             },
+                             "recommendedAction":  "EXECUTE",
+                             "adapter":  {
+                                             "name":  "bitcoin-adapter-mvp",
+                                             "status":  "runtime-hardened"
+                                         },
+                             "receipt":  {
+                                             "receiptId":  "decision_20260325T190909Z_fa9edb14",
+                                             "sha256":  "fa9edb14d779cfbcd8843e07a30cd560753a04e96336536a81b7ea11502a1fef",
+                                             "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T190909Z_fa9edb14.json"
+                                         }
+                         },
+                         {
+                             "ok":  true,
+                             "version":  "aion.decision.v1",
+                             "chainFamily":  "bitcoin",
+                             "policyDecision":  "EXECUTE_NOW",
+                             "decision":  "EXECUTE_NOW",
+                             "reasonCodes":  [
+
+                                             ],
+                             "tx":  {
+                                        "network":  "bitcoin-signet",
+                                        "inputCount":  2,
+                                        "outputCount":  2,
+                                        "totalValueSats":  "99000",
+                                        "feeSats":  "1000",
+                                        "feeRateSatVb":  "5",
+                                        "changeOutputPresent":  true
+                                    },
+                             "narrative":  {
+                                               "kind":  "btc_send",
+                                               "summary":  "Send BTC",
+                                               "confidence":  0.92
+                                           },
+                             "risk":  {
+                                          "score":  15,
+                                          "level":  "low",
+                                          "reasons":  [
+                                                          "BTC_BASIC_SEND"
+                                                      ]
+                                      },
+                             "consequence":  {
+                                                 "applied":  true,
+                                                 "chainFamily":  "bitcoin",
+                                                 "status":  "COMPLETE",
+                                                 "summaryFlags":  [
+                                                                      "BITCOIN_VALUE_MOVEMENT"
+                                                                  ],
+                                                 "valueMovement":  {
+                                                                       "totalValueSats":  "99000",
+                                                                       "outputCount":  2,
+                                                                       "recipientOutputCount":  1
+                                                                   },
+                                                 "feePosture":  {
+                                                                    "feeSats":  "1000",
+                                                                    "feeRateSatVb":  "5",
+                                                                    "classification":  "normal",
+                                                                    "summary":  "Bitcoin fee posture appears normal."
+                                                                },
+                                                 "outputStructure":  {
+                                                                         "outputCount":  2,
+                                                                         "unusualOutputCount":  0,
+                                                                         "dustLikePattern":  false,
+                                                                         "unknownDestinationCount":  0
+                                                                     },
+                                                 "changePosture":  {
+                                                                       "changeOutputPresent":  true,
+                                                                       "classification":  "expected",
+                                                                       "summary":  "Change structure appears normal."
+                                                                   }
+                                             },
+                             "recommendedAction":  "EXECUTE",
+                             "adapter":  {
+                                             "name":  "bitcoin-adapter-mvp",
+                                             "status":  "runtime-hardened"
+                                         },
+                             "receipt":  {
+                                             "receiptId":  "decision_20260325T190909Z_fa9edb14",
+                                             "sha256":  "fa9edb14d779cfbcd8843e07a30cd560753a04e96336536a81b7ea11502a1fef",
+                                             "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T190909Z_fa9edb14.json"
+                                         }
+                         }
+                     ],
+    "failures":  [
+
+                 ]
+}

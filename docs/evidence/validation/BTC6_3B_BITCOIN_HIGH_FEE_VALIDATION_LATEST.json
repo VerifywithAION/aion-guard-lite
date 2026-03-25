@@ -1,0 +1,110 @@
+{
+    "generatedAt":  "2026-03-25T12:52:34",
+    "proof":  "btc6_3b_bitcoin_high_fee",
+    "pass":  true,
+    "baseUrl":  "http://127.0.0.1:8787",
+    "request":  {
+                    "source":  "wallet-lite-btc6-3b-high-fee-proof",
+                    "chainFamily":  "bitcoin",
+                    "network":  "bitcoin-signet",
+                    "walletAddress":  "btc-wallet-demo",
+                    "outputs":  [
+                                    {
+                                        "address":  "tb1qrecipienthighfee000000000000000000000000",
+                                        "valueSats":  "50000",
+                                        "label":  "recipient"
+                                    },
+                                    {
+                                        "address":  "tb1qchangehighfee000000000000000000000000000",
+                                        "valueSats":  "20000",
+                                        "label":  "change",
+                                        "change":  true
+                                    }
+                                ],
+                    "totalValueSats":  "70000",
+                    "feeSats":  "60000",
+                    "feeRateSatVb":  "45",
+                    "inputCount":  2,
+                    "outputCount":  2,
+                    "changeOutputPresent":  true,
+                    "context":  {
+                                    "scenario":  "bitcoin_high_fee_review",
+                                    "debug":  true
+                                }
+                },
+    "response":  {
+                     "ok":  true,
+                     "version":  "aion.decision.v1",
+                     "chainFamily":  "bitcoin",
+                     "policyDecision":  "QUEUED",
+                     "decision":  "QUEUED",
+                     "reasonCodes":  [
+                                         "HIGH_FEE_REVIEW"
+                                     ],
+                     "tx":  {
+                                "network":  "bitcoin-signet",
+                                "inputCount":  2,
+                                "outputCount":  2,
+                                "totalValueSats":  "70000",
+                                "feeSats":  "60000",
+                                "feeRateSatVb":  "45",
+                                "changeOutputPresent":  true
+                            },
+                     "narrative":  {
+                                       "kind":  "btc_send",
+                                       "summary":  "Send BTC",
+                                       "confidence":  0.86
+                                   },
+                     "risk":  {
+                                  "score":  58,
+                                  "level":  "medium",
+                                  "reasons":  [
+                                                  "BTC_HIGH_FEE"
+                                              ]
+                              },
+                     "consequence":  {
+                                         "applied":  true,
+                                         "chainFamily":  "bitcoin",
+                                         "status":  "COMPLETE",
+                                         "summaryFlags":  [
+                                                              "BITCOIN_VALUE_MOVEMENT",
+                                                              "HIGH_FEE_POSTURE"
+                                                          ],
+                                         "valueMovement":  {
+                                                               "totalValueSats":  "70000",
+                                                               "outputCount":  2,
+                                                               "recipientOutputCount":  1
+                                                           },
+                                         "feePosture":  {
+                                                            "feeSats":  "60000",
+                                                            "feeRateSatVb":  "45",
+                                                            "classification":  "high",
+                                                            "summary":  "High Bitcoin fee posture requires review."
+                                                        },
+                                         "outputStructure":  {
+                                                                 "outputCount":  2,
+                                                                 "unusualOutputCount":  0,
+                                                                 "dustLikePattern":  false,
+                                                                 "unknownDestinationCount":  0
+                                                             },
+                                         "changePosture":  {
+                                                               "changeOutputPresent":  true,
+                                                               "classification":  "expected",
+                                                               "summary":  "Change structure appears normal."
+                                                           }
+                                     },
+                     "recommendedAction":  "QUEUE_AND_REVIEW",
+                     "adapter":  {
+                                     "name":  "bitcoin-adapter-mvp",
+                                     "status":  "runtime-hardened"
+                                 },
+                     "receipt":  {
+                                     "receiptId":  "decision_20260325T185234Z_c3ca3065",
+                                     "sha256":  "c3ca3065d7c235a33513584d4c1ffcfda686fab3e0d1327785f4205941dd833e",
+                                     "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T185234Z_c3ca3065.json"
+                                 }
+                 },
+    "failures":  [
+
+                 ]
+}

@@ -1,0 +1,312 @@
+{
+    "generatedAt":  "2026-03-25T15:36:44",
+    "proof":  "sol7_solana_repeat_determinism",
+    "pass":  true,
+    "baseUrl":  "http://127.0.0.1:8787",
+    "runs":  3,
+    "request":  {
+                    "source":  "wallet-lite-sol7-repeat-proof",
+                    "chainFamily":  "solana",
+                    "network":  "solana-devnet",
+                    "walletAddress":  "So11111111111111111111111111111111111111112",
+                    "transactionType":  "repeat_determinism_bundle",
+                    "instructions":  [
+                                         {
+                                             "programId":  "11111111111111111111111111111111",
+                                             "type":  "system_transfer",
+                                             "lamports":  "1000000"
+                                         },
+                                         {
+                                             "programId":  "ComputeBudget111111111111111111111111111111",
+                                             "type":  "compute_budget",
+                                             "units":  180000
+                                         }
+                                     ],
+                    "accountKeys":  [
+                                        "So11111111111111111111111111111111111111112",
+                                        "11111111111111111111111111111111",
+                                        "ComputeBudget111111111111111111111111111111",
+                                        "SysvarRent111111111111111111111111111111111"
+                                    ],
+                    "programIds":  [
+                                       "11111111111111111111111111111111",
+                                       "ComputeBudget111111111111111111111111111111"
+                                   ],
+                    "signerCount":  1,
+                    "writableAccountCount":  2,
+                    "feeLamports":  "7000",
+                    "recentBlockhash":  "9SmYJ7uL2xQ9aR1n3Z5yK7mP2tW6cF4gH9kL1mN2pX1",
+                    "context":  {
+                                    "scenario":  "solana_repeat_determinism",
+                                    "debug":  true
+                                }
+                },
+    "normalizedRuns":  [
+                           {
+                               "chainFamily":  "solana",
+                               "decision":  "EXECUTE_NOW",
+                               "recommendedAction":  "EXECUTE",
+                               "reasonCodes":  {
+
+                                               },
+                               "riskLevel":  "low",
+                               "riskReasons":  "SOL_BASIC_EXECUTION",
+                               "narrativeKind":  "sol_basic_execution",
+                               "consequenceStatus":  "COMPLETE",
+                               "consequenceFlags":  "SOL_VALUE_TRANSFER",
+                               "instructionCount":  "2",
+                               "unknownProgramCount":  "0",
+                               "writableAccountCount":  "2",
+                               "accountRiskClassification":  "bounded",
+                               "feeLamports":  "7000",
+                               "signerCount":  "1"
+                           },
+                           {
+                               "chainFamily":  "solana",
+                               "decision":  "EXECUTE_NOW",
+                               "recommendedAction":  "EXECUTE",
+                               "reasonCodes":  {
+
+                                               },
+                               "riskLevel":  "low",
+                               "riskReasons":  "SOL_BASIC_EXECUTION",
+                               "narrativeKind":  "sol_basic_execution",
+                               "consequenceStatus":  "COMPLETE",
+                               "consequenceFlags":  "SOL_VALUE_TRANSFER",
+                               "instructionCount":  "2",
+                               "unknownProgramCount":  "0",
+                               "writableAccountCount":  "2",
+                               "accountRiskClassification":  "bounded",
+                               "feeLamports":  "7000",
+                               "signerCount":  "1"
+                           },
+                           {
+                               "chainFamily":  "solana",
+                               "decision":  "EXECUTE_NOW",
+                               "recommendedAction":  "EXECUTE",
+                               "reasonCodes":  {
+
+                                               },
+                               "riskLevel":  "low",
+                               "riskReasons":  "SOL_BASIC_EXECUTION",
+                               "narrativeKind":  "sol_basic_execution",
+                               "consequenceStatus":  "COMPLETE",
+                               "consequenceFlags":  "SOL_VALUE_TRANSFER",
+                               "instructionCount":  "2",
+                               "unknownProgramCount":  "0",
+                               "writableAccountCount":  "2",
+                               "accountRiskClassification":  "bounded",
+                               "feeLamports":  "7000",
+                               "signerCount":  "1"
+                           }
+                       ],
+    "rawResponses":  [
+                         {
+                             "ok":  true,
+                             "version":  "aion.decision.v1",
+                             "chainFamily":  "solana",
+                             "policyDecision":  "EXECUTE_NOW",
+                             "decision":  "EXECUTE_NOW",
+                             "reasonCodes":  [
+
+                                             ],
+                             "tx":  {
+                                        "network":  "solana-devnet",
+                                        "transactionType":  "repeat_determinism_bundle",
+                                        "instructionCount":  2,
+                                        "accountKeyCount":  4,
+                                        "writableAccountCount":  2,
+                                        "signerCount":  1,
+                                        "feeLamports":  "7000",
+                                        "recentBlockhashPresent":  true
+                                    },
+                             "narrative":  {
+                                               "kind":  "sol_basic_execution",
+                                               "summary":  "Execute Solana instruction bundle",
+                                               "confidence":  0.93
+                                           },
+                             "risk":  {
+                                          "score":  18,
+                                          "level":  "low",
+                                          "reasons":  [
+                                                          "SOL_BASIC_EXECUTION"
+                                                      ]
+                                      },
+                             "consequence":  {
+                                                 "applied":  true,
+                                                 "chainFamily":  "solana",
+                                                 "status":  "COMPLETE",
+                                                 "summaryFlags":  [
+                                                                      "SOL_VALUE_TRANSFER"
+                                                                  ],
+                                                 "valueMovement":  {
+                                                                       "feeLamports":  "7000",
+                                                                       "signerCount":  1
+                                                                   },
+                                                 "programInteraction":  {
+                                                                            "programIds":  [
+                                                                                               "11111111111111111111111111111111",
+                                                                                               "ComputeBudget111111111111111111111111111111"
+                                                                                           ],
+                                                                            "unknownProgramCount":  0,
+                                                                            "instructionCount":  2
+                                                                        },
+                                                 "accountRisk":  {
+                                                                     "accountKeyCount":  4,
+                                                                     "writableAccountCount":  2,
+                                                                     "signerCount":  1,
+                                                                     "classification":  "bounded"
+                                                                 }
+                                             },
+                             "recommendedAction":  "EXECUTE",
+                             "adapter":  {
+                                             "name":  "solana-adapter-mvp",
+                                             "status":  "runtime-hardened"
+                                         },
+                             "receipt":  {
+                                             "receiptId":  "decision_20260325T213644Z_6fce23ed",
+                                             "sha256":  "6fce23ed023031d5d45e37e0e0532ac0428cf3eedfaa831c1a0c782055c78c4d",
+                                             "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T213644Z_6fce23ed.json"
+                                         }
+                         },
+                         {
+                             "ok":  true,
+                             "version":  "aion.decision.v1",
+                             "chainFamily":  "solana",
+                             "policyDecision":  "EXECUTE_NOW",
+                             "decision":  "EXECUTE_NOW",
+                             "reasonCodes":  [
+
+                                             ],
+                             "tx":  {
+                                        "network":  "solana-devnet",
+                                        "transactionType":  "repeat_determinism_bundle",
+                                        "instructionCount":  2,
+                                        "accountKeyCount":  4,
+                                        "writableAccountCount":  2,
+                                        "signerCount":  1,
+                                        "feeLamports":  "7000",
+                                        "recentBlockhashPresent":  true
+                                    },
+                             "narrative":  {
+                                               "kind":  "sol_basic_execution",
+                                               "summary":  "Execute Solana instruction bundle",
+                                               "confidence":  0.93
+                                           },
+                             "risk":  {
+                                          "score":  18,
+                                          "level":  "low",
+                                          "reasons":  [
+                                                          "SOL_BASIC_EXECUTION"
+                                                      ]
+                                      },
+                             "consequence":  {
+                                                 "applied":  true,
+                                                 "chainFamily":  "solana",
+                                                 "status":  "COMPLETE",
+                                                 "summaryFlags":  [
+                                                                      "SOL_VALUE_TRANSFER"
+                                                                  ],
+                                                 "valueMovement":  {
+                                                                       "feeLamports":  "7000",
+                                                                       "signerCount":  1
+                                                                   },
+                                                 "programInteraction":  {
+                                                                            "programIds":  [
+                                                                                               "11111111111111111111111111111111",
+                                                                                               "ComputeBudget111111111111111111111111111111"
+                                                                                           ],
+                                                                            "unknownProgramCount":  0,
+                                                                            "instructionCount":  2
+                                                                        },
+                                                 "accountRisk":  {
+                                                                     "accountKeyCount":  4,
+                                                                     "writableAccountCount":  2,
+                                                                     "signerCount":  1,
+                                                                     "classification":  "bounded"
+                                                                 }
+                                             },
+                             "recommendedAction":  "EXECUTE",
+                             "adapter":  {
+                                             "name":  "solana-adapter-mvp",
+                                             "status":  "runtime-hardened"
+                                         },
+                             "receipt":  {
+                                             "receiptId":  "decision_20260325T213644Z_6fce23ed",
+                                             "sha256":  "6fce23ed023031d5d45e37e0e0532ac0428cf3eedfaa831c1a0c782055c78c4d",
+                                             "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T213644Z_6fce23ed.json"
+                                         }
+                         },
+                         {
+                             "ok":  true,
+                             "version":  "aion.decision.v1",
+                             "chainFamily":  "solana",
+                             "policyDecision":  "EXECUTE_NOW",
+                             "decision":  "EXECUTE_NOW",
+                             "reasonCodes":  [
+
+                                             ],
+                             "tx":  {
+                                        "network":  "solana-devnet",
+                                        "transactionType":  "repeat_determinism_bundle",
+                                        "instructionCount":  2,
+                                        "accountKeyCount":  4,
+                                        "writableAccountCount":  2,
+                                        "signerCount":  1,
+                                        "feeLamports":  "7000",
+                                        "recentBlockhashPresent":  true
+                                    },
+                             "narrative":  {
+                                               "kind":  "sol_basic_execution",
+                                               "summary":  "Execute Solana instruction bundle",
+                                               "confidence":  0.93
+                                           },
+                             "risk":  {
+                                          "score":  18,
+                                          "level":  "low",
+                                          "reasons":  [
+                                                          "SOL_BASIC_EXECUTION"
+                                                      ]
+                                      },
+                             "consequence":  {
+                                                 "applied":  true,
+                                                 "chainFamily":  "solana",
+                                                 "status":  "COMPLETE",
+                                                 "summaryFlags":  [
+                                                                      "SOL_VALUE_TRANSFER"
+                                                                  ],
+                                                 "valueMovement":  {
+                                                                       "feeLamports":  "7000",
+                                                                       "signerCount":  1
+                                                                   },
+                                                 "programInteraction":  {
+                                                                            "programIds":  [
+                                                                                               "11111111111111111111111111111111",
+                                                                                               "ComputeBudget111111111111111111111111111111"
+                                                                                           ],
+                                                                            "unknownProgramCount":  0,
+                                                                            "instructionCount":  2
+                                                                        },
+                                                 "accountRisk":  {
+                                                                     "accountKeyCount":  4,
+                                                                     "writableAccountCount":  2,
+                                                                     "signerCount":  1,
+                                                                     "classification":  "bounded"
+                                                                 }
+                                             },
+                             "recommendedAction":  "EXECUTE",
+                             "adapter":  {
+                                             "name":  "solana-adapter-mvp",
+                                             "status":  "runtime-hardened"
+                                         },
+                             "receipt":  {
+                                             "receiptId":  "decision_20260325T213644Z_6fce23ed",
+                                             "sha256":  "6fce23ed023031d5d45e37e0e0532ac0428cf3eedfaa831c1a0c782055c78c4d",
+                                             "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T213644Z_6fce23ed.json"
+                                         }
+                         }
+                     ],
+    "failures":  [
+
+                 ]
+}

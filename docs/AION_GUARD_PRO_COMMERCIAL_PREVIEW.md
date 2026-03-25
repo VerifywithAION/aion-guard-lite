@@ -1,4 +1,4 @@
-﻿# AION Guard Pro — Commercial Preview (v2)
+# AION Guard Pro — Commercial Preview (v2)
 
 ## Purpose
 

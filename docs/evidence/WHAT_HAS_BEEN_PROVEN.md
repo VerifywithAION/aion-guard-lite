@@ -366,3 +366,23 @@ Evidence:
 Current boundary:
 - This locks Bitcoin at the Wallet Lite proof tier.
 - It does not claim Guard Pro-grade Bitcoin intelligence, mempool-aware optimization, or enterprise mainnet maturity across all edge cases.
+
+## Chain Status Declaration
+
+What is proven:
+- EVM is locked.
+- Bitcoin is locked.
+- Solana and Cosmos are not yet started and no parity is claimed.
+
+Evidence:
+- [WALLET_LITE_CHAIN_STATUS_DECLARATION.md](WALLET_LITE_CHAIN_STATUS_DECLARATION.md)
+
+## Bitcoin Realistic Vector Validation
+
+What is proven:
+- Wallet Lite can process a realistic Bitcoin transaction-shape preview with realistic address format, fee range, output structure, and change posture.
+- Receipt continuity and consequence surfaces remain intact.
+
+Evidence:
+- [BITCOIN_REALISTIC_VECTOR_VALIDATION.md](validation/BITCOIN_REALISTIC_VECTOR_VALIDATION.md)
+- [BITCOIN_REALISTIC_VECTOR_VALIDATION_LATEST.md](validation/BITCOIN_REALISTIC_VECTOR_VALIDATION_LATEST.md)

@@ -37,7 +37,7 @@ It is not meant to expose implementation source.
 ---
 
 
-### Enhanced Governance Layer (E1-E4) â€” March 2026
+### Enhanced Governance Layer (E1-E4) — March 2026
 
 #### Domain Authenticity Guard
 - [DOMAIN_AUTHENTICITY_GUARD_VALIDATION_20260315_124905.md](validation/DOMAIN_AUTHENTICITY_GUARD_VALIDATION_20260315_124905.md)
@@ -104,3 +104,9 @@ Do not include raw logs that reveal private paths, private repo layout, secrets,
 
 ### Bitcoin Lock Declaration
 - [WALLET_LITE_BITCOIN_LOCK_DECLARATION.md](validation/WALLET_LITE_BITCOIN_LOCK_DECLARATION.md)
+
+### Chain Status Declaration
+- [WALLET_LITE_CHAIN_STATUS_DECLARATION.md](WALLET_LITE_CHAIN_STATUS_DECLARATION.md)
+
+### Bitcoin Realistic Vector Validation
+- [BITCOIN_REALISTIC_VECTOR_VALIDATION.md](validation/BITCOIN_REALISTIC_VECTOR_VALIDATION.md)

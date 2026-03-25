@@ -1,0 +1,34 @@
+{
+    "generatedAt":  "2026-03-24T22:57:08",
+    "proof":  "wallet_lite_c2_proof_pack",
+    "overall":  "PASS",
+    "runtimeBase":  "http://127.0.0.1:8787",
+    "harnessBase":  "http://127.0.0.1:8899",
+    "policy":  "0xE08ebE47F308e2831bf10a619cb434B64A001d0B",
+    "rpcUrl":  "https://ethereum-sepolia-rpc.publicnode.com",
+    "runtimeHealthOk":  false,
+    "x5VerifyOk":  true,
+    "sepoliaVerifyHttp200":  true,
+    "latestSepoliaVerify":  {
+                                "Found":  true,
+                                "HasCode":  true,
+                                "PreviewStatus":  "HTTP_200",
+                                "Path":  "C:\\Lab_Research\\aion-guard-lite\\runtime\\release_candidate_reports\\WALLET_LITE_SEPOLIA_POLICY_VERIFY_20260324_225708.json"
+                            },
+    "healthBody":  "Unable to connect to the remote server",
+    "demo":  {
+                 "ok":  true,
+                 "stdout":  "",
+                 "stderr":  ""
+             },
+    "x5verify":  {
+                     "ok":  true,
+                     "stdout":  "{\r\n    \"ok\":  true,\r\n    \"version\":  \"aion.decision.v1\",\r\n    \"chainFamily\":  \"evm\",\r\n    \"policyDecision\":  \"QUEUED\",\r\n    \"decision\":  \"QUEUED\",\r\n    \"escalation\":  {\r\n                       \"applied\":  false,\r\n                       \"from\":  \"QUEUED\",\r\n                       \"to\":  \"QUEUED\",\r\n                       \"reasonCodes\":  [\r\n\r\n                                       ],\r\n                       \"summary\":  \"No escalation applied\"\r\n                   },\r\n    \"approvalGovernance\":  {\r\n                               \"applied\":  false\r\n                           },\r\n    \"poisoningGuard\":  {\r\n                           \"applied\":  true,\r\n                           \"decision\":  \"QUEUED\",\r\n                           \"reasonCode\":  \"DESTINATION_FIRST_SEEN_REVIEW\",\r\n                           \"summary\":  \"First-seen or insufficiently trusted destination requires governed review.\",\r\n                           \"classification\":  \"unknown\"\r\n                       },\r\n    \"signatureIntent\":  {\r\n                            \"applied\":  false\r\n                        },\r\n    \"domainSessionGuard\":  {\r\n                               \"applied\":  true,\r\n                               \"decision\":  \"QUEUED\",\r\n                               \"reasonCode\":  \"MISSING_DOMAIN_REVIEW\",\r\n                               \"summary\":  \"Missing request domain requires governed review.\"\r\n                           },\r\n    \"routeSlippageGuard\":  {\r\n                               \"applied\":  false,\r\n                               \"decision\":  \"EXECUTE_NOW\",\r\n                               \"reasonCode\":  \"NO_ROUTE_SLIPPAGE_GUARD_APPLIED\",\r\n                               \"summary\":  \"Route and slippage remain within sane execution bounds.\",\r\n                               \"slippageBps\":  0,\r\n                               \"routeHops\":  1,\r\n                               \"routeConfidence\":  \"\",\r\n                               \"routeLabel\":  \"\"\r\n                           },\r\n    \"verdictCode\":  1,\r\n    \"tx\":  {\r\n               \"to\":  \"0x5555555555555555555555555555555555555555\",\r\n               \"value\":  \"1000000000000\",\r\n               \"data\":  \"0x\"\r\n           },\r\n    \"policy\":  {\r\n                   \"paused\":  false\r\n               },\r\n    \"narrative\":  {\r\n                      \"kind\":  \"native_transfer\",\r\n                      \"summary\":  \"Transfer native asset\",\r\n                      \"confidence\":  0.95\r\n                  },\r\n    \"destination\":  {\r\n                        \"classification\":  \"unknown\",\r\n                        \"risk\":  \"unknown\",\r\n                        \"labels\":  [\r\n\r\n                                   ]\r\n                    },\r\n    \"risk\":  {\r\n                 \"score\":  35,\r\n                 \"level\":  \"medium\",\r\n                 \"reasons\":  [\r\n                                 \"DEST_UNKNOWN\",\r\n                                 \"NARRATIVE_NATIVE_TRANSFER\"\r\n                             ]\r\n             },\r\n    \"timing\":  {\r\n                   \"eta\":  \"1774414920\"\r\n               },\r\n    \"recommendedAction\":  \"QUEUE_AND_REVIEW\",\r\n    \"receipt\":  {\r\n                    \"receiptId\":  \"decision_20260325T045707Z_9bdfb154\",\r\n                    \"sha256\":  \"9bdfb1547b6670b57a139c8cbeb77a202723c3a59f36dab9a7e60cc66bdc82e8\",\r\n                    \"path\":  \"C:\\\\Lab_Research\\\\aion-guard-lite\\\\bin\\\\wallet-lite-runtime\\\\.aion\\\\decision-receipts\\\\decision_20260325T045707Z_9bdfb154.json\"\r\n                }\r\n}\r\n",
+                     "stderr":  ""
+                 },
+    "sepoliaVerify":  {
+                          "ok":  true,
+                          "stdout":  "",
+                          "stderr":  ""
+                      }
+}

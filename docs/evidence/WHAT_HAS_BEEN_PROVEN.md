@@ -386,3 +386,20 @@ What is proven:
 Evidence:
 - [BITCOIN_REALISTIC_VECTOR_VALIDATION.md](validation/BITCOIN_REALISTIC_VECTOR_VALIDATION.md)
 - [BITCOIN_REALISTIC_VECTOR_VALIDATION_LATEST.md](validation/BITCOIN_REALISTIC_VECTOR_VALIDATION_LATEST.md)
+
+## SOL5 Solana Preview Validation
+
+What is proven:
+- Solana now has a live runtime preview path in Wallet Lite.
+- `chainFamily = solana` traverses the runtime and returns a structured Wallet Lite-compatible preview response.
+- Receipt continuity is preserved for the Solana preview path.
+- A Lite-safe Solana consequence block is present in the preview response.
+- Solana is now represented in the evidence layer as a proof-backed runtime path.
+
+Evidence:
+- [SOL5_SOLANA_PREVIEW_VALIDATION.md](validation/SOL5_SOLANA_PREVIEW_VALIDATION.md)
+- [SOL4_SOLANA_PREVIEW_VALIDATION_LATEST.md](validation/SOL4_SOLANA_PREVIEW_VALIDATION_LATEST.md)
+
+Current boundary:
+- This proves Solana runtime preview exists and is evidence-backed.
+- It does not yet declare Solana locked.

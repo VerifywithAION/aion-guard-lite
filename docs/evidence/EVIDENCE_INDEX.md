@@ -110,3 +110,6 @@ Do not include raw logs that reveal private paths, private repo layout, secrets,
 
 ### Bitcoin Realistic Vector Validation
 - [BITCOIN_REALISTIC_VECTOR_VALIDATION.md](validation/BITCOIN_REALISTIC_VECTOR_VALIDATION.md)
+
+### SOL5 Solana Preview Validation
+- [SOL5_SOLANA_PREVIEW_VALIDATION.md](validation/SOL5_SOLANA_PREVIEW_VALIDATION.md)

@@ -37,7 +37,7 @@ It is not meant to expose implementation source.
 ---
 
 
-### Enhanced Governance Layer (E1-E4) — March 2026
+### Enhanced Governance Layer (E1-E4) â€” March 2026
 
 #### Domain Authenticity Guard
 - [DOMAIN_AUTHENTICITY_GUARD_VALIDATION_20260315_124905.md](validation/DOMAIN_AUTHENTICITY_GUARD_VALIDATION_20260315_124905.md)
@@ -80,3 +80,12 @@ Do not include raw logs that reveal private paths, private repo layout, secrets,
 ## Live Wallet Testnet Connectivity Evidence
 - [WALLET_LITE_TESTNET_CONNECTIVITY_PROOF_LATEST.md](validation/WALLET_LITE_TESTNET_CONNECTIVITY_PROOF_LATEST.md)
 - [WALLET_LITE_TESTNET_CONNECTIVITY_PROOF_LATEST.json](validation/WALLET_LITE_TESTNET_CONNECTIVITY_PROOF_LATEST.json)
+
+### Sepolia Policy Verify (Live Chain-Backed Preview)
+- [WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.md](validation/WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.md)
+- [WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.json](validation/WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.json)
+
+### Real TX Flow / X5 Reproducible Demo
+- [WALLET_LITE_REAL_TX_FLOW_PROOF.md](validation/WALLET_LITE_REAL_TX_FLOW_PROOF.md)
+
+---

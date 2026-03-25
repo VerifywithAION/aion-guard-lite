@@ -254,3 +254,32 @@ What is proven:
 
 What is not yet proven:
 - Successful chain-backed Sepolia governance preview still requires a real deployed policy contract address compatible with the runtime.
+
+## Sepolia Chain-Backed Governed Preview
+
+What is proven:
+- A real GuardPolicy contract was deployed on Sepolia.
+- The deployed policy address returns real contract code.
+- Wallet Lite runtime can call the live policy path and return a governed preview result.
+- The returned result is structured, machine-readable, and evidence-bearing.
+- The observed preview result is `QUEUED` for an unknown destination flow, with a real receipt emitted.
+
+Evidence:
+- [WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.md](validation/WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.md)
+- [WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.json](validation/WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.json)
+
+## Real Browser Wallet TX Flow (X5 Reproducible Demo)
+
+What is proven:
+- A real browser wallet can connect through the Wallet Lite testnet harness.
+- The harness can route a real wallet-originated request into the Wallet Lite runtime before execution.
+- The runtime returns a deterministic governed result for an unknown-destination native transfer.
+- The reproducible verification path returns `X5_VERIFY_OK`.
+- Receipt generation, reason surfaces, and recommended action are preserved in the result.
+
+Evidence:
+- [WALLET_LITE_REAL_TX_FLOW_PROOF.md](validation/WALLET_LITE_REAL_TX_FLOW_PROOF.md)
+
+Operational artifacts:
+- `scripts/RUN_WALLET_LITE_X5_DEMO.ps1`
+- `scripts/VERIFY_WALLET_LITE_X5.ps1`

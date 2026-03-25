@@ -92,3 +92,6 @@ Do not include raw logs that reveal private paths, private repo layout, secrets,
 
 ### B2 Deep Simulation V1
 - [B2_DEEP_SIMULATION_V1_VALIDATION.md](validation/B2_DEEP_SIMULATION_V1_VALIDATION.md)
+
+### B2.1 EVM Coverage Expansion
+- [B2_1_EVM_COVERAGE_VALIDATION.md](validation/B2_1_EVM_COVERAGE_VALIDATION.md)

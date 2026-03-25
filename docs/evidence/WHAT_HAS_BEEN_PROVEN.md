@@ -298,3 +298,18 @@ Evidence:
 Current boundary:
 - This proves a first live EVM deep-simulation layer.
 - It does not yet prove full trace-based execution simulation or multi-chain parity.
+
+## B2.1 EVM Coverage Expansion
+
+What is proven:
+- Wallet Lite now has a broader deterministic `simulation` block on the current EVM baseline.
+- The consequence layer now covers richer approval and token-transfer posture than the original B2 V1 native-transfer baseline.
+- Unknown contract interaction posture is surfaced more explicitly through partial-confidence simulation flags.
+- B2.1 remained compatible with X5 verify, Sepolia verify, and the C2 proof pack.
+
+Evidence:
+- [B2_1_EVM_COVERAGE_VALIDATION.md](validation/B2_1_EVM_COVERAGE_VALIDATION.md)
+
+Current boundary:
+- This proves broader EVM consequence coverage.
+- It does not yet prove full trace-based simulation or multi-chain parity.

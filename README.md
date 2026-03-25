@@ -180,3 +180,9 @@ Wallet Lite is a **source-closed governed execution backend/runtime** with a pub
 It is currently strongest in a **Windows-first, EVM-first** posture and is intended to let wallets, apps, and integrators call a governed decision engine before irreversible execution while preserving stable receipt and evidence output.
 
 This repository exists to expose the **public-safe contract, deployment, integrator, and evidence layer** for that product without declassifying the private implementation core.
+
+## Proof Narrative
+
+For a structured explanation of what Wallet Lite is, what has been proven, and how to reproduce it:
+
+- `docs/WALLET_LITE_PROOF_NARRATIVE.md`

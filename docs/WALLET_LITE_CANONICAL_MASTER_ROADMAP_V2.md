@@ -1,4 +1,4 @@
-# Wallet Lite — Canonical Master Roadmap (v2)
+# Wallet Lite â€" Canonical Master Roadmap (v2)
 
 ## Core Principle
 
@@ -10,17 +10,17 @@ Wallet Lite is a closed-core execution governance infrastructure where no action
 
 The system is organized across four coordinated tracks:
 
-- Track A — Core Product (Wallet Lite Backend)
-- Track B — Intelligence / Commercial (Guard Pro)
-- Track C — Proof & Publication (Credibility Layer)
-- Track X — Execution Locks (Reality Gates)
+- Track A â€" Core Product (Wallet Lite Backend)
+- Track B â€" Intelligence / Commercial (Guard Pro)
+- Track C â€" Proof & Publication (Credibility Layer)
+- Track X â€" Execution Locks (Reality Gates)
 
 Tracks A, B, and C define the product.
 Track X ensures the product becomes operationally real.
 
 ---
 
-# Track X — Execution Locks (Reality Gates)
+# Track X â€" Execution Locks (Reality Gates)
 
 ## Purpose
 
@@ -31,7 +31,7 @@ They are the layer that prevents the system from remaining only theoretical.
 
 ---
 
-## X1 — Runtime Authority Lock
+## X1 â€" Runtime Authority Lock
 
 ### Goal
 The Wallet Lite runtime must boot reliably and expose a stable health surface.
@@ -52,7 +52,7 @@ Locked.
 
 ---
 
-## X2 — Preview Execution Lock
+## X2 â€" Preview Execution Lock
 
 ### Goal
 The runtime must return a real governed preview result against live policy state.
@@ -75,7 +75,7 @@ Locked for the Sepolia governed preview path.
 
 ---
 
-## X3 — Harness Integration Lock
+## X3 â€" Harness Integration Lock
 
 ### Goal
 A real browser wallet flow must reach the Wallet Lite runtime through the harness.
@@ -98,7 +98,7 @@ Locked.
 
 ---
 
-## X4 — First Real Demo Lock
+## X4 â€" First Real Demo Lock
 
 ### Goal
 Produce one undeniable real-world demonstration of governed pre-execution behavior.
@@ -125,7 +125,7 @@ It does not yet claim final Wallet Lite-enforced execution blocking at the walle
 
 ---
 
-## X5 — Reproducibility Lock
+## X5 â€" Reproducibility Lock
 
 ### Goal
 The same governed result must be reproducible through a one-shot run and verify path.
@@ -147,7 +147,7 @@ Locked.
 
 ---
 
-## X6 — External Evaluator Reproducibility Lock
+## X6 â€" External Evaluator Reproducibility Lock
 
 ### Goal
 Support evaluator-safe verification through packaged runtime and public-safe docs without source disclosure.
@@ -162,7 +162,7 @@ Planned.
 
 ---
 
-# Track A — Core Product (Wallet Lite Backend)
+# Track A â€" Core Product (Wallet Lite Backend)
 
 ## Mission
 
@@ -176,7 +176,7 @@ Deliver a private, deployable backend runtime + API that:
 
 ---
 
-## A0 — Product Boundary Lock
+## A0 â€" Product Boundary Lock
 Locked.
 
 ### Evidence
@@ -184,7 +184,7 @@ Locked.
 
 ---
 
-## A1 — Canonical API Contract
+## A1 â€" Canonical API Contract
 Locked.
 
 ### Evidence
@@ -192,7 +192,7 @@ Locked.
 
 ---
 
-## A2 — Request Schema Normalization
+## A2 â€" Request Schema Normalization
 Planned.
 
 ### Purpose
@@ -206,7 +206,7 @@ Normalize all upstream request types and preserve enough context for governance 
 
 ---
 
-## A3 — Response Schema + Reason Codes
+## A3 â€" Response Schema + Reason Codes
 Planned.
 
 ### Purpose
@@ -219,7 +219,7 @@ Formalize:
 
 ---
 
-## A4 — Receipt System (Moat Layer)
+## A4 â€" Receipt System (Moat Layer)
 Planned.
 
 ### Purpose
@@ -231,7 +231,7 @@ Define:
 
 ---
 
-## A5 — Adapter Contract
+## A5 â€" Adapter Contract
 Planned, with EVM as first-class path.
 
 ### Future adapters
@@ -242,7 +242,7 @@ Planned, with EVM as first-class path.
 
 ---
 
-## A6 — Deployment Models
+## A6 â€" Deployment Models
 Planned.
 
 ### Supported targets
@@ -253,7 +253,7 @@ Planned.
 
 ---
 
-## A7 — Runtime Packaging
+## A7 â€" Runtime Packaging
 In progress and partially evidenced through Track X locks.
 
 ### Note
@@ -263,12 +263,12 @@ This phase now depends directly on:
 
 ---
 
-## A8 — Integrator Guide
+## A8 â€" Integrator Guide
 Planned.
 
 ---
 
-## A9 — Example Integrations
+## A9 â€" Example Integrations
 In progress.
 
 ### Current strongest example
@@ -277,7 +277,7 @@ In progress.
 
 ---
 
-## A10 — Future Extensions
+## A10 â€" Future Extensions
 Planned.
 
 ### Examples
@@ -291,7 +291,7 @@ Planned.
 
 ---
 
-# Track B — Intelligence / Commercial (Guard Pro)
+# Track B â€" Intelligence / Commercial (Guard Pro)
 
 ## Mission
 
@@ -299,7 +299,7 @@ Turn the primitive into a higher-value intelligence and operations platform.
 
 ---
 
-## B1 — Meaning Layer
+## B1 â€" Meaning Layer
 Partially evidenced in live results.
 
 ### Includes
@@ -310,7 +310,7 @@ Partially evidenced in live results.
 
 ---
 
-## B2 — Deep Simulation Layer
+## B2 â€" Deep Simulation Layer
 Planned.
 
 ### Includes
@@ -322,37 +322,37 @@ Planned.
 
 ---
 
-## B3 — Reputation Intelligence
+## B3 â€" Reputation Intelligence
 Planned.
 
 ---
 
-## B4 — Risk Scoring Engine
+## B4 â€" Risk Scoring Engine
 Partially visible in current runtime outputs, but not yet formally locked as a public-safe contract.
 
 ---
 
-## B5 — Adversarial Defense Layer
+## B5 â€" Adversarial Defense Layer
 Planned.
 
 ---
 
-## B6 — Signer Isolation
+## B6 â€" Signer Isolation
 Planned.
 
 ---
 
-## B7 — Org / Treasury Governance
+## B7 â€" Org / Treasury Governance
 Planned.
 
 ---
 
-## B8 — Operational Layer
+## B8 â€" Operational Layer
 Planned.
 
 ---
 
-# Track C — Proof & Publication
+# Track C â€" Proof & Publication
 
 ## Mission
 
@@ -360,17 +360,17 @@ Make the system credible, verifiable, defensible, and integrator-trustworthy.
 
 ---
 
-## C1 — Proof Coverage Matrix
+## C1 â€" Proof Coverage Matrix
 Planned.
 
 ---
 
-## C2 — Validator Proof Family
+## C2 â€" Validator Proof Family
 Planned.
 
 ---
 
-## C3 — Platform Packaging Proof
+## C3 â€" Platform Packaging Proof
 Planned.
 
 ### Current strongest posture
@@ -382,7 +382,7 @@ Planned.
 
 ---
 
-## C4 — Chain-Backed Proof
+## C4 â€" Chain-Backed Proof
 Now partially locked for the EVM / Sepolia governed preview path.
 
 ### Current evidence
@@ -391,7 +391,7 @@ Now partially locked for the EVM / Sepolia governed preview path.
 
 ---
 
-## C5 — Adapter Proofs
+## C5 â€" Adapter Proofs
 Now partially locked for the real browser wallet harness path.
 
 ### Current evidence
@@ -399,7 +399,7 @@ Now partially locked for the real browser wallet harness path.
 
 ---
 
-## C6 — Clean Reproducibility
+## C6 â€" Clean Reproducibility
 Now materially advanced via X5.
 
 ### Current evidence
@@ -408,7 +408,7 @@ Now materially advanced via X5.
 
 ---
 
-## C7 — Claim → Proof Traceability
+## C7 â€" Claim â†' Proof Traceability
 In progress.
 
 ### Important current principle
@@ -416,7 +416,7 @@ Claims must remain bounded by what the proof artifacts actually support.
 
 ---
 
-## C8 — Public-Safe Documentation
+## C8 â€" Public-Safe Documentation
 In progress and actively expanding.
 
 ### Current examples
@@ -431,21 +431,21 @@ In progress and actively expanding.
 
 # Final Product Shape
 
-## Product 1 — Wallet Lite
+## Product 1 â€" Wallet Lite
 - closed-core backend
 - API-driven governance
 - runtime product
 - evidence engine
 - integrator platform
 
-## Product 2 — Guard Pro
+## Product 2 â€" Guard Pro
 - intelligence layer
 - enterprise features
 - premium security
 - operational tooling
 - monetization surface
 
-## Product 3 — Ecosystem Layer
+## Product 3 â€" Ecosystem Layer
 Built by others:
 - wallet UIs
 - dashboards

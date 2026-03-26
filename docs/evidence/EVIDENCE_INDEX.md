@@ -120,3 +120,7 @@ Do not include raw logs that reveal private paths, private repo layout, secrets,
 ### Public Boundary
 - [PUBLIC_PRODUCT_BOUNDARY.md](PUBLIC_PRODUCT_BOUNDARY.md)
 - [PUBLIC_RELEASE_READINESS_REPORT.md](PUBLIC_RELEASE_READINESS_REPORT.md)
+
+### Public Repo Posture
+- [PUBLIC_REPO_POSTURE.md](PUBLIC_REPO_POSTURE.md)
+- [PUBLIC_SAFE_API_SURFACE_PLAN.md](PUBLIC_SAFE_API_SURFACE_PLAN.md)

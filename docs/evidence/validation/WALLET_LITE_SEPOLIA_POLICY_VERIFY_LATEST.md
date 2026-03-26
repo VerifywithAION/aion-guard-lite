@@ -91,6 +91,6 @@ RuntimeBase: http://127.0.0.1:8787
   "receipt": {
     "receiptId": "decision_20260324T225746Z_0a00ea54",
     "sha256": "0a00ea54f6c050dc759116765896a7e828e8a4aaa3ea3cc38cbbc6edff2f0a71",
-    "path": "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260324T225746Z_0a00ea54.json"
+    "path": "%REPO_ROOT%\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260324T225746Z_0a00ea54.json"
   }
 }

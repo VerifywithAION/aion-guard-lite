@@ -81,7 +81,7 @@ Actual ReasonCode:
     "receipt":  {
                     "receiptId":  "decision_20260314T042846Z_a9566a80",
                     "sha256":  "a9566a804ef586fd5c449776edf14365b231337dc1cf894438fb0b1a3156479c",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T042846Z_a9566a80.json"
+                    "path":  "%REPO_ROOT%\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T042846Z_a9566a80.json"
                 }
 }
 ---
@@ -165,7 +165,7 @@ Actual ReasonCode: OPAQUE_SIGN_REVIEW
     "receipt":  {
                     "receiptId":  "decision_20260314T042846Z_ddb96312",
                     "sha256":  "ddb96312bdecd8c17052a4bc31033002295c8cc46e533f412d45f0e45a063b42",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T042846Z_ddb96312.json"
+                    "path":  "%REPO_ROOT%\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T042846Z_ddb96312.json"
                 }
 }
 ---
@@ -249,7 +249,7 @@ Actual ReasonCode: MALFORMED_TYPED_SIGN_BLOCKED
     "receipt":  {
                     "receiptId":  "decision_20260314T042846Z_8a885ad0",
                     "sha256":  "8a885ad0e0081b3c2e0b36ad2207556e193447ec14c4acbb835d8935432fd29b",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T042846Z_8a885ad0.json"
+                    "path":  "%REPO_ROOT%\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T042846Z_8a885ad0.json"
                 }
 }
 ---
@@ -333,7 +333,7 @@ Actual ReasonCode: UNREADABLE_TYPED_SIGN_REVIEW
     "receipt":  {
                     "receiptId":  "decision_20260314T042846Z_df0953ea",
                     "sha256":  "df0953ea2e46756695f337a34972283d415544910ae4be1e1855458401782016",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T042846Z_df0953ea.json"
+                    "path":  "%REPO_ROOT%\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T042846Z_df0953ea.json"
                 }
 }
 ---

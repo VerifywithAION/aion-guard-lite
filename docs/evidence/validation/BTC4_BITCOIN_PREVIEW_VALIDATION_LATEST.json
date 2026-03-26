@@ -100,7 +100,7 @@
                      "receipt":  {
                                      "receiptId":  "decision_20260325T182920Z_20bbe795",
                                      "sha256":  "20bbe795dce65f4ddc904084d68a1eb2d08ac7c40ca3d04fc4c6c9d8f756ebde",
-                                     "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T182920Z_20bbe795.json"
+                                     "path":  "%REPO_ROOT%\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T182920Z_20bbe795.json"
                                  }
                  },
     "failures":  [

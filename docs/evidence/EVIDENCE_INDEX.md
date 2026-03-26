@@ -116,3 +116,7 @@ Do not include raw logs that reveal private paths, private repo layout, secrets,
 
 ### Wallet Lite Multi-Chain Lock Declaration
 - [WALLET_LITE_MULTI_CHAIN_LOCK_DECLARATION.md](WALLET_LITE_MULTI_CHAIN_LOCK_DECLARATION.md)
+
+### Public Boundary
+- [PUBLIC_PRODUCT_BOUNDARY.md](PUBLIC_PRODUCT_BOUNDARY.md)
+- [PUBLIC_RELEASE_READINESS_REPORT.md](PUBLIC_RELEASE_READINESS_REPORT.md)

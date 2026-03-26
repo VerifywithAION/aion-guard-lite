@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "name":  "R1_MissingDomain",
         "pass":  true,
@@ -6,7 +6,7 @@
         "actualDecision":  "QUEUED",
         "expectedReasonCode":  "MISSING_DOMAIN_REVIEW",
         "actualReasonCode":  "MISSING_DOMAIN_REVIEW",
-        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\runtime\\real_flow_receipts\\decision_20260315T203239Z_beaa3328.json",
+        "receiptPath":  "%REPO_ROOT%\\runtime\\real_flow_receipts\\decision_20260315T203239Z_beaa3328.json",
         "summary":  ""
     },
     {
@@ -16,7 +16,7 @@
         "actualDecision":  "QUEUED",
         "expectedReasonCode":  "RISKY_SESSION_REUSE_REVIEW",
         "actualReasonCode":  "RISKY_SESSION_REUSE_REVIEW",
-        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\runtime\\real_flow_receipts\\decision_20260315T203239Z_a45c71f7.json",
+        "receiptPath":  "%REPO_ROOT%\\runtime\\real_flow_receipts\\decision_20260315T203239Z_a45c71f7.json",
         "summary":  ""
     },
     {
@@ -26,7 +26,7 @@
         "actualDecision":  "QUEUED",
         "expectedReasonCode":  "UNKNOWN_DESTINATION_LARGE_AMOUNT_REVIEW",
         "actualReasonCode":  "UNKNOWN_DESTINATION_LARGE_AMOUNT_REVIEW",
-        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\runtime\\real_flow_receipts\\decision_20260315T203239Z_90bf5861.json",
+        "receiptPath":  "%REPO_ROOT%\\runtime\\real_flow_receipts\\decision_20260315T203239Z_90bf5861.json",
         "summary":  ""
     },
     {
@@ -36,7 +36,7 @@
         "actualDecision":  "QUEUED",
         "expectedReasonCode":  "SUSPICIOUS_SIGNATURE_SCOPE_PATTERN_REVIEW",
         "actualReasonCode":  "SUSPICIOUS_SIGNATURE_SCOPE_PATTERN_REVIEW",
-        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\runtime\\real_flow_receipts\\decision_20260315T203239Z_d507f13d.json",
+        "receiptPath":  "%REPO_ROOT%\\runtime\\real_flow_receipts\\decision_20260315T203239Z_d507f13d.json",
         "summary":  ""
     },
     {
@@ -46,7 +46,7 @@
         "actualDecision":  "QUEUED",
         "expectedReasonCode":  "DANGEROUS_ROUTE_PATTERN_REVIEW",
         "actualReasonCode":  "DANGEROUS_ROUTE_PATTERN_REVIEW",
-        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\runtime\\real_flow_receipts\\decision_20260315T203239Z_09bd924d.json",
+        "receiptPath":  "%REPO_ROOT%\\runtime\\real_flow_receipts\\decision_20260315T203239Z_09bd924d.json",
         "summary":  ""
     }
 ]

@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "name":  "Health",
         "pass":  true,
@@ -22,6 +22,6 @@
     {
         "name":  "ReceiptEmission",
         "pass":  true,
-        "detail":  "C:\\Lab_Research\\aion-guard-lite\\runtime\\staged_runtime_receipts\\decision_20260315T213709Z_661cf943.json"
+        "detail":  "%REPO_ROOT%\\runtime\\staged_runtime_receipts\\decision_20260315T213709Z_661cf943.json"
     }
 ]

@@ -1,6 +1,6 @@
-﻿{
+{
     "pass":  true,
-    "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\runtime\\temp_receipt_validation\\decision_20260315T184449Z_f1d6aea3.json",
+    "receiptPath":  "%REPO_ROOT%\\runtime\\temp_receipt_validation\\decision_20260315T184449Z_f1d6aea3.json",
     "receiptId":  "decision_20260315T184449Z_f1d6aea3",
     "finalDecision":  "QUEUED",
     "recommendedAction":  "QUEUE_AND_REVIEW",

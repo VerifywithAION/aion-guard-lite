@@ -104,7 +104,7 @@ This report records controlled replay of public-chain transaction archetypes con
     "receipt":  {
                     "receiptId":  "decision_20260312T052952Z_f45c47eb",
                     "sha256":  "f45c47eb52f1b8fb0ebd092b9ead54bcb8ba4674e056119980ba7adbbd8b25a0",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T052952Z_f45c47eb.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T052952Z_f45c47eb.json"
                 }
 }
 ~~~
@@ -191,7 +191,7 @@ This report records controlled replay of public-chain transaction archetypes con
     "receipt":  {
                     "receiptId":  "decision_20260312T052952Z_7c2b9aa4",
                     "sha256":  "7c2b9aa48982a35a5bfcd124f02f9cf82c6e88e3f7ea80265966311f48c7b852",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T052952Z_7c2b9aa4.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T052952Z_7c2b9aa4.json"
                 }
 }
 ~~~
@@ -279,7 +279,7 @@ This report records controlled replay of public-chain transaction archetypes con
     "receipt":  {
                     "receiptId":  "decision_20260312T052952Z_9f5ddcd5",
                     "sha256":  "9f5ddcd543d3021b13d9cc6fde6106c49334cc4fc3e498f6aff684348d6c9164",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T052952Z_9f5ddcd5.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T052952Z_9f5ddcd5.json"
                 }
 }
 ~~~
@@ -350,7 +350,7 @@ This report records controlled replay of public-chain transaction archetypes con
     "receipt":  {
                     "receiptId":  "decision_20260312T052952Z_d759907f",
                     "sha256":  "d759907f41c29270ddcd5b7d4ab6117521b8c89ebc3d873c78ddc5e371a039d1",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T052952Z_d759907f.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T052952Z_d759907f.json"
                 }
 }
 ~~~
@@ -421,7 +421,7 @@ This report records controlled replay of public-chain transaction archetypes con
     "receipt":  {
                     "receiptId":  "decision_20260312T052952Z_24ea42f7",
                     "sha256":  "24ea42f76a9aa4f4e320f65ae6d14c878e3c18843b54a231bb47e0790ef7a6ac",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T052952Z_24ea42f7.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T052952Z_24ea42f7.json"
                 }
 }
 ~~~
@@ -492,7 +492,7 @@ This report records controlled replay of public-chain transaction archetypes con
     "receipt":  {
                     "receiptId":  "decision_20260312T052952Z_ce596966",
                     "sha256":  "ce596966d8ea330934191627af79700ec241a93b6809786cf913130dd6bfef7d",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T052952Z_ce596966.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T052952Z_ce596966.json"
                 }
 }
 ~~~
@@ -580,7 +580,7 @@ This report records controlled replay of public-chain transaction archetypes con
     "receipt":  {
                     "receiptId":  "decision_20260312T052952Z_95de896f",
                     "sha256":  "95de896fdf9234cbc29dcd62c54a099d04bbb846f67105cc024731f06f817eb7",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T052952Z_95de896f.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T052952Z_95de896f.json"
                 }
 }
 ~~~
@@ -669,7 +669,7 @@ This report records controlled replay of public-chain transaction archetypes con
     "receipt":  {
                     "receiptId":  "decision_20260312T052952Z_7541a47f",
                     "sha256":  "7541a47fb9add64faedb9645b663ad0a64042a28fca56824d00d29a33bce7bce",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T052952Z_7541a47f.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T052952Z_7541a47f.json"
                 }
 }
 ~~~
@@ -758,7 +758,7 @@ This report records controlled replay of public-chain transaction archetypes con
     "receipt":  {
                     "receiptId":  "decision_20260312T052953Z_d6b03c2d",
                     "sha256":  "d6b03c2d15e1323f7991dd7f205c9c0b7ee0ada19acaddfbdf3f98fe0460c5c4",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T052953Z_d6b03c2d.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T052953Z_d6b03c2d.json"
                 }
 }
 ~~~
@@ -843,7 +843,7 @@ This report records controlled replay of public-chain transaction archetypes con
     "receipt":  {
                     "receiptId":  "decision_20260312T052953Z_eb837ba9",
                     "sha256":  "eb837ba952fa8d9f75f50029ecd497aea63c6c61cd03e7957ce04d422389d3be",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T052953Z_eb837ba9.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T052953Z_eb837ba9.json"
                 }
 }
 ~~~
@@ -933,7 +933,7 @@ This report records controlled replay of public-chain transaction archetypes con
     "receipt":  {
                     "receiptId":  "decision_20260312T052953Z_0d9f80f2",
                     "sha256":  "0d9f80f207d2d62c216750335c060b0236f875edb331d8f1dd373675a6f166d8",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T052953Z_0d9f80f2.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T052953Z_0d9f80f2.json"
                 }
 }
 ~~~
@@ -1023,7 +1023,7 @@ This report records controlled replay of public-chain transaction archetypes con
     "receipt":  {
                     "receiptId":  "decision_20260312T052953Z_6e49e6d6",
                     "sha256":  "6e49e6d6d63beec8440738aa69a899ced73d1cb9083e9a409c56320311f7016e",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T052953Z_6e49e6d6.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T052953Z_6e49e6d6.json"
                 }
 }
 ~~~

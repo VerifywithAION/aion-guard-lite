@@ -13,7 +13,7 @@
                                 "Found":  true,
                                 "HasCode":  true,
                                 "PreviewStatus":  "HTTP_200",
-                                "Path":  "C:\\Lab_Research\\aion-guard-lite\\runtime\\release_candidate_reports\\WALLET_LITE_SEPOLIA_POLICY_VERIFY_20260325_001919.json"
+                                "Path":  "%REPO_ROOT%\\runtime\\release_candidate_reports\\WALLET_LITE_SEPOLIA_POLICY_VERIFY_20260325_001919.json"
                             },
     "healthBody":  "Unable to connect to the remote server",
     "demo":  {

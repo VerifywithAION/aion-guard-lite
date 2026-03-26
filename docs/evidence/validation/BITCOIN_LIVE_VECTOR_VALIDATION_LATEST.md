@@ -92,6 +92,6 @@ Txid: 9e38b8218a51590e641b3f9045febcb03149b32e6a3247a2535beb6fb49d2f97
     "receipt":  {
                     "receiptId":  "decision_20260325T223230Z_de50db74",
                     "sha256":  "de50db7411a8cdac6850455942a7ee19a0565a154767500cd6e564aa45e344cc",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T223230Z_de50db74.json"
+                    "path":  "%REPO_ROOT%\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T223230Z_de50db74.json"
                 }
 }

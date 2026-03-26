@@ -94,6 +94,6 @@ This proof uses realistic Bitcoin transaction shape data:
     "receipt":  {
                     "receiptId":  "decision_20260325T193819Z_163f3633",
                     "sha256":  "163f363369635f6a4b7fd17db756efdaa03fb76e30aedceff10ad01413e42902",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T193819Z_163f3633.json"
+                    "path":  "%REPO_ROOT%\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T193819Z_163f3633.json"
                 }
 }

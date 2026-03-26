@@ -154,6 +154,6 @@ RpcUrl: https://ethereum-sepolia-rpc.publicnode.com
     "receipt":  {
                     "receiptId":  "decision_20260325T172814Z_83368d70",
                     "sha256":  "83368d7086c0bfea775fc8d2005ad87542899560892db701b85bfafc1cf916ad",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T172814Z_83368d70.json"
+                    "path":  "%REPO_ROOT%\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T172814Z_83368d70.json"
                 }
 }

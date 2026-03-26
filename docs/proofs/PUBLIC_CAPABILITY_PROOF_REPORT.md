@@ -87,7 +87,7 @@ Response JSON
     "receipt":  {
                     "receiptId":  "decision_20260312T001038Z_c99c4e20",
                     "sha256":  "c99c4e204c20527358e98c27b861d3637a6db2b94a2e07d37bcb0468b9e5ee96",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T001038Z_c99c4e20.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T001038Z_c99c4e20.json"
                 }
 }
 
@@ -167,7 +167,7 @@ Response JSON
     "receipt":  {
                     "receiptId":  "decision_20260312T001038Z_a67c5638",
                     "sha256":  "a67c5638f33d068d8b8445c125635cf315f43e66e42b2fbfda720785dbd6542c",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T001038Z_a67c5638.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T001038Z_a67c5638.json"
                 }
 }
 
@@ -244,7 +244,7 @@ Response JSON
     "receipt":  {
                     "receiptId":  "decision_20260312T001038Z_b1a7cd02",
                     "sha256":  "b1a7cd02d44add482cf296628016ee13e4928d918bb229cb1f513bbe1c656040",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T001038Z_b1a7cd02.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T001038Z_b1a7cd02.json"
                 }
 }
 
@@ -326,7 +326,7 @@ Response JSON
     "receipt":  {
                     "receiptId":  "decision_20260312T001038Z_82982ad8",
                     "sha256":  "82982ad831921a66d281f331462292465f69d6e931374e5893c7b52c63e7771a",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T001038Z_82982ad8.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T001038Z_82982ad8.json"
                 }
 }
 
@@ -389,7 +389,7 @@ Response JSON
     "receipt":  {
                     "receiptId":  "decision_20260312T001038Z_9b17f7b3",
                     "sha256":  "9b17f7b3a36b3a09f63e3962a3131d682c6585e6c69d97ccfa60d5dd616d5730",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T001038Z_9b17f7b3.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T001038Z_9b17f7b3.json"
                 }
 }
 
@@ -452,7 +452,7 @@ Response JSON
     "receipt":  {
                     "receiptId":  "decision_20260312T001038Z_272f634d",
                     "sha256":  "272f634dd1f9b27515769d2e64003a6f4cda272453bb4a755bc28e792c27092c",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\.aion\\decision-receipts\\decision_20260312T001038Z_272f634d.json"
+                    "path":  "%REPO_ROOT%\\.aion\\decision-receipts\\decision_20260312T001038Z_272f634d.json"
                 }
 }
 

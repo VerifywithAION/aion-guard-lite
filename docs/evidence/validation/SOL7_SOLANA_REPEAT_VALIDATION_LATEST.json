@@ -166,7 +166,7 @@
                              "receipt":  {
                                              "receiptId":  "decision_20260325T213644Z_6fce23ed",
                                              "sha256":  "6fce23ed023031d5d45e37e0e0532ac0428cf3eedfaa831c1a0c782055c78c4d",
-                                             "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T213644Z_6fce23ed.json"
+                                             "path":  "%REPO_ROOT%\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T213644Z_6fce23ed.json"
                                          }
                          },
                          {
@@ -234,7 +234,7 @@
                              "receipt":  {
                                              "receiptId":  "decision_20260325T213644Z_6fce23ed",
                                              "sha256":  "6fce23ed023031d5d45e37e0e0532ac0428cf3eedfaa831c1a0c782055c78c4d",
-                                             "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T213644Z_6fce23ed.json"
+                                             "path":  "%REPO_ROOT%\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T213644Z_6fce23ed.json"
                                          }
                          },
                          {
@@ -302,7 +302,7 @@
                              "receipt":  {
                                              "receiptId":  "decision_20260325T213644Z_6fce23ed",
                                              "sha256":  "6fce23ed023031d5d45e37e0e0532ac0428cf3eedfaa831c1a0c782055c78c4d",
-                                             "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T213644Z_6fce23ed.json"
+                                             "path":  "%REPO_ROOT%\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T213644Z_6fce23ed.json"
                                          }
                          }
                      ],

@@ -98,7 +98,7 @@ Actual ReasonCode: NO_ROUTE_SLIPPAGE_GUARD_APPLIED
     "receipt":  {
                     "receiptId":  "decision_20260314T054742Z_e055f6b2",
                     "sha256":  "e055f6b2af266f71e0676e8a1ac31f23aa66baf230c0e2d666162812f92142c6",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T054742Z_e055f6b2.json"
+                    "path":  "%REPO_ROOT%\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T054742Z_e055f6b2.json"
                 }
 }
 ---
@@ -195,7 +195,7 @@ Actual ReasonCode: HIGH_SLIPPAGE_REVIEW
     "receipt":  {
                     "receiptId":  "decision_20260314T054742Z_3c786f35",
                     "sha256":  "3c786f35c35b4a220e2c30e081c2ffb6ceff548beb596ccff00768ddcae1c40d",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T054742Z_3c786f35.json"
+                    "path":  "%REPO_ROOT%\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T054742Z_3c786f35.json"
                 }
 }
 ---
@@ -292,7 +292,7 @@ Actual ReasonCode: EXCESSIVE_ROUTE_HOPS_REVIEW
     "receipt":  {
                     "receiptId":  "decision_20260314T054742Z_fc9ff939",
                     "sha256":  "fc9ff9396713192687a2cbe1092df6429b705c904df387655a9671aeaf92a993",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T054742Z_fc9ff939.json"
+                    "path":  "%REPO_ROOT%\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T054742Z_fc9ff939.json"
                 }
 }
 ---
@@ -389,7 +389,7 @@ Actual ReasonCode: WEAK_ROUTE_CONFIDENCE_REVIEW
     "receipt":  {
                     "receiptId":  "decision_20260314T054742Z_08509599",
                     "sha256":  "085095996e0850c015011d9f7a51e098f3dc5a1c8edf2155967b7502a7c8d4de",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T054742Z_08509599.json"
+                    "path":  "%REPO_ROOT%\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T054742Z_08509599.json"
                 }
 }
 ---

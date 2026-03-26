@@ -84,6 +84,6 @@ BaseUrl: http://127.0.0.1:8787
     "receipt":  {
                     "receiptId":  "decision_20260325T210741Z_a1d93ff6",
                     "sha256":  "a1d93ff6df4b33f8ba34698671e5feab3309b60e4f73e63bf707709887f75db1",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T210741Z_a1d93ff6.json"
+                    "path":  "%REPO_ROOT%\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260325T210741Z_a1d93ff6.json"
                 }
 }

@@ -52,3 +52,13 @@ docs/api/WALLET_LITE_REFERENCE_UX_PROOF_REPORT_FIRST_PASS.md
 # final public-root exclusions
 docs/hardening/
 runtime/cross_platform_audit/
+
+scripts
+
+harness
+
+docs/chains
+
+docs/guard-pro
+
+docs/evidence/transcripts

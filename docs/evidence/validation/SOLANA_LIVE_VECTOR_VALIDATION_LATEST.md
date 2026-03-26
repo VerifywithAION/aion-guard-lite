@@ -89,6 +89,6 @@ Signature: 2ahFwX6HD8yPoUabCfWeSZytRbVcVjhMaDCFdeZbUz7eJ55kd2F5fKZPdhyvBRTjCimuG
     "receipt":  {
                     "receiptId":  "decision_20260326T002051Z_3535f0d4",
                     "sha256":  "3535f0d4a8c518bfd7b74904c440184f73cea2593f9cf4b4417eb783aa17b36f",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260326T002051Z_3535f0d4.json"
+                    "path":  "%REPO_ROOT%\\bin\\wallet-lite-runtime\\.aion\\decision-receipts\\decision_20260326T002051Z_3535f0d4.json"
                 }
 }

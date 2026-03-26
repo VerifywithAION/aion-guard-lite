@@ -88,7 +88,7 @@ Actual ReasonCode: NO_DOMAIN_SESSION_GUARD_APPLIED
     "receipt":  {
                     "receiptId":  "decision_20260314T053606Z_318eba09",
                     "sha256":  "318eba094022a711417b6cd74dd1ad6932a16cecfe754f745c6cb01cc1c4485b",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T053606Z_318eba09.json"
+                    "path":  "%REPO_ROOT%\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T053606Z_318eba09.json"
                 }
 }
 ---
@@ -174,7 +174,7 @@ Actual ReasonCode: MISSING_DOMAIN_REVIEW
     "receipt":  {
                     "receiptId":  "decision_20260314T053606Z_86867df4",
                     "sha256":  "86867df4ba844de0a04b10d0d7a3b9468f6cf5a8582b6fce9b45980d96819c0f",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T053606Z_86867df4.json"
+                    "path":  "%REPO_ROOT%\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T053606Z_86867df4.json"
                 }
 }
 ---
@@ -261,7 +261,7 @@ Actual ReasonCode: UNKNOWN_DOMAIN_REVIEW
     "receipt":  {
                     "receiptId":  "decision_20260314T053606Z_164cb802",
                     "sha256":  "164cb8023d5f2e5e56ce69757748ce23c6e56687a7bb816083224966420dbb94",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T053606Z_164cb802.json"
+                    "path":  "%REPO_ROOT%\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T053606Z_164cb802.json"
                 }
 }
 ---
@@ -348,7 +348,7 @@ Actual ReasonCode: STALE_SESSION_REVIEW
     "receipt":  {
                     "receiptId":  "decision_20260314T053606Z_3a6394b8",
                     "sha256":  "3a6394b888c876c9109bf469c47ae0a40e23de9008ea61afe524e75fbc265b62",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T053606Z_3a6394b8.json"
+                    "path":  "%REPO_ROOT%\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T053606Z_3a6394b8.json"
                 }
 }
 ---
@@ -435,7 +435,7 @@ Actual ReasonCode: BROAD_SESSION_REVIEW
     "receipt":  {
                     "receiptId":  "decision_20260314T053606Z_56506c98",
                     "sha256":  "56506c98bc31a810e0ed8a82ddc3b031c77f0f4c962d03da3efcc1444d20e870",
-                    "path":  "C:\\Lab_Research\\aion-guard-lite\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T053606Z_56506c98.json"
+                    "path":  "%REPO_ROOT%\\packages\\decision-api\\.aion\\decision-receipts\\decision_20260314T053606Z_56506c98.json"
                 }
 }
 ---

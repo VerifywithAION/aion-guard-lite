@@ -124,3 +124,9 @@ Do not include raw logs that reveal private paths, private repo layout, secrets,
 ### Public Repo Posture
 - [PUBLIC_REPO_POSTURE.md](PUBLIC_REPO_POSTURE.md)
 - [PUBLIC_SAFE_API_SURFACE_PLAN.md](PUBLIC_SAFE_API_SURFACE_PLAN.md)
+
+### Public API Surface
+- [../public/WALLET_LITE_PUBLIC_API_SURFACE_V1.md](../public/WALLET_LITE_PUBLIC_API_SURFACE_V1.md)
+- [../public/WALLET_LITE_INTEGRATION_FLOW_V1.md](../public/WALLET_LITE_INTEGRATION_FLOW_V1.md)
+- [../public/WALLET_LITE_EXAMPLE_PAYLOADS_V1.md](../public/WALLET_LITE_EXAMPLE_PAYLOADS_V1.md)
+- [../public/WALLET_LITE_CUSTOMER_GRADE_READINESS_V1.md](../public/WALLET_LITE_CUSTOMER_GRADE_READINESS_V1.md)

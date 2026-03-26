@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wallet Lite Demo + Attack Lab</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: #121933;
+      --panel-2: #1a2345;
+      --text: #e8ecff;
+      --muted: #9aa6d1;
+      --border: #2a3768;
+      --good: #1f9d55;
+      --warn: #d97706;
+      --bad: #dc2626;
+      --accent: #5b8cff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .title {
+      margin-bottom: 8px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .subtitle {
+      margin-bottom: 24px;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 20px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px;
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 18px;
+    }
+    .row {
+      display: grid;
+      grid-template-columns: 170px 1fr;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    label {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    input, select, textarea, button {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--panel-2);
+      color: var(--text);
+      padding: 10px 12px;
+      font-size: 14px;
+    }
+    textarea {
+      min-height: 110px;
+      resize: vertical;
+      font-family: Consolas, monospace;
+    }
+    button {
+      background: var(--accent);
+      border: none;
+      cursor: pointer;
+      font-weight: 700;
+    }
+    button:hover { opacity: 0.92; }
+    .btn-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .attack-row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .status {
+      padding: 14px;
+      border-radius: 12px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 14px;
+      border: 1px solid var(--border);
+    }
+    .status.ALLOW { background: rgba(31,157,85,0.15); color: #8ff0b3; }
+    .status.WARN { background: rgba(217,119,6,0.15); color: #ffcf85; }
+    .status.BLOCK { background: rgba(220,38,38,0.15); color: #ff9c9c; }
+    .kv {
+      margin-bottom: 10px;
+      padding: 10px 12px;
+      background: var(--panel-2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+    .kv .k {
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .kv .v {
+      word-break: break-word;
+      font-size: 14px;
+    }
+    .mono {
+      font-family: Consolas, monospace;
+      white-space: pre-wrap;
+    }
+    .lab-note {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .section-title {
+      margin-top: 18px;
+      margin-bottom: 8px;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    @media (max-width: 920px) {
+      .grid { grid-template-columns: 1fr; }
+      .row { grid-template-columns: 1fr; }
+      .btn-row, .attack-row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="title">Wallet Lite Demo UI + Attack Lab</div>
+    <div class="subtitle">Preview transactions before execution. This simulates how wallets can integrate Wallet Lite and how hostile flows can be tested safely.</div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Transaction Preview Request</h2>
+
+        <div class="row">
+          <label for="apiBase">API Base</label>
+          <input id="apiBase" value="http://127.0.0.1:8787" />
+        </div>
+
+        <div class="row">
+          <label for="apiKey">API Key</label>
+          <input id="apiKey" placeholder="Paste your Wallet Lite API key" />
+        </div>
+
+        <div class="row">
+          <label for="chainFamily">Chain Family</label>
+          <select id="chainFamily">
+            <option value="evm">evm</option>
+            <option value="bitcoin">bitcoin</option>
+            <option value="solana">solana</option>
+          </select>
+        </div>
+
+        <div class="row">
+          <label for="network">Network</label>
+          <input id="network" value="sepolia" />
+        </div>
+
+        <div class="row">
+          <label for="from">From / Wallet</label>
+          <input id="from" value="0x1111111111111111111111111111111111111111" />
+        </div>
+
+        <div class="row">
+          <label for="to">To</label>
+          <input id="to" value="0x2222222222222222222222222222222222222222" />
+        </div>
+
+        <div class="row">
+          <label for="value">Value</label>
+          <input id="value" value="10000000000000000" />
+        </div>
+
+        <div class="row">
+          <label for="data">Data / Instructions JSON</label>
+          <textarea id="data">0x</textarea>
+        </div>
+
+        <div class="section-title">Standard Examples</div>
+        <div class="btn-row">
+          <button id="evmBtn" type="button">Load EVM Example</button>
+          <button id="btcBtn" type="button">Load Bitcoin Example</button>
+          <button id="solBtn" type="button">Load Solana Example</button>
+        </div>
+
+        <div class="section-title">Attack Lab</div>
+        <div class="attack-row">
+          <button id="attackApprovalBtn" type="button">Malicious Approval</button>
+          <button id="attackPoisonBtn" type="button">Address Poisoning</button>
+          <button id="attackDrainBtn" type="button">Drain Bundle</button>
+          <button id="safeSelfBtn" type="button">Safe Self Transfer</button>
+        </div>
+
+        <div style="margin-top: 14px;">
+          <button id="previewBtn" type="button">Preview Transaction</button>
+        </div>
+
+        <div class="lab-note">
+          Attack Lab scenarios are safe simulated payloads designed to test detection behavior, UI warnings, and customer-grade protection flows without risking real funds.
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Wallet Lite Result</h2>
+        <div id="statusBox" class="status WARN">No preview yet</div>
+
+        <div class="kv">
+          <div class="k">Decision</div>
+          <div class="v" id="decision">-</div>
+        </div>
+
+        <div class="kv">
+          <div class="k">Risk Level</div>
+          <div class="v" id="riskLevel">-</div>
+        </div>
+
+        <div class="kv">
+          <div class="k">Reason Code</div>
+          <div class="v" id="reasonCode">-</div>
+        </div>
+
+        <div class="kv">
+          <div class="k">Message</div>
+          <div class="v" id="message">-</div>
+        </div>
+
+        <div class="kv">
+          <div class="k">Receipt ID</div>
+          <div class="v mono" id="receiptId">-</div>
+        </div>
+
+        <div class="kv">
+          <div class="k">Timestamp</div>
+          <div class="v mono" id="timestamp">-</div>
+        </div>
+
+        <div class="kv">
+          <div class="k">Raw Response</div>
+          <div class="v mono" id="rawResponse">-</div>
+        </div>
+
+        <div class="lab-note">
+          Builders can replace this UI with their own wallet modals, dashboards, feeds, or review flows while keeping Wallet Lite as the decision layer.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const apiBase = document.getElementById("apiBase");
+    const apiKey = document.getElementById("apiKey");
+    const chainFamily = document.getElementById("chainFamily");
+    const network = document.getElementById("network");
+    const from = document.getElementById("from");
+    const to = document.getElementById("to");
+    const value = document.getElementById("value");
+    const data = document.getElementById("data");
+
+    const statusBox = document.getElementById("statusBox");
+    const decisionEl = document.getElementById("decision");
+    const riskLevelEl = document.getElementById("riskLevel");
+    const reasonCodeEl = document.getElementById("reasonCode");
+    const messageEl = document.getElementById("message");
+    const receiptIdEl = document.getElementById("receiptId");
+    const timestampEl = document.getElementById("timestamp");
+    const rawResponseEl = document.getElementById("rawResponse");
+
+    function setResult(res) {
+      const decision = res.decision || "BLOCK";
+      statusBox.className = "status " + decision;
+      statusBox.textContent = decision;
+      decisionEl.textContent = decision;
+      riskLevelEl.textContent = res.riskLevel || "-";
+      reasonCodeEl.textContent = res.reasonCode || res.error || "-";
+      messageEl.textContent = res.message || "-";
+      receiptIdEl.textContent = res.receipt?.id || "-";
+      timestampEl.textContent = res.receipt?.timestamp || "-";
+      rawResponseEl.textContent = JSON.stringify(res, null, 2);
+    }
+
+    function setFields(payload) {
+      chainFamily.value = payload.chainFamily || "evm";
+      network.value = payload.network || "";
+      from.value = payload.from || "";
+      to.value = payload.to || "";
+      value.value = payload.value || "0";
+
+      if (payload.chainFamily === "solana") {
+        data.value = JSON.stringify(payload.instructions || [], null, 2);
+      } else {
+        data.value = payload.data || "0x";
+      }
+    }
+
+    function loadEvm() {
+      setFields({
+        chainFamily: "evm",
+        network: "sepolia",
+        from: "0x1111111111111111111111111111111111111111",
+        to: "0x2222222222222222222222222222222222222222",
+        value: "10000000000000000",
+        data: "0x"
+      });
+    }
+
+    function loadBitcoin() {
+      setFields({
+        chainFamily: "bitcoin",
+        network: "bitcoin-signet",
+        from: "tb1qexamplewallet0000000000000000000000000",
+        to: "tb1qexampledest000000000000000000000000000",
+        value: "12000",
+        data: "0x"
+      });
+    }
+
+    function loadSolana() {
+      setFields({
+        chainFamily: "solana",
+        network: "solana-devnet",
+        from: "So11111111111111111111111111111111111111112",
+        to: "11111111111111111111111111111111",
+        value: "5000",
+        instructions: [
+          {
+            programId: "11111111111111111111111111111111",
+            type: "transfer"
+          },
+          {
+            programId: "ComputeBudget111111111111111111111111111111",
+            type: "compute_budget"
+          }
+        ]
+      });
+    }
+
+    function loadMaliciousApproval() {
+      setFields({
+        chainFamily: "evm",
+        network: "sepolia",
+        from: "0x1111111111111111111111111111111111111111",
+        to: "0x9999999999999999999999999999999999999999",
+        value: "0",
+        data: "0x095ea7b3000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+      });
+    }
+
+    function loadAddressPoisoning() {
+      setFields({
+        chainFamily: "evm",
+        network: "sepolia",
+        from: "0x1111111111111111111111111111111111111111",
+        to: "0x1111111111111111111111111111111111111112",
+        value: "25000000000000000",
+        data: "0x"
+      });
+    }
+
+    function loadDrainBundle() {
+      setFields({
+        chainFamily: "solana",
+        network: "solana-devnet",
+        from: "So11111111111111111111111111111111111111112",
+        to: "Drain1111111111111111111111111111111111111",
+        value: "5000",
+        instructions: [
+          {
+            programId: "11111111111111111111111111111111",
+            type: "approve"
+          },
+          {
+            programId: "Drain1111111111111111111111111111111111111",
+            type: "transfer_all"
+          },
+          {
+            programId: "Drain1111111111111111111111111111111111111",
+            type: "close_account"
+          }
+        ]
+      });
+    }
+
+    function loadSafeSelfTransfer() {
+      setFields({
+        chainFamily: "evm",
+        network: "sepolia",
+        from: "0x1111111111111111111111111111111111111111",
+        to: "0x1111111111111111111111111111111111111111",
+        value: "0",
+        data: "0x"
+      });
+    }
+
+    async function preview() {
+      try {
+        let payload = {
+          chainFamily: chainFamily.value,
+          network: network.value,
+          from: from.value,
+          to: to.value,
+          value: value.value
+        };
+
+        if (chainFamily.value === "solana") {
+          try {
+            payload.instructions = JSON.parse(data.value);
+          } catch (err) {
+            setResult({
+              decision: "BLOCK",
+              riskLevel: "HIGH",
+              reasonCode: "INVALID_SOLANA_INSTRUCTIONS",
+              message: "Solana instructions must be valid JSON."
+            });
+            return;
+          }
+        } else {
+          payload.data = data.value;
+        }
+
+        const res = await fetch(apiBase.value + "/v1/preview", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "x-api-key": apiKey.value.trim()
+          },
+          body: JSON.stringify(payload)
+        });
+
+        const json = await res.json();
+        setResult(json);
+      } catch (err) {
+        setResult({
+          decision: "BLOCK",
+          riskLevel: "HIGH",
+          reasonCode: "UI_REQUEST_FAILED",
+          message: String(err)
+        });
+      }
+    }
+
+    document.getElementById("evmBtn").addEventListener("click", loadEvm);
+    document.getElementById("btcBtn").addEventListener("click", loadBitcoin);
+    document.getElementById("solBtn").addEventListener("click", loadSolana);
+
+    document.getElementById("attackApprovalBtn").addEventListener("click", loadMaliciousApproval);
+    document.getElementById("attackPoisonBtn").addEventListener("click", loadAddressPoisoning);
+    document.getElementById("attackDrainBtn").addEventListener("click", loadDrainBundle);
+    document.getElementById("safeSelfBtn").addEventListener("click", loadSafeSelfTransfer);
+
+    document.getElementById("previewBtn").addEventListener("click", preview);
+
+    loadEvm();
+  </script>
+</body>
+</html>

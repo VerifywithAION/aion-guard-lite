@@ -1,0 +1,41 @@
+﻿{
+    "scenarios":  [
+                      {
+                          "expected":  "WARN",
+                          "description":  "Token approval attack detection",
+                          "name":  "MALICIOUS_APPROVAL",
+                          "reason":  "TOKEN_APPROVAL",
+                          "risk":  "HIGH"
+                      },
+                      {
+                          "expected":  "WARN",
+                          "description":  "Look-alike destination address detection",
+                          "name":  "ADDRESS_POISONING",
+                          "reason":  "ADDRESS_POISONING_SUSPECTED",
+                          "risk":  "HIGH"
+                      },
+                      {
+                          "expected":  "BLOCK",
+                          "description":  "Multi-step drain attack detection",
+                          "name":  "DRAIN_BUNDLE",
+                          "reason":  "DRAIN_BUNDLE_DETECTED",
+                          "risk":  "HIGH"
+                      },
+                      {
+                          "expected":  "ALLOW",
+                          "description":  "Safe self transfer control case",
+                          "name":  "SAFE_SELF_TRANSFER",
+                          "reason":  "SELF_TRANSFER",
+                          "risk":  "LOW"
+                      },
+                      {
+                          "expected":  "BLOCK",
+                          "description":  "Unauthorized request rejection",
+                          "name":  "MISSING_API_KEY",
+                          "reason":  "INVALID_OR_MISSING_API_KEY",
+                          "risk":  "N/A"
+                      }
+                  ],
+    "generatedAt":  "2026-03-26T18:13:26Z",
+    "system":  "wallet-lite-api.v1"
+}

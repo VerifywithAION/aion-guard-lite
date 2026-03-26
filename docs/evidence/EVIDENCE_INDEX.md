@@ -113,3 +113,6 @@ Do not include raw logs that reveal private paths, private repo layout, secrets,
 
 ### SOL5 Solana Preview Validation
 - [SOL5_SOLANA_PREVIEW_VALIDATION.md](validation/SOL5_SOLANA_PREVIEW_VALIDATION.md)
+
+### Wallet Lite Multi-Chain Lock Declaration
+- [WALLET_LITE_MULTI_CHAIN_LOCK_DECLARATION.md](WALLET_LITE_MULTI_CHAIN_LOCK_DECLARATION.md)

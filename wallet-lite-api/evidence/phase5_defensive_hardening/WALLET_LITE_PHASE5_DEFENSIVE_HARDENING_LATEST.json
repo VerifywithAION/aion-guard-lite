@@ -1,0 +1,43 @@
+{
+  "generatedAtUtc": "2026-03-26T19:38:22.692Z",
+  "baseUrl": "http://127.0.0.1:8787",
+  "verdict": "PHASE5_DEFENSIVE_HARDENING_OK",
+  "tests": [
+    {
+      "name": "MISSING_API_KEY",
+      "statusCode": 401,
+      "pass": true,
+      "body": "{\"ok\":false,\"error\":\"INVALID_OR_MISSING_API_KEY\",\"message\":\"A valid x-api-key header is required.\"}"
+    },
+    {
+      "name": "FAKE_API_KEY",
+      "statusCode": 401,
+      "pass": true,
+      "body": "{\"ok\":false,\"error\":\"INVALID_OR_MISSING_API_KEY\",\"message\":\"A valid x-api-key header is required.\"}"
+    },
+    {
+      "name": "MISSING_REQUIRED_FIELDS",
+      "statusCode": 400,
+      "pass": true,
+      "body": "{\"ok\":false,\"error\":\"MISSING_REQUIRED_FIELDS\",\"required\":[\"chainFamily\",\"to\"]}"
+    },
+    {
+      "name": "MALFORMED_JSON",
+      "statusCode": 400,
+      "pass": true,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>SyntaxError: Expected &#39;,&#39; or &#39;}&#39; after property value in JSON at position 33 (line 1 column 34)<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at parse (C:\\Lab_Research\\wallet-lite-api\\node_modules\\body-parser\\lib\\types\\json.js:72:19)<br> &nbsp; &nbsp;at C:\\Lab_Research\\wallet-lite-api\\node_modules\\body-parser\\lib\\read.js:162:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:214:14)<br> &nbsp; &nbsp;at invokeCallback (C:\\Lab_Research\\wallet-lite-api\\node_modules\\raw-body\\index.js:238:16)<br> &nbsp; &nbsp;at done (C:\\Lab_Research\\wallet-lite-api\\node_modules\\raw-body\\index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\\Lab_Research\\wallet-lite-api\\node_modules\\raw-body\\index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:518:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1698:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:90:21)</pre>\n</body>\n</html>\n"
+    },
+    {
+      "name": "OVERSIZED_PAYLOAD",
+      "statusCode": 200,
+      "pass": true,
+      "body": "{\"ok\":true,\"version\":\"wallet-lite-api.v1\",\"chainFamily\":\"evm\",\"network\":\"sepolia\",\"decision\":\"WARN\",\"riskLevel\":\"HIGH\",\"reasonCode\":\"CONTRACT_INTERACTION\",\"message\":\"Contract interaction detected\",\"receipt\":{\"id\":\"cf35ce7e-bfa7-4d45-9d7d-6252715505f7\",\"timestamp\":\"2026-03-26T19:38:22.641Z\"}}"
+    },
+    {
+      "name": "RATE_LIMIT_ABUSE",
+      "statusCode": 429,
+      "pass": true,
+      "body": "{\"ok\":false,\"error\":\"RATE_LIMIT_EXCEEDED\",\"message\":\"Free tier limit reached (15 requests/month)\"}"
+    }
+  ]
+}

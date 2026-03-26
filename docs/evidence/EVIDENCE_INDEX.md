@@ -1,12 +1,12 @@
-# Wallet Lite Evidence Index
+# Wallet Guard Lite Evidence Index
 
 ## Purpose
-This folder contains the public evidence layer for Wallet Lite.
+This folder contains the public evidence layer for Wallet Guard Lite.
 
 It is meant to show:
 - what was validated
 - which proof artifacts support the claims
-- that Wallet Lite is a real governed execution product surface
+- that Wallet Guard Lite is a real governed execution product surface
 
 It is not meant to expose implementation source.
 
@@ -114,7 +114,7 @@ Do not include raw logs that reveal private paths, private repo layout, secrets,
 ### SOL5 Solana Preview Validation
 - [SOL5_SOLANA_PREVIEW_VALIDATION.md](validation/SOL5_SOLANA_PREVIEW_VALIDATION.md)
 
-### Wallet Lite Multi-Chain Lock Declaration
+### Wallet Guard Lite Multi-Chain Lock Declaration
 - [WALLET_LITE_MULTI_CHAIN_LOCK_DECLARATION.md](WALLET_LITE_MULTI_CHAIN_LOCK_DECLARATION.md)
 
 ### Public Boundary

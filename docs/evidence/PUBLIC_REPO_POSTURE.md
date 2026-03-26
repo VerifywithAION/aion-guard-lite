@@ -14,7 +14,7 @@ It is not public for implementation disclosure.
 
 The public repository exists to show:
 
-- proof that Wallet Lite works
+- proof that Wallet Guard Lite works
 - validation artifacts
 - chain lock declarations
 - public product boundary

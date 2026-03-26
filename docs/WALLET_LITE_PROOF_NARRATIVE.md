@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document presents the Wallet Lite system as a proof-backed governed execution runtime.
+This document presents the Wallet Guard Lite system as a proof-backed governed execution runtime.
 
 It is not a marketing document.
 
@@ -16,7 +16,7 @@ It is a structured explanation of:
 
 The goal is simple:
 
-Make it possible for a technical reader to independently verify that Wallet Lite is real.
+Make it possible for a technical reader to independently verify that Wallet Guard Lite is real.
 
 ---
 
@@ -54,7 +54,7 @@ There is no deterministic execution boundary between intent and execution.
 
 ## The thesis
 
-Wallet Lite is built on one principle:
+Wallet Guard Lite is built on one principle:
 
 Key is not enough.
 
@@ -74,7 +74,7 @@ request -> preview -> decide -> preserve receipt -> then execute or not
 
 ## What was built
 
-Wallet Lite is a closed-core governed execution runtime with a public API surface.
+Wallet Guard Lite is a closed-core governed execution runtime with a public API surface.
 
 It consists of:
 
@@ -97,7 +97,7 @@ It is the execution governance layer that sits before irreversible action.
 
 ## System behavior
 
-At runtime, Wallet Lite behaves as follows:
+At runtime, Wallet Guard Lite behaves as follows:
 
 1. an upstream request is captured
 2. the request is normalized into schema form
@@ -246,7 +246,7 @@ The system can be reproduced end-to-end without hidden steps.
 
 A minimal reproduction path:
 
-1. start the Wallet Lite runtime
+1. start the Wallet Guard Lite runtime
 2. confirm health endpoint
 3. start the testnet harness
 4. connect a browser wallet
@@ -286,7 +286,7 @@ The current strongest posture is:
 
 ## Why this matters
 
-Wallet Lite introduces a missing primitive:
+Wallet Guard Lite introduces a missing primitive:
 
 A deterministic execution boundary with evidence.
 
@@ -309,7 +309,7 @@ It enables:
 
 ## Canonical summary
 
-Wallet Lite is a governed execution runtime that sits between intent and execution.
+Wallet Guard Lite is a governed execution runtime that sits between intent and execution.
 
 It:
 

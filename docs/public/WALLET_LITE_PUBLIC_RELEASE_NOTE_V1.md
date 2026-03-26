@@ -2,13 +2,13 @@
 
 ## Purpose
 
-This document is the public release note for the current Wallet Lite proof-backed repo posture.
+This document is the public release note for the current Wallet Guard Lite proof-backed repo posture.
 
 It is intentionally restrained.
 
 Its purpose is to state, in public-safe language:
 
-- what Wallet Lite is
+- what Wallet Guard Lite is
 - what has now been published
 - what has been proven
 - where evaluators should start
@@ -19,7 +19,7 @@ It is not intended to overstate maturity or declassify private internals.
 
 ## Public release summary
 
-Wallet Lite is now published in a proof-backed public-safe repository posture as a:
+Wallet Guard Lite is now published in a proof-backed public-safe repository posture as a:
 
 - closed-core governed execution runtime
 - pre-execution API surface
@@ -73,7 +73,7 @@ This is the correct current evaluation posture.
 
 ## What this means
 
-Wallet Lite should now be understood publicly as:
+Wallet Guard Lite should now be understood publicly as:
 
 a governed execution runtime that sits between request intent and irreversible execution
 
@@ -123,6 +123,6 @@ Those remain future layers.
 
 ## Canonical summary
 
-Wallet Lite is now publicly presented in a proof-backed, public-safe, technically legible posture.
+Wallet Guard Lite is now publicly presented in a proof-backed, public-safe, technically legible posture.
 
 The strongest current truth is a closed-core governed execution runtime with a real API surface, real evidence surface, and reproducible Windows-first, EVM-first proof path.

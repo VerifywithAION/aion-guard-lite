@@ -1,7 +1,7 @@
-# Wallet Lite Enhancement Private Validation Rollup
+# Wallet Guard Lite Enhancement Private Validation Rollup
 
 ## Status
-Private validation rollup for the enhanced Wallet Lite execution-governance layer after E1 through E4 implementation and repair.
+Private validation rollup for the enhanced Wallet Guard Lite execution-governance layer after E1 through E4 implementation and repair.
 
 ## Scope covered
 This rollup covers the private enhancement layer only:
@@ -113,7 +113,7 @@ This means the enhancement layer is now considered privately stabilized at the c
 ---
 
 ## Current private truth
-At private-repo level, Wallet Lite now has an enhanced governed-execution layer covering:
+At private-repo level, Wallet Guard Lite now has an enhanced governed-execution layer covering:
 
 - approval hardening
 - address poisoning guard
@@ -124,7 +124,7 @@ At private-repo level, Wallet Lite now has an enhanced governed-execution layer 
 - known-pattern execution governance
 - governance-event receipts
 
-This is stronger than the earlier base layer, but still remains a Wallet Lite boundary rather than a Wallet Pro operator surface.
+This is stronger than the earlier base layer, but still remains a Wallet Guard Lite boundary rather than a Wallet Pro operator surface.
 
 ---
 
@@ -167,7 +167,7 @@ Still required:
 ---
 
 ## Conclusion
-The enhanced Wallet Lite execution-governance layer is now privately implemented, repaired, and validated across E1 through E4.
+The enhanced Wallet Guard Lite execution-governance layer is now privately implemented, repaired, and validated across E1 through E4.
 
 This phase should now be treated as:
 

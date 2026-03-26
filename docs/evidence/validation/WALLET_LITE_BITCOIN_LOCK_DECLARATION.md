@@ -1,8 +1,8 @@
-# Wallet Lite Bitcoin Lock Declaration
+# Wallet Guard Lite Bitcoin Lock Declaration
 
 ## Purpose
 
-This document declares Bitcoin as a locked Wallet Lite proof tier.
+This document declares Bitcoin as a locked Wallet Guard Lite proof tier.
 
 This means Bitcoin has reached a level of:
 
@@ -11,7 +11,7 @@ This means Bitcoin has reached a level of:
 - evidence-layer representation
 - deterministic preview behavior
 
-sufficient to serve as a reference tier within Wallet Lite.
+sufficient to serve as a reference tier within Wallet Guard Lite.
 
 This declaration follows the same discipline used for the EVM lock.
 
@@ -37,9 +37,9 @@ The current locked Bitcoin baseline is:
 
 Bitcoin can:
 
-- enter the Wallet Lite execution boundary
+- enter the Wallet Guard Lite execution boundary
 - return a deterministic preview response
-- preserve Wallet Lite response structure
+- preserve Wallet Guard Lite response structure
 - emit receipts
 
 ---
@@ -70,7 +70,7 @@ The same normalized Bitcoin request:
 - preserves consequence interpretation
 - preserves recommended action
 
-This satisfies deterministic preview requirements at the Wallet Lite tier.
+This satisfies deterministic preview requirements at the Wallet Guard Lite tier.
 
 ---
 
@@ -83,7 +83,7 @@ Bitcoin now includes a Lite-safe consequence surface capable of expressing:
 - output structure
 - change behavior
 
-This extends Wallet Lite from decision-only into consequence-aware preview for Bitcoin.
+This extends Wallet Guard Lite from decision-only into consequence-aware preview for Bitcoin.
 
 ---
 
@@ -105,7 +105,7 @@ This means Bitcoin participates in the same proof discipline as EVM.
 
 Bitcoin is now a:
 
-Wallet Lite locked proof tier
+Wallet Guard Lite locked proof tier
 
 From this point forward:
 
@@ -128,13 +128,13 @@ This declaration does not claim:
 - Guard Pro-level anomaly detection
 - enterprise mainnet maturity across all edge cases
 
-This is a Wallet Lite lock, not a Guard Pro lock.
+This is a Wallet Guard Lite lock, not a Guard Pro lock.
 
 ---
 
 ## Strategic meaning
 
-Wallet Lite now supports:
+Wallet Guard Lite now supports:
 
 - EVM (locked)
 - Bitcoin (locked)
@@ -146,7 +146,7 @@ Both under:
 - proof-based validation
 - consequence-aware surfaces
 
-This establishes Wallet Lite as a:
+This establishes Wallet Guard Lite as a:
 
 multi-chain execution governance API with proof discipline
 
@@ -158,7 +158,7 @@ Bitcoin lock is not a feature milestone.
 
 It is a proof milestone.
 
-It confirms that Wallet Lite can extend beyond EVM while preserving its core guarantees:
+It confirms that Wallet Guard Lite can extend beyond EVM while preserving its core guarantees:
 
 - determinism
 - evidence

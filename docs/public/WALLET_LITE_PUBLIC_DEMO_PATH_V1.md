@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document defines the current public demo path for Wallet Lite.
+This document defines the current public demo path for Wallet Guard Lite.
 
 It is intended to give a clean, restrained, reproducible sequence that a technical evaluator can follow.
 
@@ -12,7 +12,7 @@ The demo path should show reality, not presentation tricks.
 
 ## Demo goal
 
-The current public demo should prove that Wallet Lite can:
+The current public demo should prove that Wallet Guard Lite can:
 
 - boot as a governed runtime
 - expose health
@@ -120,4 +120,4 @@ That is the correct and credible reading.
 
 The current public demo path is a proof-first evaluation flow centered on the Windows-first, EVM-first runtime, harness, live Sepolia preview path, and C2 proof pack.
 
-It is sufficient to establish that Wallet Lite is real, structured, and reproducibly testable in its strongest current posture.
+It is sufficient to establish that Wallet Guard Lite is real, structured, and reproducibly testable in its strongest current posture.

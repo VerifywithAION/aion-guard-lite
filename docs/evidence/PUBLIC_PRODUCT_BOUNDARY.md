@@ -24,4 +24,4 @@ The public repository must not expose:
 
 This repo is evidence-first, not implementation-first.
 
-Its purpose is to prove that Wallet Lite works, not to disclose the private implementation required to reproduce or clone it.
+Its purpose is to prove that Wallet Guard Lite works, not to disclose the private implementation required to reproduce or clone it.

@@ -1,12 +1,12 @@
-# Wallet Lite EVM Lock Declaration
+# Wallet Guard Lite EVM Lock Declaration
 
 ## Purpose
 
-This document declares EVM as the current locked reference tier for Wallet Lite.
+This document declares EVM as the current locked reference tier for Wallet Guard Lite.
 
 This does not mean all imaginable EVM work is finished forever.
 
-It means the critical Wallet Lite EVM baseline is now strong enough, proven enough, and coherent enough to serve as the canonical proof tier for future platform and chain expansion.
+It means the critical Wallet Guard Lite EVM baseline is now strong enough, proven enough, and coherent enough to serve as the canonical proof tier for future platform and chain expansion.
 
 ---
 
@@ -26,7 +26,7 @@ The current locked EVM baseline is:
 ## What is locked
 
 ### 1. Core execution governance
-Wallet Lite can:
+Wallet Guard Lite can:
 - boot as a runtime
 - expose a stable health surface
 - return governed preview decisions
@@ -34,14 +34,14 @@ Wallet Lite can:
 - preserve deterministic decision posture
 
 ### 2. Execution proof path
-Wallet Lite has:
+Wallet Guard Lite has:
 - X5 verify OK
 - C2 proof pack PASS
 - Sepolia policy verify HTTP_200
 - harness-backed runtime flow
 
 ### 3. Consequence-aware EVM layer
-Wallet Lite now includes:
+Wallet Guard Lite now includes:
 - B2 native transfer consequence awareness
 - B2.2 approval proof
 - B2.3 transfer proof
@@ -55,7 +55,7 @@ They are now represented in the proof layer through validation reports and evide
 
 ## What this means
 
-EVM is now the canonical Wallet Lite proof tier.
+EVM is now the canonical Wallet Guard Lite proof tier.
 
 From this point onward:
 
@@ -110,10 +110,10 @@ That expansion should happen in this order:
 1. preserve EVM lock
 2. extend future chains to the same proof grade
 3. extend future platforms to the same proof grade
-4. keep Guard Pro depth separate from Wallet Lite public-safe boundaries
+4. keep Guard Pro depth separate from Wallet Guard Lite public-safe boundaries
 
 ---
 
 ## Final declaration
 
-Wallet Lite EVM is now locked as the canonical hardened reference tier for the current public-safe product boundary.
+Wallet Guard Lite EVM is now locked as the canonical hardened reference tier for the current public-safe product boundary.

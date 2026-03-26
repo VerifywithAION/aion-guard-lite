@@ -1,9 +1,9 @@
 # What Has Been Proven
 
 ## Purpose
-This document explains, in plain language, what Wallet Lite has already proven and where that proof can be inspected in this public repository.
+This document explains, in plain language, what Wallet Guard Lite has already proven and where that proof can be inspected in this public repository.
 
-Wallet Lite is presented here as a **source-closed, evidence-backed governed wallet runtime**.
+Wallet Guard Lite is presented here as a **source-closed, evidence-backed governed wallet runtime**.
 
 That means this repo is not asking reviewers to trust marketing language alone.
 It provides concrete proof artifacts and validation reports.
@@ -13,13 +13,13 @@ It provides concrete proof artifacts and validation reports.
 ## Core thesis proven
 
 ### Key Is Not Enough
-Wallet Lite is built around the KINE principle:
+Wallet Guard Lite is built around the KINE principle:
 
 **Key Is Not Enough**
 
 The idea is that valid signing authority alone should not automatically imply immediate execution.
 
-Instead, Wallet Lite introduces a governed posture:
+Instead, Wallet Guard Lite introduces a governed posture:
 
 **intent -> preview -> classify -> govern -> execute**
 
@@ -101,18 +101,18 @@ Evidence:
 ---
 
 ## What this means in practical terms
-Wallet Lite is no longer only a concept or presentation layer.
+Wallet Guard Lite is no longer only a concept or presentation layer.
 
 The public proof set shows that it already behaves like a governed execution boundary across several concrete wallet risk surfaces.
 
 That means the current public claim is fair:
 
-Wallet Lite is a real governed wallet runtime prototype with validated safety layers and proof-bearing evidence.
+Wallet Guard Lite is a real governed wallet runtime prototype with validated safety layers and proof-bearing evidence.
 
 ---
 
 ## What is not being claimed
-This public evidence does **not** claim that Wallet Lite is already:
+This public evidence does **not** claim that Wallet Guard Lite is already:
 
 - a finished mass-market retail wallet
 - a full open-source implementation repo
@@ -139,9 +139,9 @@ If you are reviewing this repo for the first time, start here:
 ---
 
 ## Final summary
-What has been proven is not merely that Wallet Lite can describe governance.
+What has been proven is not merely that Wallet Guard Lite can describe governance.
 
-What has been proven is that Wallet Lite can apply governed posture across multiple practical wallet risk surfaces, with public evidence artifacts available for inspection in this repository.
+What has been proven is that Wallet Guard Lite can apply governed posture across multiple practical wallet risk surfaces, with public evidence artifacts available for inspection in this repository.
 
 ---
 
@@ -227,7 +227,7 @@ Evidence:
 - [ENHANCED_STAGED_WINDOWS_SMOKE_TEST_20260315_153708.json](validation/ENHANCED_STAGED_WINDOWS_SMOKE_TEST_20260315_153708.json)
 
 ### Current public truth after enhancement
-Wallet Lite now has public evidence for both:
+Wallet Guard Lite now has public evidence for both:
 - the original V1 governed risk-surface layer
 - the newer enhanced governance layer
 
@@ -237,7 +237,7 @@ The earlier phase evidence remains valid and preserved.
 The enhanced phase evidence adds another proven layer on top.
 
 ### What is still not yet being claimed
-This public evidence still does not claim that Wallet Lite has already completed:
+This public evidence still does not claim that Wallet Guard Lite has already completed:
 - macOS packaged-runtime proof
 - Linux packaged-runtime proof
 - final chain-backed execution proof for fully trusted EXECUTE_NOW runtime cases
@@ -248,7 +248,7 @@ Those remain part of the next proof wave.
 ## Real Wallet Testnet Connectivity
 
 What is proven:
-- Wallet Lite can attach to a real browser wallet session in the testnet harness.
+- Wallet Guard Lite can attach to a real browser wallet session in the testnet harness.
 - Wallet connection and Sepolia selection are evidenced from harness captures.
 - Real preview attempts are evidenced through the harness path.
 
@@ -260,7 +260,7 @@ What is not yet proven:
 What is proven:
 - A real GuardPolicy contract was deployed on Sepolia.
 - The deployed policy address returns real contract code.
-- Wallet Lite runtime can call the live policy path and return a governed preview result.
+- Wallet Guard Lite runtime can call the live policy path and return a governed preview result.
 - The returned result is structured, machine-readable, and evidence-bearing.
 - The observed preview result is `QUEUED` for an unknown destination flow, with a real receipt emitted.
 
@@ -271,8 +271,8 @@ Evidence:
 ## Real Browser Wallet TX Flow (X5 Reproducible Demo)
 
 What is proven:
-- A real browser wallet can connect through the Wallet Lite testnet harness.
-- The harness can route a real wallet-originated request into the Wallet Lite runtime before execution.
+- A real browser wallet can connect through the Wallet Guard Lite testnet harness.
+- The harness can route a real wallet-originated request into the Wallet Guard Lite runtime before execution.
 - The runtime returns a deterministic governed result for an unknown-destination native transfer.
 - The reproducible verification path returns `X5_VERIFY_OK`.
 - Receipt generation, reason surfaces, and recommended action are preserved in the result.
@@ -287,7 +287,7 @@ Operational artifacts:
 ## B2 Deep Simulation V1
 
 What is proven:
-- Wallet Lite now returns an additive `simulation` block in the live EVM preview response.
+- Wallet Guard Lite now returns an additive `simulation` block in the live EVM preview response.
 - The simulation block is deterministic and structured.
 - The simulation block can surface native value movement, external call surface summary, and persistent-risk posture.
 - B2 V1 was integrated without breaking X5 verify, Sepolia verify, or the C2 proof pack.
@@ -302,7 +302,7 @@ Current boundary:
 ## B2.1 EVM Coverage Expansion
 
 What is proven:
-- Wallet Lite now has a broader deterministic `simulation` block on the current EVM baseline.
+- Wallet Guard Lite now has a broader deterministic `simulation` block on the current EVM baseline.
 - The consequence layer now covers richer approval and token-transfer posture than the original B2 V1 native-transfer baseline.
 - Unknown contract interaction posture is surfaced more explicitly through partial-confidence simulation flags.
 - B2.1 remained compatible with X5 verify, Sepolia verify, and the C2 proof pack.
@@ -317,8 +317,8 @@ Current boundary:
 ## EVM Lock Declaration
 
 What is proven:
-- EVM is now the canonical locked reference tier for Wallet Lite.
-- Wallet Lite EVM includes governed preview, receipts, proof-pack compatibility, native transfer simulation, approval proof, and transfer proof.
+- EVM is now the canonical locked reference tier for Wallet Guard Lite.
+- Wallet Guard Lite EVM includes governed preview, receipts, proof-pack compatibility, native transfer simulation, approval proof, and transfer proof.
 - Future platform and chain work must meet this proof grade before parity can be claimed.
 
 Evidence:
@@ -329,14 +329,14 @@ Evidence:
 - [B2_3_TRANSFER_SIMULATION_VALIDATION_LATEST.md](validation/B2_3_TRANSFER_SIMULATION_VALIDATION_LATEST.md)
 
 Current boundary:
-- This locks EVM as the current Wallet Lite reference tier.
+- This locks EVM as the current Wallet Guard Lite reference tier.
 - It does not yet claim same-tier parity for macOS, Linux, Bitcoin, Solana, or Cosmos.
 
 ## BTC5 Bitcoin Preview Validation
 
 What is proven:
-- Bitcoin now has a live runtime preview path in Wallet Lite.
-- `chainFamily = bitcoin` traverses the runtime and returns a structured Wallet Lite-compatible preview response.
+- Bitcoin now has a live runtime preview path in Wallet Guard Lite.
+- `chainFamily = bitcoin` traverses the runtime and returns a structured Wallet Guard Lite-compatible preview response.
 - Receipt continuity is preserved for the Bitcoin preview path.
 - A Lite-safe Bitcoin consequence block is present in the preview response.
 - Bitcoin is now represented in the evidence layer as a proof-backed runtime path.
@@ -352,7 +352,7 @@ Current boundary:
 ## Bitcoin Lock Declaration
 
 What is proven:
-- Bitcoin is now a locked Wallet Lite proof tier.
+- Bitcoin is now a locked Wallet Guard Lite proof tier.
 - Bitcoin has a live runtime preview path, receipt continuity, multiple proof families, deterministic repeat behavior, and evidence-layer representation.
 - Bitcoin now serves alongside EVM as a locked reference tier for future chain parity work.
 
@@ -364,7 +364,7 @@ Evidence:
 - [BTC6_2_BITCOIN_REPEAT_VALIDATION_LATEST.md](validation/BTC6_2_BITCOIN_REPEAT_VALIDATION_LATEST.md)
 
 Current boundary:
-- This locks Bitcoin at the Wallet Lite proof tier.
+- This locks Bitcoin at the Wallet Guard Lite proof tier.
 - It does not claim Guard Pro-grade Bitcoin intelligence, mempool-aware optimization, or enterprise mainnet maturity across all edge cases.
 
 ## Chain Status Declaration
@@ -380,7 +380,7 @@ Evidence:
 ## Bitcoin Realistic Vector Validation
 
 What is proven:
-- Wallet Lite can process a realistic Bitcoin transaction-shape preview with realistic address format, fee range, output structure, and change posture.
+- Wallet Guard Lite can process a realistic Bitcoin transaction-shape preview with realistic address format, fee range, output structure, and change posture.
 - Receipt continuity and consequence surfaces remain intact.
 
 Evidence:
@@ -390,8 +390,8 @@ Evidence:
 ## SOL5 Solana Preview Validation
 
 What is proven:
-- Solana now has a live runtime preview path in Wallet Lite.
-- `chainFamily = solana` traverses the runtime and returns a structured Wallet Lite-compatible preview response.
+- Solana now has a live runtime preview path in Wallet Guard Lite.
+- `chainFamily = solana` traverses the runtime and returns a structured Wallet Guard Lite-compatible preview response.
 - Receipt continuity is preserved for the Solana preview path.
 - A Lite-safe Solana consequence block is present in the preview response.
 - Solana is now represented in the evidence layer as a proof-backed runtime path.

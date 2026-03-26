@@ -1,6 +1,6 @@
-# Wallet Lite
+# Wallet Guard Lite
 
-Wallet Lite is a closed-core governed execution runtime and API surface that evaluates requests before irreversible execution.
+Wallet Guard Lite is a closed-core governed execution runtime and API surface that evaluates requests before irreversible execution.
 
 It is designed to let wallets, apps, and partner systems move from blind signing posture toward structured pre-execution decisioning with receipts and evidence.
 
@@ -12,7 +12,7 @@ Traditional wallet posture often collapses into:
 
 key -> sign -> execute
 
-Wallet Lite introduces a different posture:
+Wallet Guard Lite introduces a different posture:
 
 request -> preview -> decide -> preserve receipt -> then execute or not
 
@@ -24,9 +24,9 @@ Valid signing authority alone should not automatically imply immediate execution
 
 ---
 
-## What Wallet Lite is
+## What Wallet Guard Lite is
 
-Wallet Lite is:
+Wallet Guard Lite is:
 
 - a governed execution backend
 - a local or deployable runtime
@@ -34,14 +34,14 @@ Wallet Lite is:
 - a receipt and evidence engine
 - an adapter-ready integration surface
 
-Wallet Lite is not:
+Wallet Guard Lite is not:
 
 - a retail wallet UI
 - a mass-market desktop wallet shell
 - an open-source declassification of the core engine
 - a generic analytics dashboard
 
-This repository exposes the public-safe contract, integration, and evidence layer around Wallet Lite without declassifying the private core.
+This repository exposes the public-safe contract, integration, and evidence layer around Wallet Guard Lite without declassifying the private core.
 
 ---
 
@@ -71,7 +71,7 @@ Start here:
 - `docs/evidence/validation/WALLET_LITE_REAL_TX_FLOW_PROOF.md`
 
 These documents explain:
-- what problem Wallet Lite addresses
+- what problem Wallet Guard Lite addresses
 - what has been built
 - what has actually been proven
 - how to reason about the current claim boundary
@@ -120,13 +120,13 @@ The main API product surface is defined here:
 - `docs/api/WALLET_LITE_INTEGRATOR_GUIDE.md`
 - `docs/api/WALLET_LITE_API_FUTURE_EXTENSIONS.md`
 
-Together, these define the complete public-safe API and integration spine of Wallet Lite.
+Together, these define the complete public-safe API and integration spine of Wallet Guard Lite.
 
 ---
 
 ## Evidence layer
 
-Wallet Lite is not presented here as a theory-only system.
+Wallet Guard Lite is not presented here as a theory-only system.
 
 The repo already contains public-safe evidence for:
 
@@ -158,7 +158,7 @@ Public-safe example integration surfaces are available under:
 - `examples/review-console-mock/README.md`
 
 These examples do not expose private internals.
-They show how external systems can understand and preserve Wallet Lite semantics.
+They show how external systems can understand and preserve Wallet Guard Lite semantics.
 
 ---
 
@@ -179,6 +179,6 @@ The strongest current truth remains bounded by the Windows-first, EVM-first, pro
 
 ## Canonical summary
 
-Wallet Lite is a closed-core governed execution runtime and API surface.
+Wallet Guard Lite is a closed-core governed execution runtime and API surface.
 
 It sits between intent and irreversible execution, returns structured decisions, preserves reason surfaces, emits receipts, and now has a real public-safe proof path demonstrating that this behavior works in the strongest current Windows-first, EVM-first posture.

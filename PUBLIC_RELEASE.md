@@ -1,8 +1,8 @@
-# Wallet Lite Public Release Boundary
+# Wallet Guard Lite Public Release Boundary
 
-Wallet Lite is a **source-closed governed execution backend/runtime** with a public API and adapter-ready integration surface.
+Wallet Guard Lite is a **source-closed governed execution backend/runtime** with a public API and adapter-ready integration surface.
 
-This repository is public-safe and is intended to expose the integration, contract, deployment, and evidence layer around Wallet Lite without declassifying private implementation internals.
+This repository is public-safe and is intended to expose the integration, contract, deployment, and evidence layer around Wallet Guard Lite without declassifying private implementation internals.
 
 ## What this public repository includes
 
@@ -30,7 +30,7 @@ This repository does **not** exist to expose:
 
 ## Public posture
 
-Wallet Lite is currently strongest in a:
+Wallet Guard Lite is currently strongest in a:
 
 - Windows-first runtime posture
 - packaged runtime artifact or controlled local runtime posture
@@ -68,4 +68,4 @@ Read these first:
 
 ## Canonical summary
 
-This public repository exists to expose the **public-safe contract and evidence layer** for Wallet Lite as a source-closed governed execution backend/runtime with a public API and adapter-ready integration surface.
+This public repository exists to expose the **public-safe contract and evidence layer** for Wallet Guard Lite as a source-closed governed execution backend/runtime with a public API and adapter-ready integration surface.

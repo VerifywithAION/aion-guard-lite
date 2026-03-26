@@ -1,8 +1,8 @@
-# Wallet Lite - Canonical Master Roadmap (v2)
+# Wallet Guard Lite - Canonical Master Roadmap (v2)
 
 ## Core Principle
 
-Wallet Lite is a closed-core execution governance infrastructure where no action executes without deterministic policy, meaning-aware interpretation, and replayable evidence.
+Wallet Guard Lite is a closed-core execution governance infrastructure where no action executes without deterministic policy, meaning-aware interpretation, and replayable evidence.
 
 ---
 
@@ -10,7 +10,7 @@ Wallet Lite is a closed-core execution governance infrastructure where no action
 
 The system is organized across four coordinated tracks:
 
-- Track A - Core Product (Wallet Lite Backend)
+- Track A - Core Product (Wallet Guard Lite Backend)
 - Track B - Intelligence / Commercial (Guard Pro)
 - Track C - Proof & Publication (Credibility Layer)
 - Track X - Execution Locks (Reality Gates)
@@ -34,7 +34,7 @@ They are the layer that prevents the system from remaining only theoretical.
 ## X1 - Runtime Authority Lock
 
 ### Goal
-The Wallet Lite runtime must boot reliably and expose a stable health surface.
+The Wallet Guard Lite runtime must boot reliably and expose a stable health surface.
 
 ### Required behavior
 - runtime starts successfully
@@ -78,7 +78,7 @@ Locked for the Sepolia governed preview path.
 ## X3 - Harness Integration Lock
 
 ### Goal
-A real browser wallet flow must reach the Wallet Lite runtime through the harness.
+A real browser wallet flow must reach the Wallet Guard Lite runtime through the harness.
 
 ### Required behavior
 - harness boots on the expected port
@@ -121,7 +121,7 @@ Substantially achieved for the pre-sign governed flow.
 
 ### Note
 This lock currently proves the pre-sign governance layer.
-It does not yet claim final Wallet Lite-enforced execution blocking at the wallet layer.
+It does not yet claim final Wallet Guard Lite-enforced execution blocking at the wallet layer.
 
 ---
 
@@ -162,7 +162,7 @@ Planned.
 
 ---
 
-# Track A - Core Product (Wallet Lite Backend)
+# Track A - Core Product (Wallet Guard Lite Backend)
 
 ## Mission
 
@@ -431,7 +431,7 @@ In progress and actively expanding.
 
 # Final Product Shape
 
-## Product 1 - Wallet Lite
+## Product 1 - Wallet Guard Lite
 - closed-core backend
 - API-driven governance
 - runtime product
@@ -457,7 +457,7 @@ Built by others:
 
 # Final Strategic Position
 
-Wallet Lite is the decision layer between intent and execution.
+Wallet Guard Lite is the decision layer between intent and execution.
 
 It is not:
 - a wallet

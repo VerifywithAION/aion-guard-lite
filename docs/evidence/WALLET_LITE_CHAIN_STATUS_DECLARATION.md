@@ -1,8 +1,8 @@
-# Wallet Lite Chain Status Declaration
+# Wallet Guard Lite Chain Status Declaration
 
 ## Purpose
 
-This document defines the current chain-level status of Wallet Lite.
+This document defines the current chain-level status of Wallet Guard Lite.
 
 It provides a single authoritative reference for:
 
@@ -17,7 +17,7 @@ This prevents ambiguity and enforces disciplined parity claims.
 
 ## Canonical principle
 
-Wallet Lite does not claim multi-chain capability based on partial implementation.
+Wallet Guard Lite does not claim multi-chain capability based on partial implementation.
 
 A chain is only considered locked when:
 
@@ -114,7 +114,7 @@ unless it reaches locked status.
 
 ## What this means
 
-Wallet Lite currently supports:
+Wallet Guard Lite currently supports:
 
 - one smart-contract execution model (EVM)
 - one UTXO-based model (Bitcoin)
@@ -128,7 +128,7 @@ Both are:
 
 This is sufficient to claim:
 
-Wallet Lite is a multi-architecture execution governance system.
+Wallet Guard Lite is a multi-architecture execution governance system.
 
 ---
 

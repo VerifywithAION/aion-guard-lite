@@ -1,14 +1,14 @@
 # AION Guard Lite " Public Repo Final State / Completion Memo
 
 ## Purpose
-This memo marks the current public Wallet Lite repository as a completed public wedge baseline.
+This memo marks the current public Wallet Guard Lite repository as a completed public wedge baseline.
 
 It exists to answer:
-- what Wallet Lite is
-- what Wallet Lite proves
+- what Wallet Guard Lite is
+- what Wallet Guard Lite proves
 - what has been completed
-- what Wallet Lite is not
-- how Wallet Lite relates to the broader AION thesis
+- what Wallet Guard Lite is not
+- how Wallet Guard Lite relates to the broader AION thesis
 - what comes next after this public wedge
 
 ## Canonical framing
@@ -16,7 +16,7 @@ AION Guard Lite is a public, proof-bearing, multi-chain execution-governance wed
 
 It is not the whole AION platform.
 
-Wallet Lite is:
+Wallet Guard Lite is:
 - a community gift
 - a trust-building public primitive
 - a marketing and credibility wedge
@@ -35,10 +35,10 @@ In that broader sense, AION is intended to act as a governance and control subst
 - machine-directed execution surfaces
 - eventually digital and physical AI systems
 
-Wallet Lite is one narrow public product wedge inside that much larger thesis.
+Wallet Guard Lite is one narrow public product wedge inside that much larger thesis.
 
-## What Wallet Lite publicly is
-At this closeout point, Wallet Lite is publicly established as:
+## What Wallet Guard Lite publicly is
+At this closeout point, Wallet Guard Lite is publicly established as:
 - a local execution-governance runtime
 - a wallet preview and transaction-discipline layer
 - a multi-chain proof-bearing primitive
@@ -48,7 +48,7 @@ At this closeout point, Wallet Lite is publicly established as:
 ## Core thesis
 **KINE - Key Is Not Enough**
 
-Wallet Lite demonstrates that possession of a key should not automatically imply unrestricted immediate execution.
+Wallet Guard Lite demonstrates that possession of a key should not automatically imply unrestricted immediate execution.
 
 Instead, execution can be:
 - allowed
@@ -103,7 +103,7 @@ Completed:
 - final public boundary tightening
 
 ## What the repo now proves
-The public Wallet Lite repo now proves that:
+The public Wallet Guard Lite repo now proves that:
 - the runtime is real
 - the multi-chain preview layer is real
 - the governed execution posture is real
@@ -112,8 +112,8 @@ The public Wallet Lite repo now proves that:
 - replay evidence exists
 - the architecture is coherent enough for founders, integrators, and investors to understand
 
-## What Wallet Lite is not
-Wallet Lite is not:
+## What Wallet Guard Lite is not
+Wallet Guard Lite is not:
 - the entire AION platform
 - a finished universal consumer wallet UI
 - the full Pro product
@@ -139,20 +139,20 @@ Pro is:
 - moat-protective
 - part of the larger AION commercialization path
 
-## Why Wallet Lite exists publicly
-Wallet Lite exists publicly because it does three important things:
+## Why Wallet Guard Lite exists publicly
+Wallet Guard Lite exists publicly because it does three important things:
 1. proves the primitive is real
 2. teaches the market the execution-governance model
 3. opens trust and attention toward the broader AION platform thesis
 
 ## Strategic meaning
-Wallet Lite should be understood as:
+Wallet Guard Lite should be understood as:
 - a wedge, not the whole company
 - a public primitive, not the entire commercial stack
 - a community gift, not the end-state product universe
 
 ## Current repository state
-At the time of this memo, the Wallet Lite public repo is considered:
+At the time of this memo, the Wallet Guard Lite public repo is considered:
 - proof-bearing
 - architecturally legible
 - commercially interpretable
@@ -160,7 +160,7 @@ At the time of this memo, the Wallet Lite public repo is considered:
 - strong enough to serve as a public AION wedge
 
 ## What comes next
-After Wallet Lite closeout, the next primary execution focus shifts away from polishing the public wedge and toward the next operational AION priority.
+After Wallet Guard Lite closeout, the next primary execution focus shifts away from polishing the public wedge and toward the next operational AION priority.
 
 Current next priority:
 - continue with the bounty engine
@@ -176,18 +176,18 @@ Other broader AION domains such as:
 remain part of the broader platform thesis, but are tracked elsewhere and are not the immediate next public-repo focus here.
 
 ## Final closeout statement
-Wallet Lite is complete enough to stand as the public proof-bearing wedge for AION.
+Wallet Guard Lite is complete enough to stand as the public proof-bearing wedge for AION.
 
 AION itself remains the larger infrastructure thesis:
 
 **Autonomous Execution Governance Infrastructure**
 
-Wallet Lite is the visible entry point.
+Wallet Guard Lite is the visible entry point.
 It is not the boundary of the vision.
 
 ## Resume note
 If resuming this track later, the correct posture is:
-- treat Wallet Lite public repo as largely complete
+- treat Wallet Guard Lite public repo as largely complete
 - make only small corrective or strategic updates if necessary
 - avoid re-expanding Lite into the entire AION platform
 - keep the next major operational focus on the bounty engine

@@ -18,9 +18,9 @@ This file is a positioning preview, not a release of private implementation.
 
 ## Core framing
 
-AION Guard Pro is the commercial operating layer built on top of the Wallet Lite execution-governance foundation.
+AION Guard Pro is the commercial operating layer built on top of the Wallet Guard Lite execution-governance foundation.
 
-Wallet Lite establishes the primitive:
+Wallet Guard Lite establishes the primitive:
 
 - governed execution backend
 - local or deployable runtime
@@ -34,9 +34,9 @@ AION Guard Pro extends that primitive into a stronger operational, intelligence,
 
 ## Lite vs Pro
 
-### Wallet Lite
+### Wallet Guard Lite
 
-Wallet Lite is the foundational execution-governance primitive.
+Wallet Guard Lite is the foundational execution-governance primitive.
 
 It provides:
 
@@ -48,13 +48,13 @@ It provides:
 - packaged runtime deployment path
 - proof-backed execution semantics
 
-Wallet Lite is designed to be the authoritative kernel that others can build on top of.
+Wallet Guard Lite is designed to be the authoritative kernel that others can build on top of.
 
 ### Guard Pro
 
 Guard Pro is the premium operating layer.
 
-It expands Wallet Lite into a stronger deployment surface for:
+It expands Wallet Guard Lite into a stronger deployment surface for:
 
 - higher-assurance treasury operations
 - richer policy and guardian workflows
@@ -174,7 +174,7 @@ But it does not declassify the engine.
 
 ## Why Pro exists
 
-Wallet Lite proves the primitive.
+Wallet Guard Lite proves the primitive.
 
 Guard Pro monetizes:
 
@@ -230,7 +230,7 @@ The correct product shape is:
 
 ### Core
 
-AION Wallet Engine / Wallet Lite Runtime
+AION Wallet Engine / Wallet Guard Lite Runtime
 
 The thing that must always work as intended:
 
@@ -265,8 +265,8 @@ The moat remains in governance, evidence, runtime correctness, and premium intel
 
 ## Positioning summary
 
-Wallet Lite proves the concept.
+Wallet Guard Lite proves the concept.
 Guard Pro commercializes and deepens the concept.
 
-Wallet Lite is the primitive.
+Wallet Guard Lite is the primitive.
 Guard Pro is the operating layer.

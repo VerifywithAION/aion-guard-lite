@@ -1,8 +1,8 @@
-# Wallet Lite Multi-Chain Lock Declaration
+# Wallet Guard Lite Multi-Chain Lock Declaration
 
 ## Purpose
 
-This document declares the current multi-chain proof status of Wallet Lite.
+This document declares the current multi-chain proof status of Wallet Guard Lite.
 
 It consolidates all chain-level lock declarations into a single canonical statement suitable for:
 
@@ -15,7 +15,7 @@ It consolidates all chain-level lock declarations into a single canonical statem
 
 ## Core claim
 
-Wallet Lite is now a proof-backed execution governance layer across multiple chain families.
+Wallet Guard Lite is now a proof-backed execution governance layer across multiple chain families.
 
 Each chain listed below has satisfied:
 
@@ -106,7 +106,7 @@ It is a live, validated execution governance path.
 
 ## What this proves
 
-Wallet Lite can:
+Wallet Guard Lite can:
 
 - operate across fundamentally different blockchain architectures
 - preserve deterministic execution governance behavior
@@ -133,14 +133,14 @@ Those belong to Wallet Pro.
 
 ## Strategic implication
 
-Wallet Lite now demonstrates:
+Wallet Guard Lite now demonstrates:
 
 - cross-chain execution governance viability
 - proof-backed system behavior
 - deterministic decision infrastructure
 - reproducible validation artifacts
 
-This establishes Wallet Lite as:
+This establishes Wallet Guard Lite as:
 
 a chain-agnostic execution governance layer capable of operating across heterogeneous blockchain systems.
 
@@ -155,4 +155,4 @@ EVM, Bitcoin, and Solana are now:
 - proof-backed
 - explicitly declared
 
-Wallet Lite multi-chain execution governance is now real.
+Wallet Guard Lite multi-chain execution governance is now real.

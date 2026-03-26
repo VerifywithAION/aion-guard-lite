@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document defines the future public-safe API posture for Wallet Lite.
+This document defines the future public-safe API posture for Wallet Guard Lite.
 
 It is not the full internal API specification.
 

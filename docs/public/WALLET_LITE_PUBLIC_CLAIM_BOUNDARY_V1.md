@@ -2,11 +2,11 @@
 
 ## Purpose
 
-This document defines what can and cannot be claimed publicly about Wallet Lite at the current stage.
+This document defines what can and cannot be claimed publicly about Wallet Guard Lite at the current stage.
 
 The purpose is to preserve credibility.
 
-Wallet Lite should be positioned through proof, not inflation.
+Wallet Guard Lite should be positioned through proof, not inflation.
 
 ---
 
@@ -15,19 +15,19 @@ Wallet Lite should be positioned through proof, not inflation.
 The following claims are supported by the current public-safe repo and proof set.
 
 ### Supported claim 1
-Wallet Lite is a closed-core governed execution runtime and API surface.
+Wallet Guard Lite is a closed-core governed execution runtime and API surface.
 
 ### Supported claim 2
-Wallet Lite evaluates requests before irreversible execution and returns structured decision output.
+Wallet Guard Lite evaluates requests before irreversible execution and returns structured decision output.
 
 ### Supported claim 3
-Wallet Lite preserves reason surfaces and receipt-bearing decision posture.
+Wallet Guard Lite preserves reason surfaces and receipt-bearing decision posture.
 
 ### Supported claim 4
-Wallet Lite has a real Windows-first, EVM-first proof-backed evaluation path.
+Wallet Guard Lite has a real Windows-first, EVM-first proof-backed evaluation path.
 
 ### Supported claim 5
-Wallet Lite has evidence for:
+Wallet Guard Lite has evidence for:
 - live governed preview behavior
 - live Sepolia policy verification
 - browser-wallet harness posture
@@ -35,7 +35,7 @@ Wallet Lite has evidence for:
 - one-command C2 proof-pack execution
 
 ### Supported claim 6
-Wallet Lite already has a defined public-safe API and integration contract stack.
+Wallet Guard Lite already has a defined public-safe API and integration contract stack.
 
 ---
 
@@ -44,7 +44,7 @@ Wallet Lite already has a defined public-safe API and integration contract stack
 These are directionally true, but should be framed with current proof boundaries.
 
 ### Careful claim 1
-Wallet Lite is building toward broader multi-chain support.
+Wallet Guard Lite is building toward broader multi-chain support.
 
 Correct phrasing:
 - planned
@@ -52,14 +52,14 @@ Correct phrasing:
 - not yet full parity
 
 ### Careful claim 2
-Wallet Lite can support broader deployment models.
+Wallet Guard Lite can support broader deployment models.
 
 Correct phrasing:
 - architecturally defined
 - strongest current proof is Windows-first local or packaged posture
 
 ### Careful claim 3
-Wallet Lite can expand toward stronger org or Pro governance layers.
+Wallet Guard Lite can expand toward stronger org or Pro governance layers.
 
 Correct phrasing:
 - future extension
@@ -100,7 +100,7 @@ Avoid unnecessary inflation language.
 
 ## Public evaluation instruction
 
-If someone asks whether Wallet Lite is real, the correct response is:
+If someone asks whether Wallet Guard Lite is real, the correct response is:
 
 - read the proof narrative
 - inspect the evidence index

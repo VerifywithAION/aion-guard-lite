@@ -1,8 +1,8 @@
-# Wallet Lite Solana Lock Declaration
+# Wallet Guard Lite Solana Lock Declaration
 
 ## Purpose
 
-This document declares Solana as a locked Wallet Lite proof tier.
+This document declares Solana as a locked Wallet Guard Lite proof tier.
 
 Solana has reached:
 
@@ -31,7 +31,7 @@ under the same discipline used for EVM and Bitcoin.
 
 - chainFamily = solana executes through runtime
 - deterministic preview responses
-- Wallet Lite response structure preserved
+- Wallet Guard Lite response structure preserved
 
 ### Proof families
 
@@ -70,9 +70,9 @@ Solana preview:
 
 ## Conclusion
 
-Solana is now a Wallet Lite locked proof tier.
+Solana is now a Wallet Guard Lite locked proof tier.
 
-Parity is achieved at the Wallet Lite level with:
+Parity is achieved at the Wallet Guard Lite level with:
 
 - EVM
 - Bitcoin

@@ -1,4 +1,4 @@
-# WALLET LITE - ROADMAP CONTINUATION (POST A10 + C5)
+# WALLET GUARD LITE - ROADMAP CONTINUATION (POST A10 + C5)
 
 ## Current State
 
@@ -18,7 +18,7 @@ Completed:
 - A10 future extension surface
 
 Result:
-Wallet Lite now has a coherent API product spine.
+Wallet Guard Lite now has a coherent API product spine.
 
 ---
 
@@ -56,7 +56,7 @@ Completed / active:
 - C5 screenshot evidence layer
 
 Result:
-Wallet Lite is now explainable, reproducible, and publishable.
+Wallet Guard Lite is now explainable, reproducible, and publishable.
 
 ---
 
@@ -94,7 +94,7 @@ Current status:
 Not yet formally built as its own track.
 
 Important nuance:
-Some guard-like behavior already exists inside the current Wallet Lite posture, but Track B as a formal system is still ahead.
+Some guard-like behavior already exists inside the current Wallet Guard Lite posture, but Track B as a formal system is still ahead.
 
 ---
 
@@ -129,7 +129,7 @@ This makes EVM the correct reference environment for deep simulation.
 
 B2 is the Deep Simulation Layer.
 
-It extends Wallet Lite from:
+It extends Wallet Guard Lite from:
 
 decision system
 

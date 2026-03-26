@@ -24,7 +24,7 @@ function createApiKey() {
 const DEFAULT_KEY = createApiKey();
 
 console.log("====================================");
-console.log("Wallet Lite API Server + Attack Lab");
+console.log("Wallet Guard Lite API Server + Attack Lab");
 console.log("====================================");
 console.log("API KEY:", DEFAULT_KEY);
 console.log("====================================");
@@ -114,7 +114,7 @@ app.post("/v1/preview", checkUsage, (req, res) => {
   let decision = "ALLOW";
   let riskLevel = "LOW";
   let reasonCode = "SAFE";
-  let message = "Wallet Lite evaluation complete";
+  let message = "Wallet Guard Lite evaluation complete";
 
   // Base rules
   if (value && String(value) !== "0") {

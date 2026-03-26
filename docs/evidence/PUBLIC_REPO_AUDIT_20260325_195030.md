@@ -1,0 +1,233 @@
+# Public Repo Audit
+
+Generated: 2026-03-25T19:50:34
+
+## Mojibake cleanup
+- none
+
+## Current high-severity findings
+- docs/api/WALLET_LITE_REFERENCE_UX_REQUIREMENTS.md :: sk-
+- docs/evidence/PUBLIC_AUDIT_REPORT_20260325_190211.md :: sk-
+- docs/evidence/WHAT_HAS_BEEN_PROVEN.md :: sk-
+- docs/evidence/validation/WALLET_LITE_ENHANCEMENT_VALIDATION_ROLLUP_20260315.md :: sk-
+
+## Current warning findings
+- docs/WALLET_LITE_CANONICAL_MASTER_ROADMAP_V2.md :: 127.0.0.1:8787
+- docs/WALLET_LITE_PROOF_NARRATIVE.md :: 127.0.0.1:8787
+- docs/api/ADAPTER_EVM_MAPPING_V1.md :: 127.0.0.1:8899
+- docs/api/WALLET_LITE_INTEGRATOR_GUIDE.md :: 127.0.0.1:8787
+- docs/api/WALLET_LITE_REQUEST_SCHEMA_GUIDE.md :: 127.0.0.1:8899
+- docs/api/WALLET_LITE_RUNTIME_ARTIFACT_SPEC.md :: 127.0.0.1:8787
+- docs/evidence/PUBLIC_AUDIT_REPORT_20260325_190211.md :: 127.0.0.1:8787
+- docs/evidence/PUBLIC_AUDIT_REPORT_20260325_190211.md :: 127.0.0.1:8899
+- docs/evidence/validation/B2_2_APPROVAL_SIMULATION_VALIDATION_LATEST.json :: 127.0.0.1:8787
+- docs/evidence/validation/B2_2_APPROVAL_SIMULATION_VALIDATION_LATEST.json :: 127.0.0.1:8899
+- docs/evidence/validation/B2_2_APPROVAL_SIMULATION_VALIDATION_LATEST.md :: 127.0.0.1:8787
+- docs/evidence/validation/B2_3_TRANSFER_SIMULATION_VALIDATION_LATEST.json :: 127.0.0.1:8787
+- docs/evidence/validation/B2_3_TRANSFER_SIMULATION_VALIDATION_LATEST.json :: 127.0.0.1:8899
+- docs/evidence/validation/B2_3_TRANSFER_SIMULATION_VALIDATION_LATEST.md :: 127.0.0.1:8787
+- docs/evidence/validation/BITCOIN_LIVE_VECTOR_VALIDATION_LATEST.json :: 127.0.0.1:8787
+- docs/evidence/validation/BITCOIN_LIVE_VECTOR_VALIDATION_LATEST.md :: 127.0.0.1:8787
+- docs/evidence/validation/BITCOIN_REALISTIC_VECTOR_VALIDATION_LATEST.json :: 127.0.0.1:8787
+- docs/evidence/validation/BITCOIN_REALISTIC_VECTOR_VALIDATION_LATEST.md :: 127.0.0.1:8787
+- docs/evidence/validation/BTC4_BITCOIN_PREVIEW_VALIDATION_LATEST.json :: 127.0.0.1:8787
+- docs/evidence/validation/BTC4_BITCOIN_PREVIEW_VALIDATION_LATEST.md :: 127.0.0.1:8787
+- docs/evidence/validation/BTC6_2_BITCOIN_REPEAT_VALIDATION_LATEST.json :: 127.0.0.1:8787
+- docs/evidence/validation/BTC6_2_BITCOIN_REPEAT_VALIDATION_LATEST.md :: 127.0.0.1:8787
+- docs/evidence/validation/BTC6_3A_BITCOIN_NO_CHANGE_VALIDATION_LATEST.json :: 127.0.0.1:8787
+- docs/evidence/validation/BTC6_3A_BITCOIN_NO_CHANGE_VALIDATION_LATEST.md :: 127.0.0.1:8787
+- docs/evidence/validation/BTC6_3B_BITCOIN_HIGH_FEE_VALIDATION_LATEST.json :: 127.0.0.1:8787
+- docs/evidence/validation/BTC6_3B_BITCOIN_HIGH_FEE_VALIDATION_LATEST.md :: 127.0.0.1:8787
+- docs/evidence/validation/SOL4_SOLANA_PREVIEW_VALIDATION_LATEST.json :: 127.0.0.1:8787
+- docs/evidence/validation/SOL4_SOLANA_PREVIEW_VALIDATION_LATEST.md :: 127.0.0.1:8787
+- docs/evidence/validation/SOL6_1_SOLANA_UNKNOWN_PROGRAM_VALIDATION_LATEST.json :: 127.0.0.1:8787
+- docs/evidence/validation/SOL6_1_SOLANA_UNKNOWN_PROGRAM_VALIDATION_LATEST.md :: 127.0.0.1:8787
+- docs/evidence/validation/SOL6_2_SOLANA_MULTI_INSTRUCTION_VALIDATION_LATEST.json :: 127.0.0.1:8787
+- docs/evidence/validation/SOL6_2_SOLANA_MULTI_INSTRUCTION_VALIDATION_LATEST.md :: 127.0.0.1:8787
+- docs/evidence/validation/SOL7_SOLANA_REPEAT_VALIDATION_LATEST.json :: 127.0.0.1:8787
+- docs/evidence/validation/SOL7_SOLANA_REPEAT_VALIDATION_LATEST.md :: 127.0.0.1:8787
+- docs/evidence/validation/SOLANA_LIVE_VECTOR_VALIDATION_LATEST.json :: 127.0.0.1:8787
+- docs/evidence/validation/SOLANA_LIVE_VECTOR_VALIDATION_LATEST.md :: 127.0.0.1:8787
+- docs/evidence/validation/WALLET_LITE_C2_PROOF_PACK_LATEST.json :: 127.0.0.1:8787
+- docs/evidence/validation/WALLET_LITE_C2_PROOF_PACK_LATEST.json :: 127.0.0.1:8899
+- docs/evidence/validation/WALLET_LITE_C2_PROOF_PACK_LATEST.md :: 127.0.0.1:8787
+- docs/evidence/validation/WALLET_LITE_C2_PROOF_PACK_LATEST.md :: 127.0.0.1:8899
+- docs/evidence/validation/WALLET_LITE_REAL_TX_FLOW_PROOF.md :: 127.0.0.1:8787
+- docs/evidence/validation/WALLET_LITE_REAL_TX_FLOW_PROOF.md :: 127.0.0.1:8899
+- docs/evidence/validation/WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.json :: 127.0.0.1:8787
+- docs/evidence/validation/WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.md :: 127.0.0.1:8787
+- docs/proofs/EVM_KINE_PROOF_REPORT.md :: 127.0.0.1:8787
+- docs/proofs/PUBLIC_CAPABILITY_PROOF_REPORT.md :: 127.0.0.1:8787
+- docs/proofs/REAL_DATA_REPLAY_PROOF_REPORT.md :: 127.0.0.1:8787
+- docs/public/WALLET_LITE_PUBLIC_DEMO_PATH_V1.md :: 127.0.0.1:8899
+- examples/adapter-evm-demo/README.md :: 127.0.0.1:8899
+- examples/api-client-basic/README.md :: 127.0.0.1:8787
+- runtime/healthcheck_bitcoin_preview.ps1 :: 127.0.0.1:8787
+- runtime/healthcheck_cosmos_preview.ps1 :: 127.0.0.1:8787
+- runtime/healthcheck_solana_preview.ps1 :: 127.0.0.1:8787
+- runtime/run_public_release_candidate_smoke_test.ps1 :: 127.0.0.1:8787
+- runtime/run_wallet_lite_testnet_harness.ps1 :: C:\Lab_Research
+- runtime/simulate_wallet_consumer.ps1 :: 127.0.0.1:8787
+- runtime/verify_wallet_lite_sepolia_policy.ps1 :: 127.0.0.1:8787
+- runtime/verify_wallet_lite_sepolia_policy.ps1 :: 127.0.0.1:8899
+- runtime/wallet_lite_testnet_server.ps1 :: 127.0.0.1:8787
+
+## Public implementation/exposure paths currently tracked
+- runtime/capture_wallet_lite_connectivity_proof.ps1
+- runtime/CLEAN_MACHINE_VALIDATION_CHECKLIST.md
+- runtime/healthcheck_bitcoin_preview.ps1
+- runtime/healthcheck_cosmos_preview.ps1
+- runtime/healthcheck_solana_preview.ps1
+- runtime/healthcheck_wallet_lite_runtime.ps1
+- runtime/INSTALL_FROM_GITHUB.md
+- runtime/INSTALL_LOCAL_RUNTIME.md
+- runtime/install_wallet_lite_runtime.ps1
+- runtime/run_public_release_candidate_smoke_test.ps1
+- runtime/run_public_release_candidate_smoke_test.sh
+- runtime/run_wallet_lite_testnet_harness.ps1
+- runtime/runtime_boundary.manifest.json
+- runtime/simulate_wallet_consumer.ps1
+- runtime/start_wallet_lite_runtime.ps1
+- runtime/start_wallet_lite_runtime.sh
+- runtime/verify_wallet_lite_sepolia_policy.ps1
+- runtime/wallet_lite_testnet_server.ps1
+- runtime/wallet-lite.config.json
+
+## History path exposure (filename-level check)
+- bin/README.md
+- bin/wallet-lite-runtime/dist/bitcoinBridge.js
+- bin/wallet-lite-runtime/dist/deep-simulation.js
+- bin/wallet-lite-runtime/dist/index.js
+- bin/wallet-lite-runtime/dist/solanaBridge.js
+- docs/api/ADAPTER_EVM_MAPPING_V1.md
+- docs/api/runtime_alignment_reports/WALLET_LITE_ARTIFACT_CONTRACT_ALIGNMENT_20260316_133711.md
+- docs/api/WALLET_LITE_ADAPTER_SPEC_V1.md
+- docs/api/WALLET_LITE_API_FUTURE_EXTENSIONS.md
+- docs/api/WALLET_LITE_API_IMPLEMENTATION_ROADMAP.md
+- docs/api/WALLET_LITE_API_MASTER_INDEX.md
+- docs/api/WALLET_LITE_API_PRODUCT_BOUNDARY.md
+- docs/api/WALLET_LITE_API_PROOF_PLAN.md
+- docs/api/WALLET_LITE_API_PROOF_STATE_MATRIX.md
+- docs/api/WALLET_LITE_API_SPEC_V1.md
+- docs/api/WALLET_LITE_ARCHITECTURE_BUCKET_MAP.md
+- docs/api/WALLET_LITE_BITCOIN_CONSEQUENCE_GUIDE_V1.md
+- docs/api/WALLET_LITE_BITCOIN_REASON_CODE_CATALOG_V1.md
+- docs/api/WALLET_LITE_BITCOIN_REQUEST_GUIDE_V1.md
+- docs/api/WALLET_LITE_BITCOIN_REQUEST_SCHEMA_V1.json
+- docs/api/WALLET_LITE_BITCOIN_RESPONSE_GUIDE_V1.md
+- docs/api/WALLET_LITE_BITCOIN_SUMMARY_FLAGS_V1.md
+- docs/api/WALLET_LITE_CONSUMER_GRADE_RELEASE_PLAN.md
+- docs/api/WALLET_LITE_DEPLOYMENT_MODELS.md
+- docs/api/WALLET_LITE_EVM_ADAPTER_PROOF_EXECUTION_PLAN.md
+- docs/api/WALLET_LITE_EVM_ADAPTER_PROOF_REPORT_TEMPLATE.md
+- docs/api/WALLET_LITE_EVM_ADAPTER_PROOF_RUN_CHECKLIST.md
+- docs/api/WALLET_LITE_EVM_ADAPTER_PROOF_TARGET.md
+- docs/api/WALLET_LITE_INTEGRATOR_GUIDE.md
+- docs/api/WALLET_LITE_PACKAGING_READINESS_PLAN.md
+- docs/api/WALLET_LITE_PLATFORM_POSTURE_MATRIX.md
+- docs/api/WALLET_LITE_PUBLIC_EVIDENCE_INDEX.md
+- docs/api/WALLET_LITE_PUBLIC_README_DRAFT_V1.md
+- docs/api/WALLET_LITE_PUBLIC_README_POSITIONING_NOTE.md
+- docs/api/WALLET_LITE_PUBLIC_RELEASE_READINESS_MATRIX.md
+- docs/api/WALLET_LITE_REASON_CODE_CATALOG.md
+- docs/api/WALLET_LITE_RECEIPT_POLICY.md
+- docs/api/WALLET_LITE_RECEIPT_SCHEMA_V1.json
+- docs/api/WALLET_LITE_REFERENCE_UX_FLOW_V1.md
+- docs/api/WALLET_LITE_REFERENCE_UX_PROOF_PLAN.md
+- docs/api/WALLET_LITE_REFERENCE_UX_PROOF_REPORT_TEMPLATE.md
+- docs/api/WALLET_LITE_REFERENCE_UX_PROOF_RUN_CHECKLIST.md
+- docs/api/WALLET_LITE_REFERENCE_UX_REQUIREMENTS.md
+- docs/api/WALLET_LITE_REQUEST_SCHEMA_GUIDE.md
+- docs/api/WALLET_LITE_REQUEST_SCHEMA_V1.json
+- docs/api/WALLET_LITE_RESPONSE_SCHEMA_V1.json
+- docs/api/WALLET_LITE_RUNTIME_ARTIFACT_SPEC.md
+- docs/api/WALLET_LITE_RUNTIME_AUTHORITY_NOTE.md
+- docs/api/WALLET_LITE_RUNTIME_LAYOUT_SPEC.md
+- docs/api/WALLET_LITE_SAFE_CLAIM_LANGUAGE_NOTE.md
+- docs/api/WALLET_LITE_SOLANA_CONSEQUENCE_GUIDE_V1.md
+- docs/api/WALLET_LITE_SOLANA_REASON_CODES_V1.md
+- docs/api/WALLET_LITE_SOLANA_REQUEST_GUIDE_V1.md
+- docs/api/WALLET_LITE_SOLANA_RESPONSE_GUIDE_V1.md
+- docs/api/WALLET_LITE_SOLANA_SUMMARY_FLAGS_V1.md
+- docs/api/WALLET_LITE_WINDOWS_CANDIDATE_READINESS_VERDICT_TEMPLATE.md
+- docs/api/WALLET_LITE_WINDOWS_CLEAN_MACHINE_PROOF_EXECUTION_WORKFLOW.md
+- docs/api/WALLET_LITE_WINDOWS_CLEAN_MACHINE_PROOF_PLAN.md
+- docs/api/WALLET_LITE_WINDOWS_CLEAN_MACHINE_PROOF_REPORT_TEMPLATE.md
+- docs/api/WALLET_LITE_WINDOWS_DEPENDENCY_TRUTH_NOTE.md
+- docs/api/WALLET_LITE_WINDOWS_LAUNCHER_NOTE.md
+- docs/api/WALLET_LITE_WINDOWS_PACKAGE_STRUCTURE_NOTE.md
+- docs/api/WALLET_LITE_WINDOWS_PACKAGING_HARDENING_PLAN.md
+- docs/api/WALLET_LITE_WINDOWS_PUBLIC_CANDIDATE_CHECKLIST.md
+- docs/chains/WALLET_LITE_BITCOIN_LOCK_CRITERIA_V1.md
+- docs/chains/WALLET_LITE_BITCOIN_PARITY_ROADMAP_V1.md
+- docs/chains/WALLET_LITE_BITCOIN_PROOF_PLAN_V1.md
+- docs/chains/WALLET_LITE_SOLANA_PARITY_ROADMAP_V1.md
+- docs/chains/WALLET_LITE_SOLANA_PROOF_PLAN_V1.md
+- docs/evidence/transcripts/README.md
+- docs/guard-pro/B2_1_EVM_COVERAGE_EXPANSION.md
+- docs/guard-pro/B2_DEEP_SIMULATION_LAYER_V1.md
+- docs/guard-pro/B2_PROOF_PLAN_V1.md
+- docs/guard-pro/B2_RESPONSE_INTEGRATION_GUIDE_V1.md
+- docs/guard-pro/phase-p1/WALLET_PRO_P1_DATA_MODEL_V1.md
+- docs/guard-pro/phase-p1/WALLET_PRO_P1_EXECUTION_PLAN_V1.md
+- docs/guard-pro/phase-p1/WALLET_PRO_P1_MODULE_SPEC_V1.md
+- docs/guard-pro/phase-p1/WALLET_PRO_P1_STATEFUL_FOUNDATION_V1.md
+- docs/guard-pro/phase-p2/WALLET_PRO_P2_APPROVAL_INTELLIGENCE_V1.md
+- docs/guard-pro/phase-p2/WALLET_PRO_P2_DATA_MODEL_V1.md
+- docs/guard-pro/phase-p2/WALLET_PRO_P2_EXECUTION_PLAN_V1.md
+- docs/guard-pro/phase-p2/WALLET_PRO_P2_MODULE_SPEC_V1.md
+- docs/guard-pro/WALLET_LITE_B2_RESPONSE_EXTENSION_V1.json
+- docs/guard-pro/WALLET_PRO_ARCHITECTURE_ROADMAP_V1.md
+- harness/testnet_harness/index.html
+- runtime/capture_wallet_lite_connectivity_proof.ps1
+- runtime/CLEAN_MACHINE_VALIDATION_CHECKLIST.md
+- runtime/healthcheck_bitcoin_preview.ps1
+- runtime/healthcheck_cosmos_preview.ps1
+- runtime/healthcheck_solana_preview.ps1
+- runtime/healthcheck_wallet_lite_runtime.ps1
+- runtime/INSTALL_FROM_GITHUB.md
+- runtime/INSTALL_LOCAL_RUNTIME.md
+- runtime/install_wallet_lite_runtime.ps1
+- runtime/run_public_release_candidate_smoke_test.ps1
+- runtime/run_public_release_candidate_smoke_test.sh
+- runtime/run_wallet_lite_testnet_harness.ps1
+- runtime/runtime_boundary.manifest.json
+- runtime/simulate_wallet_consumer.ps1
+- runtime/start_wallet_lite_runtime.ps1
+- runtime/start_wallet_lite_runtime.sh
+- runtime/verify_wallet_lite_sepolia_policy.ps1
+- runtime/wallet_lite_testnet_server.ps1
+- runtime/wallet-lite.config.json
+- scripts/RUN_B2_2_APPROVAL_PROOF.ps1
+- scripts/RUN_B2_3_TRANSFER_PROOF.ps1
+- scripts/RUN_B2_3_TRANSFER_PROOF_SAFE.ps1
+- scripts/RUN_BITCOIN_LIVE_VECTOR_PROOF.ps1
+- scripts/RUN_BITCOIN_LIVE_VECTOR_PROOF_SAFE.ps1
+- scripts/RUN_BITCOIN_REALISTIC_VECTOR_PROOF.ps1
+- scripts/RUN_BITCOIN_REALISTIC_VECTOR_PROOF_SAFE.ps1
+- scripts/RUN_BTC4_BITCOIN_PREVIEW_PROOF.ps1
+- scripts/RUN_BTC4_BITCOIN_PREVIEW_PROOF_SAFE.ps1
+- scripts/RUN_BTC6_2_BITCOIN_REPEAT_PROOF.ps1
+- scripts/RUN_BTC6_2_BITCOIN_REPEAT_PROOF_SAFE.ps1
+- scripts/RUN_BTC6_3A_BITCOIN_NO_CHANGE_PROOF.ps1
+- scripts/RUN_BTC6_3A_BITCOIN_NO_CHANGE_PROOF_SAFE.ps1
+- scripts/RUN_BTC6_3B_BITCOIN_HIGH_FEE_PROOF.ps1
+- scripts/RUN_BTC6_3B_BITCOIN_HIGH_FEE_PROOF_SAFE.ps1
+- scripts/RUN_SOL4_SOLANA_PREVIEW_PROOF.ps1
+- scripts/RUN_SOL4_SOLANA_PREVIEW_PROOF_SAFE.ps1
+- scripts/RUN_SOL6_1_SOLANA_UNKNOWN_PROGRAM_PROOF.ps1
+- scripts/RUN_SOL6_1_SOLANA_UNKNOWN_PROGRAM_PROOF_SAFE.ps1
+- scripts/RUN_SOL6_2_SOLANA_MULTI_INSTRUCTION_PROOF.ps1
+- scripts/RUN_SOL6_2_SOLANA_MULTI_INSTRUCTION_PROOF_SAFE.ps1
+- scripts/RUN_SOL7_SOLANA_REPEAT_PROOF.ps1
+- scripts/RUN_SOL7_SOLANA_REPEAT_PROOF_SAFE.ps1
+- scripts/RUN_SOLANA_LIVE_VECTOR_PROOF.ps1
+- scripts/RUN_SOLANA_LIVE_VECTOR_PROOF_SAFE.ps1
+- scripts/RUN_SOLANA_REALISTIC_VECTOR_PROOF.ps1
+- scripts/RUN_SOLANA_REALISTIC_VECTOR_PROOF_SAFE.ps1
+- scripts/RUN_WALLET_LITE_C2_PROOF_PACK.ps1
+- scripts/RUN_WALLET_LITE_X5_DEMO.ps1
+- scripts/VERIFY_WALLET_LITE_X5.ps1
+
+## Release verdict
+- NOT READY for mass sharing

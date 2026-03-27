@@ -60,11 +60,26 @@ The public repo should not imply:
 
 Read these first:
 
-- `README.md`
-- `docs/api/WALLET_LITE_API_PRODUCT_BOUNDARY.md`
-- `docs/api/WALLET_LITE_API_SPEC_V1.md`
-- `docs/api/WALLET_LITE_INTEGRATOR_GUIDE.md`
-- `docs/api/WALLET_LITE_PUBLIC_EVIDENCE_INDEX.md`
+- [README](README.md)
+- [Wallet Lite API Product Boundary](docs/api/WALLET_LITE_API_PRODUCT_BOUNDARY.md)
+- [Wallet Lite API Spec V1](docs/api/WALLET_LITE_API_SPEC_V1.md)
+- [Wallet Lite Integrator Guide](docs/api/WALLET_LITE_INTEGRATOR_GUIDE.md)
+- [Wallet Lite Public Evidence Index](docs/api/WALLET_LITE_PUBLIC_EVIDENCE_INDEX.md)
+
+## Builder posture
+
+Wallet Guard Lite is intentionally compatible with third-party builder experiences.
+
+Partners and builders may create:
+
+- dashboards
+- visual indicators
+- wallet review interfaces
+- treasury consoles
+- extension overlays
+- receipt-driven monitoring surfaces
+
+on top of the public-safe API layer, without requiring declassification of the private engine.
 
 ## Canonical summary
 

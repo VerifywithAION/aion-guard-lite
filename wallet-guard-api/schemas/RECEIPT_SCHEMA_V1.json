@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WalletGuardLiteReceiptV1",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "timestamp": { "type": "string" },
+    "policyVersion": { "type": "string" },
+    "ruleHits": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "txFingerprint": { "type": "string" },
+    "overrideRequired": { "type": "boolean" },
+    "overrideUsed": { "type": "boolean" }
+  },
+  "required": [
+    "id",
+    "timestamp",
+    "policyVersion",
+    "ruleHits",
+    "txFingerprint",
+    "overrideRequired",
+    "overrideUsed"
+  ]
+}

@@ -1,204 +1,29 @@
-================ kine.v5.policy-packs CHECK ================
+================ KINE V5 CANONICAL EVIDENCE CHECK ================
+GeneratedAt: 2026-03-27T20:51:10-06:00
+Repo: C:\Lab_Research\aion-guard-lite
+WalletApi: C:\Lab_Research\wallet-lite-api
+ExportPath: C:\Lab_Research\wallet-lite-api\exports\kine_export_latest.json
+TargetDir: C:\Lab_Research\aion-guard-lite\docs\evidence\kine_v5_policy-packs
 
-[1] HEALTH
-{
-    "ok":  true,
-    "service":  "wallet-guard-lite-api",
-    "port":  8787,
-    "policyVersion":  "kine.v5.policy-packs",
-    "defaultPolicyProfile":  "consumer",
-    "decisionLogPath":  "C:\\Lab_Research\\wallet-lite-api\\data\\kine_decisions.jsonl"
-}
+ExportPolicyVersion: kine.v5.policy-packs
+ExportCount: 3
+RecoveredV5Entries: 3
 
-[2] DEV KEY
-{
-    "ok":  true,
-    "apiKey":  "wl_e18c5643d5f8bc4f714c2a46aa2ff98e",
-    "monthlyLimit":  15,
-    "policyVersion":  "kine.v5.policy-packs",
-    "defaultPolicyProfile":  "consumer"
-}
+LatestLoggedAt: 2026-03-28T01:42:56.649Z
+LatestDecision: BLOCK
+LatestRiskLevel: CRITICAL
+LatestReasonCode: INSTITUTIONAL_VALUE_TRANSFER_BLOCKED
+LatestPolicyProfile: institutional
+LatestReceiptId: 0c7df561-47e3-4939-a85d-15e7751cd557
 
-[3] FILTERED HISTORY
-{
-    "ok":  true,
-    "items":  [
-                  {
-                      "entryVersion":  1,
-                      "loggedAt":  "2026-03-28T01:42:56.649Z",
-                      "policyVersion":  "kine.v5.policy-packs",
-                      "policyProfile":  "institutional",
-                      "apiKeyType":  "dev",
-                      "usageCount":  10,
-                      "chainFamily":  "evm",
-                      "network":  "sepolia",
-                      "decision":  "BLOCK",
-                      "riskLevel":  "CRITICAL",
-                      "reasonCode":  "INSTITUTIONAL_VALUE_TRANSFER_BLOCKED",
-                      "message":  "Institutional policy blocked non-self value transfer.",
-                      "ruleHits":  [
-                                       "VALUE_TRANSFER",
-                                       "POLICY_PACK_INSTITUTIONAL"
-                                   ],
-                      "overrideRequired":  false,
-                      "overrideUsed":  false,
-                      "simulatedImpact":  {
-                                              "balanceChange":  "0.0001",
-                                              "permissionChange":  "NONE",
-                                              "approvalScope":  "NONE",
-                                              "destinationType":  "EOA_OR_UNKNOWN",
-                                              "from":  "0xcf08bddc00f0e270b1b620884d09e6dc12da775a",
-                                              "to":  "0x000000000000000000000000000000000000dead",
-                                              "providerMethod":  null,
-                                              "userFacingSummary":  "This request has been blocked by constitutional execution policy."
-                                          },
-                      "receipt":  {
-                                      "id":  "0c7df561-47e3-4939-a85d-15e7751cd557",
-                                      "timestamp":  "2026-03-28T01:42:56.649Z",
-                                      "policyVersion":  "kine.v5.policy-packs",
-                                      "policyProfile":  "institutional",
-                                      "ruleHits":  [
-                                                       "VALUE_TRANSFER",
-                                                       "POLICY_PACK_INSTITUTIONAL"
-                                                   ],
-                                      "txFingerprint":  "5cc3c0c99eb06816df062138ae739dafd17f345fc039bbbf956a0127f746e875",
-                                      "overrideRequired":  false,
-                                      "overrideUsed":  false
-                                  },
-                      "txFingerprint":  "5cc3c0c99eb06816df062138ae739dafd17f345fc039bbbf956a0127f746e875",
-                      "request":  {
-                                      "chainFamily":  "evm",
-                                      "network":  "sepolia",
-                                      "from":  "0xcf08bddc00f0e270b1b620884d09e6dc12da775a",
-                                      "to":  "0x000000000000000000000000000000000000dead",
-                                      "value":  "0.0001",
-                                      "data":  "0x",
-                                      "instructions":  null,
-                                      "providerMethod":  null,
-                                      "providerContext":  null
-                                  }
-                  },
-                  {
-                      "entryVersion":  1,
-                      "loggedAt":  "2026-03-28T01:42:54.100Z",
-                      "policyVersion":  "kine.v5.policy-packs",
-                      "policyProfile":  "institutional",
-                      "apiKeyType":  "dev",
-                      "usageCount":  9,
-                      "chainFamily":  "evm",
-                      "network":  "sepolia",
-                      "decision":  "BLOCK",
-                      "riskLevel":  "CRITICAL",
-                      "reasonCode":  "INSTITUTIONAL_VALUE_TRANSFER_BLOCKED",
-                      "message":  "Institutional policy blocked non-self value transfer.",
-                      "ruleHits":  [
-                                       "VALUE_TRANSFER",
-                                       "POLICY_PACK_INSTITUTIONAL"
-                                   ],
-                      "overrideRequired":  false,
-                      "overrideUsed":  false,
-                      "simulatedImpact":  {
-                                              "balanceChange":  "0.0001",
-                                              "permissionChange":  "NONE",
-                                              "approvalScope":  "NONE",
-                                              "destinationType":  "EOA_OR_UNKNOWN",
-                                              "from":  "0xcf08bddc00f0e270b1b620884d09e6dc12da775a",
-                                              "to":  "0x000000000000000000000000000000000000dead",
-                                              "providerMethod":  null,
-                                              "userFacingSummary":  "This request has been blocked by constitutional execution policy."
-                                          },
-                      "receipt":  {
-                                      "id":  "26ab6292-a7bd-41d2-90f9-b123c75ea92e",
-                                      "timestamp":  "2026-03-28T01:42:54.100Z",
-                                      "policyVersion":  "kine.v5.policy-packs",
-                                      "policyProfile":  "institutional",
-                                      "ruleHits":  [
-                                                       "VALUE_TRANSFER",
-                                                       "POLICY_PACK_INSTITUTIONAL"
-                                                   ],
-                                      "txFingerprint":  "5cc3c0c99eb06816df062138ae739dafd17f345fc039bbbf956a0127f746e875",
-                                      "overrideRequired":  false,
-                                      "overrideUsed":  false
-                                  },
-                      "txFingerprint":  "5cc3c0c99eb06816df062138ae739dafd17f345fc039bbbf956a0127f746e875",
-                      "request":  {
-                                      "chainFamily":  "evm",
-                                      "network":  "sepolia",
-                                      "from":  "0xcf08bddc00f0e270b1b620884d09e6dc12da775a",
-                                      "to":  "0x000000000000000000000000000000000000dead",
-                                      "value":  "0.0001",
-                                      "data":  "0x",
-                                      "instructions":  null,
-                                      "providerMethod":  null,
-                                      "providerContext":  null
-                                  }
-                  },
-                  {
-                      "entryVersion":  1,
-                      "loggedAt":  "2026-03-28T01:41:40.629Z",
-                      "policyVersion":  "kine.v5.policy-packs",
-                      "policyProfile":  "treasury",
-                      "apiKeyType":  "dev",
-                      "usageCount":  8,
-                      "chainFamily":  "evm",
-                      "network":  "sepolia",
-                      "decision":  "BLOCK",
-                      "riskLevel":  "CRITICAL",
-                      "reasonCode":  "TREASURY_VALUE_TRANSFER_BLOCKED",
-                      "message":  "Treasury policy blocked non-self value transfer.",
-                      "ruleHits":  [
-                                       "VALUE_TRANSFER",
-                                       "POLICY_PACK_TREASURY"
-                                   ],
-                      "overrideRequired":  false,
-                      "overrideUsed":  false,
-                      "simulatedImpact":  {
-                                              "balanceChange":  "0.0001",
-                                              "permissionChange":  "NONE",
-                                              "approvalScope":  "NONE",
-                                              "destinationType":  "EOA_OR_UNKNOWN",
-                                              "from":  "0xcf08bddc00f0e270b1b620884d09e6dc12da775a",
-                                              "to":  "0x000000000000000000000000000000000000dead",
-                                              "providerMethod":  null,
-                                              "userFacingSummary":  "This request has been blocked by constitutional execution policy."
-                                          },
-                      "receipt":  {
-                                      "id":  "8d6c223f-0254-434f-93d3-3399705ab887",
-                                      "timestamp":  "2026-03-28T01:41:40.629Z",
-                                      "policyVersion":  "kine.v5.policy-packs",
-                                      "policyProfile":  "treasury",
-                                      "ruleHits":  [
-                                                       "VALUE_TRANSFER",
-                                                       "POLICY_PACK_TREASURY"
-                                                   ],
-                                      "txFingerprint":  "8cd092a4ba0e981d25bbaa4634717a551f568ab95faa138a0a821bd22b776c31",
-                                      "overrideRequired":  false,
-                                      "overrideUsed":  false
-                                  },
-                      "txFingerprint":  "8cd092a4ba0e981d25bbaa4634717a551f568ab95faa138a0a821bd22b776c31",
-                      "request":  {
-                                      "chainFamily":  "evm",
-                                      "network":  "sepolia",
-                                      "from":  "0xcf08bddc00f0e270b1b620884d09e6dc12da775a",
-                                      "to":  "0x000000000000000000000000000000000000dead",
-                                      "value":  "0.0001",
-                                      "data":  "0x",
-                                      "instructions":  null,
-                                      "providerMethod":  null,
-                                      "providerContext":  null
-                                  }
-                  }
-              ],
-    "policyVersion":  "kine.v5.policy-packs",
-    "count":  3
-}
+DecisionBreakdown:
+- BLOCK: 3
 
-[4] EXPORT INFO
-{
-    "ok":  true,
-    "policyVersion":  "kine.v5.policy-packs",
-    "exportPath":  "C:\\Lab_Research\\wallet-lite-api\\exports\\kine_export_latest.json",
-    "count":  3
-}
+PolicyProfileBreakdown:
+- institutional: 2
+- treasury: 1
 
-================ END kine.v5.policy-packs CHECK ================
+ReasonCodeBreakdown:
+- INSTITUTIONAL_VALUE_TRANSFER_BLOCKED: 2
+- TREASURY_VALUE_TRANSFER_BLOCKED: 1
+================ END KINE V5 CANONICAL EVIDENCE CHECK ================

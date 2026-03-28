@@ -1,4 +1,4 @@
-# Wallet Guard Lite Evidence Index
+﻿# Wallet Guard Lite Evidence Index
 
 ## Purpose
 
@@ -12,6 +12,29 @@ It is meant to show:
 - how the V-series execution-governance evolution is evidenced publicly
 
 It is not meant to expose implementation source.
+
+---
+
+## Evidence classification
+
+The V-series evidence is divided into two categories:
+
+### Archival reconstruction packs
+- V2
+- V3
+- V4
+
+These phases are historically real but currently reconstructed from preserved outputs and prior runtime behavior.  
+They are included for continuity and architectural traceability.
+
+### Canonical hydrated evidence packs
+- V5
+- V6 (in progress)
+
+These phases contain reproducible, machine-verifiable artifacts and represent the strongest current proof boundary.
+
+---
+
 
 ---
 

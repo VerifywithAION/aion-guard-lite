@@ -192,5 +192,6 @@ The strongest current truth remains bounded by the public evidence already linke
 
 Wallet Guard Lite is a **closed-core governed execution runtime** and **public-safe local API posture**.
 
-It sits between intent and irreversible execution, returns structured decisions, preserves reason surfaces, emits receipts, and now has a real public-safe proof path demonstrating that this behavior works through a wallet-style demo, attack-lab scenarios, defensive hardening validation, and the V2-V6 execution-governance progression.
+It sits between intent and irreversible execution, returns structured decisions, preserves reason surfaces, emits receipts, and now has a real public-safe proof path demonstrating that this behavior works through a wallet-style demo, attack-lab scenarios, defensive hardening validation, and the V2-V7 execution-governance progression.
+
 

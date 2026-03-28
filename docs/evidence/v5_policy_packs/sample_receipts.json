@@ -1,0 +1,30 @@
+﻿{
+  "version": "kine.v5.policy-packs",
+  "samples": [
+    {
+      "decision": "WARN",
+      "reason": "VALUE_TRANSFER",
+      "profile": "consumer"
+    },
+    {
+      "decision": "BLOCK",
+      "reason": "UNLIMITED_APPROVAL",
+      "profile": "consumer"
+    },
+    {
+      "decision": "BLOCK",
+      "reason": "UNLIMITED_PERMIT_SIGNATURE",
+      "profile": "consumer"
+    },
+    {
+      "decision": "BLOCK",
+      "reason": "TREASURY_VALUE_TRANSFER_BLOCKED",
+      "profile": "treasury"
+    },
+    {
+      "decision": "BLOCK",
+      "reason": "INSTITUTIONAL_VALUE_TRANSFER_BLOCKED",
+      "profile": "institutional"
+    }
+  ]
+}

@@ -1,23 +1,47 @@
 # Wallet Guard Lite
 
-Wallet Guard Lite is a closed-core governed execution runtime and public-safe API posture that evaluates requests before irreversible execution.
+Wallet Guard Lite is a **closed-core governed execution runtime** with a **public-safe local API** that evaluates requests before irreversible execution.
 
-It is designed to let wallets, apps, and partner systems move from blind-signing posture toward structured pre-execution decisioning with receipts and evidence.
-
-## Core idea
-
-Traditional wallet posture often collapses into:
+It helps wallets, apps, dashboards, and partner systems move from:
 
 `key -> sign -> execute`
 
-Wallet Guard Lite introduces a different posture:
+to:
 
-`request -> preview -> decide -> preserve receipt -> then execute or not`
+`request -> preview -> decide -> preserve receipt -> execute or stop`
 
-The underlying principle is simple:
+**Key is not enough.**
 
-**Key is not enough.**  
-Valid signing authority alone should not automatically imply immediate execution.
+A valid signature should not automatically imply immediate execution.
+
+---
+
+## Start Here
+
+**What is this?**  
+A pre-execution decision layer that returns structured outcomes such as `ALLOW`, `WARN`, and `BLOCK` before a transaction or signing flow proceeds.
+
+**What can I run right now?**  
+A local Windows-first API + wallet-style demo UI with reproducible V2-V6 proof flows.
+
+**Best first proof path**  
+Read the demo walkthrough, then run the local API and reproduce the preview / provider-wrapper tests.
+
+**Trust boundary**  
+This repository is **public-safe and evidence-first**. It exposes the contract, integration, and proof layer without declassifying the private core.
+
+**Hosted API status**  
+This is currently a **local-first, proof-backed runtime posture**, not a public hosted production gateway.
+
+### Read in this order
+
+1. [Builder Quickstart](wallet-lite-api/docs/WALLET_GUARD_LITE_BUILDER_QUICKSTART_V1.md)
+2. [Public API Surface](docs/public/WALLET_LITE_PUBLIC_API_SURFACE_V1.md)
+3. [Demo Walkthrough](docs/public/WALLET_LITE_DEMO_WALKTHROUGH_V1.md)
+4. [Evidence Index](docs/evidence/EVIDENCE_INDEX.md)
+5. [Public Claim Boundary](docs/public/WALLET_LITE_PUBLIC_CLAIM_BOUNDARY_V1.md)
+
+---
 
 ## What Wallet Guard Lite is
 
@@ -35,8 +59,11 @@ Wallet Guard Lite is not:
 - a mass-market desktop wallet shell
 - an open-source declassification of the core engine
 - a generic analytics dashboard
+- a public hosted production gateway
 
-This repository exposes the public-safe contract, integration, and evidence layer around Wallet Guard Lite without declassifying the private core.
+This repository exposes the **public-safe contract, integration, and evidence layer** around Wallet Guard Lite without declassifying the private core.
+
+---
 
 ## Strongest current public-safe posture
 
@@ -48,31 +75,49 @@ The strongest current proof-backed posture is:
 - attack-lab scenario validation
 - defensive hardening validation
 - proof-backed evidence packs
+- V2-V6 execution-governance evolution
 
 This is the reference posture evaluators and integrators should use first.
 
-## Fastest way to understand the system
+---
 
-Start here:
+## Fastest way to run the system
 
-- [Proof Narrative](docs/WALLET_LITE_PROOF_NARRATIVE.md)
-- [Public Repo Posture](docs/evidence/PUBLIC_REPO_POSTURE.md)
-- [Public Safe API Surface Plan](docs/evidence/PUBLIC_SAFE_API_SURFACE_PLAN.md)
-- [Wallet Guard Lite Launch Overview](wallet-lite-api/docs/WALLET_GUARD_LITE_LAUNCH_OVERVIEW_V1.md)
-- [Wallet Guard Lite Builder Quickstart](wallet-lite-api/docs/WALLET_GUARD_LITE_BUILDER_QUICKSTART_V1.md)
-- [Wallet Guard Lite Public Proof Index](wallet-lite-api/docs/WALLET_GUARD_LITE_PUBLIC_PROOF_INDEX_V1.md)
+Use the local runtime and builder docs:
 
-These documents explain:
+- [Builder Quickstart](wallet-lite-api/docs/WALLET_GUARD_LITE_BUILDER_QUICKSTART_V1.md)
+- [Launch Overview](wallet-lite-api/docs/WALLET_GUARD_LITE_LAUNCH_OVERVIEW_V1.md)
+- [Demo Walkthrough](docs/public/WALLET_LITE_DEMO_WALKTHROUGH_V1.md)
 
-- what problem Wallet Guard Lite addresses
-- what has been built
-- what has actually been proven
-- how to reason about the current public claim boundary
+The current intended public usage posture is:
+
+- **Yes**: public users can run the local API and local UI
+- **Yes**: public users can reproduce the same preview and provider-wrapper flows shown in evidence
+- **No**: this is not yet a public hosted production gateway
+- **No**: this does not declassify the private core
+
+---
+
+## Public-facing API and integration surface
+
+Main public-safe API and integration docs:
+
+- [API Product Boundary](docs/api/WALLET_LITE_API_PRODUCT_BOUNDARY.md)
+- [API Spec](docs/api/WALLET_LITE_API_SPEC_V1.md)
+- [Integrator Guide](docs/api/WALLET_LITE_INTEGRATOR_GUIDE.md)
+- [Reason Codes](docs/api/WALLET_LITE_REASON_CODES_V1.md)
+- [Receipt Schema](docs/api/WALLET_LITE_RECEIPT_SCHEMA_V1.json)
+- [Public API Surface](docs/public/WALLET_LITE_PUBLIC_API_SURFACE_V1.md)
+
+These define the builder-facing contract without exposing private implementation internals.
+
+---
 
 ## Fastest way to verify the system
 
 The strongest current public proof path is the combined demo + evidence posture:
 
+- [Demo Walkthrough](docs/public/WALLET_LITE_DEMO_WALKTHROUGH_V1.md)
 - [Attack Lab Validation Pack](wallet-lite-api/evidence/phase4_attack_lab/WALLET_LITE_ATTACK_LAB_VALIDATION_V1.md)
 - [Defensive Hardening Validation Pack](wallet-lite-api/evidence/phase5_defensive_hardening/WALLET_LITE_PHASE5_DEFENSIVE_HARDENING_LATEST.md)
 - [Evidence Index](docs/evidence/EVIDENCE_INDEX.md)
@@ -80,7 +125,7 @@ The strongest current public proof path is the combined demo + evidence posture:
 
 These artifacts show:
 
-- governed request/response behavior
+- governed request / response behavior
 - reason surfaces
 - receipt surfaces
 - wallet-style preview flow
@@ -91,42 +136,27 @@ These artifacts show:
 - malformed payload rejection
 - oversized payload handling
 - rate-limit enforcement
+- provider-wrapper decisioning
+- policy-profile behavior
+- threat-intel seeded runtime behavior
 
-## Public-facing product surface
+---
 
-The main public-safe product and integration surface is defined here:
+## V-series proof ladder
 
-- [Wallet Guard Lite Launch Overview](wallet-lite-api/docs/WALLET_GUARD_LITE_LAUNCH_OVERVIEW_V1.md)
-- [Wallet Guard Lite Builder Quickstart](wallet-lite-api/docs/WALLET_GUARD_LITE_BUILDER_QUICKSTART_V1.md)
-- [Wallet Guard Lite Founder Launch Note](wallet-lite-api/docs/WALLET_GUARD_LITE_FOUNDER_LAUNCH_NOTE_V1.md)
-- [Wallet Guard Lite X Thread Draft](wallet-lite-api/docs/WALLET_GUARD_LITE_X_THREAD_V1.md)
-- [Public Safe API Surface](docs/evidence/PUBLIC_SAFE_API_SURFACE_PLAN.md)
-- [Customer Grade Readiness](docs/public/WALLET_LITE_PUBLIC_RELEASE_NOTE_V1.md)
+Wallet Guard Lite now has a visible execution-governance progression:
 
-Together, these define the current public-safe narrative and builder-facing integration posture.
+| Phase | Main addition | Public value |
+|---|---|---|
+| V2 | rule hardening | transaction semantics and block/warn posture |
+| V3 | forensic persistence | server-side history, export, evidence |
+| V4 | provider-wrapper MVP | provider-method evaluation before action |
+| V5 | policy packs | consumer / treasury / exchange / institutional profiles |
+| V6 | intel seed | first-time destination and threat-intel seeded posture |
 
-## Evidence layer
+See the full matrix in [Evidence Index](docs/evidence/EVIDENCE_INDEX.md).
 
-Wallet Guard Lite is not presented here as a theory-only system.
-
-The repository already contains public-safe evidence for:
-
-- governed request/response behavior
-- reason surfaces
-- receipt surfaces
-- attack-lab scenario detection
-- wallet-style demo validation
-- defensive hardening validation
-- multi-chain public proof posture
-
-Evidence entry points:
-
-- [Evidence Index](docs/evidence/EVIDENCE_INDEX.md)
-- [What Has Been Proven](docs/evidence/WHAT_HAS_BEEN_PROVEN.md)
-- [Chain Status Declaration](docs/evidence/WALLET_LITE_CHAIN_STATUS_DECLARATION.md)
-- [Multi-Chain Lock Declaration](docs/evidence/WALLET_LITE_MULTI_CHAIN_LOCK_DECLARATION.md)
-- [Phase 4 Attack Lab Validation](wallet-lite-api/evidence/phase4_attack_lab/WALLET_LITE_ATTACK_LAB_VALIDATION_V1.md)
-- [Phase 5 Defensive Hardening Validation](wallet-lite-api/evidence/phase5_defensive_hardening/WALLET_LITE_PHASE5_DEFENSIVE_HARDENING_LATEST.md)
+---
 
 ## Current chain posture
 
@@ -138,6 +168,8 @@ Current strongest proof-backed public posture exists for:
 
 Cosmos may exist as a roadmap or adapter direction, but it is not yet presented here as parity-complete at the same proof level.
 
+---
+
 ## What is explicitly not claimed yet
 
 To preserve credibility, this repository does not currently claim:
@@ -148,11 +180,14 @@ To preserve credibility, this repository does not currently claim:
 - complete org-governance control plane
 - complete policy-pack ecosystem
 - full Wallet Guard Pro behavioral governance layer
+- full enterprise hosted control plane parity
 
 The strongest current truth remains bounded by the public evidence already linked above.
 
+---
+
 ## Canonical summary
 
-Wallet Guard Lite is a closed-core governed execution runtime and public-safe integration posture.
+Wallet Guard Lite is a **closed-core governed execution runtime** and **public-safe local API posture**.
 
-It sits between intent and irreversible execution, returns structured decisions, preserves reason surfaces, emits receipts, and now has a real public-safe proof path demonstrating that this behavior works through a wallet-style demo, attack-lab scenarios, and defensive hardening validation.
+It sits between intent and irreversible execution, returns structured decisions, preserves reason surfaces, emits receipts, and now has a real public-safe proof path demonstrating that this behavior works through a wallet-style demo, attack-lab scenarios, defensive hardening validation, and the V2-V6 execution-governance progression.

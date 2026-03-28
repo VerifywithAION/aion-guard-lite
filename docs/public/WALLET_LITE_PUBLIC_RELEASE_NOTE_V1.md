@@ -22,7 +22,7 @@ It is not intended to overstate maturity or declassify private internals.
 Wallet Guard Lite is now published in a proof-backed public-safe repository posture as a:
 
 - closed-core governed execution runtime
-- pre-execution API surface
+- pre-execution local API surface
 - receipt and evidence-bearing decision layer
 - Windows-first, EVM-first proof-backed integration surface
 
@@ -33,7 +33,7 @@ The repo now includes:
 - adapter and deployment documents
 - example integration surfaces
 - a canonical proof narrative
-- a one-command proof pack
+- a demo walkthrough
 - a public proof-backed README landing page
 
 ---
@@ -64,8 +64,8 @@ The strongest current proof-backed posture is:
 - local or packaged runtime posture
 - browser-wallet harness validation
 - Sepolia-backed governed preview proof
-- reproducible X5 verification flow
-- one-command C2 proof-pack execution
+- reproducible local demo flow
+- one-command proof posture for evaluators
 
 This is the correct current evaluation posture.
 
@@ -84,7 +84,7 @@ It provides:
 - structured API contracts
 - proof narrative documents
 - public-safe evidence reports
-- reproducible proof execution
+- reproducible local evaluation flow
 
 ---
 
@@ -93,15 +93,15 @@ It provides:
 Recommended first reading path:
 
 1. `README.md`
-2. `docs/WALLET_LITE_PROOF_NARRATIVE.md`
-3. `docs/evidence/validation/WALLET_LITE_C2_PROOF_PACK_LATEST.md`
-4. `docs/evidence/validation/WALLET_LITE_SEPOLIA_POLICY_VERIFY_LATEST.md`
+2. `docs/public/WALLET_LITE_DEMO_WALKTHROUGH_V1.md`
+3. `docs/WALLET_LITE_PROOF_NARRATIVE.md`
+4. `docs/evidence/EVIDENCE_INDEX.md`
 
 Recommended technical contract path:
 
 1. `docs/api/WALLET_LITE_API_SPEC_V1.md`
-2. `docs/api/WALLET_LITE_REQUEST_SCHEMA_GUIDE.md`
-3. `docs/api/WALLET_LITE_REASON_CODE_CATALOG.md`
+2. `docs/api/WALLET_LITE_API_PRODUCT_BOUNDARY.md`
+3. `docs/api/WALLET_LITE_REASON_CODES_V1.md`
 4. `docs/api/WALLET_LITE_INTEGRATOR_GUIDE.md`
 
 ---
@@ -125,4 +125,4 @@ Those remain future layers.
 
 Wallet Guard Lite is now publicly presented in a proof-backed, public-safe, technically legible posture.
 
-The strongest current truth is a closed-core governed execution runtime with a real API surface, real evidence surface, and reproducible Windows-first, EVM-first proof path.
+The strongest current truth is a closed-core governed execution runtime with a real local API surface, real evidence surface, and reproducible Windows-first, EVM-first proof path.

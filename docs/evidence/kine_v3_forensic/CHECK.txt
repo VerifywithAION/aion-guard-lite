@@ -1,0 +1,40 @@
+================ kine.v3.forensic CHECK ================
+
+[1] HEALTH
+{
+    "ok":  true,
+    "service":  "wallet-guard-lite-api",
+    "port":  8787,
+    "policyVersion":  "kine.v5.policy-packs",
+    "defaultPolicyProfile":  "consumer",
+    "decisionLogPath":  "C:\\Lab_Research\\wallet-lite-api\\data\\kine_decisions.jsonl"
+}
+
+[2] DEV KEY
+{
+    "ok":  true,
+    "apiKey":  "wl_e18c5643d5f8bc4f714c2a46aa2ff98e",
+    "monthlyLimit":  15,
+    "policyVersion":  "kine.v5.policy-packs",
+    "defaultPolicyProfile":  "consumer"
+}
+
+[3] FILTERED HISTORY
+{
+    "ok":  true,
+    "items":  [
+
+              ],
+    "policyVersion":  "kine.v3.forensic",
+    "count":  0
+}
+
+[4] EXPORT INFO
+{
+    "ok":  true,
+    "policyVersion":  "kine.v5.policy-packs",
+    "exportPath":  "C:\\Lab_Research\\wallet-lite-api\\exports\\kine_export_latest.json",
+    "count":  3
+}
+
+================ END kine.v3.forensic CHECK ================

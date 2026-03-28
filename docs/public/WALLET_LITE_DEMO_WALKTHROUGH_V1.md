@@ -10,7 +10,7 @@ This guide provides the shortest clean walkthrough for:
 - guarded-send posture
 - provider-wrapper testing
 - policy-pack testing
-- V2-V6 proof demonstration
+- V2-V7 proof demonstration
 
 This is the recommended guide for:
 
@@ -46,6 +46,7 @@ Show that Wallet Guard Lite can:
 5. preserve evidence fields
 6. evaluate provider-wrapper style requests
 7. vary posture by policy profile
+8. explain why dangerous requests matter in real-world terms
 
 ---
 
@@ -291,6 +292,7 @@ This gives a very compact story:
 - provider-wrapper path is real
 - policy packs are real
 - evidence is real
+- impact intelligence is real
 
 ---
 
@@ -328,6 +330,7 @@ A new evaluator should leave this walkthrough understanding:
 - the proof path is evidence-backed
 - dangerous requests can be warned or blocked before execution
 - the system is public-safe without declassifying the private core
+
 ---
 
 ## V7 — Impact Intelligence demo
@@ -376,4 +379,5 @@ Earlier phases proved decisioning.
 V7 proves consequence translation.
 
 That means Wallet Guard Lite now helps users and integrators understand why a dangerous request matters in real-world terms.
+
 

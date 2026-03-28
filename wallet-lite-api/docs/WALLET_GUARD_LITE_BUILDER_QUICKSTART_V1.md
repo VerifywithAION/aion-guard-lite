@@ -110,7 +110,7 @@ Builders should not interpret this repo as a declassification of the private cor
       "receipt": {
         "id": "uuid",
         "timestamp": "2026-03-28T00:00:00Z",
-        "policyVersion": "kine.v6.intel-seed",
+        "policyVersion": "kine.v7.impact-intelligence",
         "txFingerprint": "sha256...",
         "overrideRequired": true,
         "overrideUsed": false
@@ -151,6 +151,9 @@ Read these in order:
 4. `docs/evidence/EVIDENCE_INDEX.md`
 
 That is the fastest path from first contact to reproducible proof.
+
+---
+
 ## V7 impact intelligence
 
 Wallet Guard Lite now returns additional consequence-oriented fields so integrators can explain not only the decision, but why it matters in real financial terms.
@@ -165,4 +168,5 @@ New public-safe fields include:
 - impactIntelligence
 
 This allows builders to render Wallet Guard Lite as a guardian-style protection layer rather than only a raw classifier.
+
 

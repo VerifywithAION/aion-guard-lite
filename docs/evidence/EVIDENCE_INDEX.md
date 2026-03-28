@@ -35,9 +35,6 @@ These phases contain reproducible, machine-verifiable artifacts and represent th
 
 ---
 
-
----
-
 ## Recommended first proof path
 
 For the fastest public-safe evaluation path, read in this order:
@@ -62,24 +59,28 @@ For the fastest public-safe evaluation path, read in this order:
 
 ---
 
-## Canonical KINE evidence packs
+## KINE evidence packs
 
-### KINE v2 alpha
+### Archival reconstruction packs
+
+#### KINE v2 alpha
 - [kine_v2_alpha/CHECK.txt](kine_v2_alpha/CHECK.txt)
 - [kine_v2_alpha/HISTORY.json](kine_v2_alpha/HISTORY.json)
 - [kine_v2_alpha/SUMMARY.md](kine_v2_alpha/SUMMARY.md)
 
-### KINE v3 forensic
+#### KINE v3 forensic
 - [kine_v3_forensic/CHECK.txt](kine_v3_forensic/CHECK.txt)
 - [kine_v3_forensic/HISTORY.json](kine_v3_forensic/HISTORY.json)
 - [kine_v3_forensic/SUMMARY.md](kine_v3_forensic/SUMMARY.md)
 
-### KINE v4 provider-mvp
+#### KINE v4 provider-mvp
 - [kine_v4_provider-mvp/CHECK.txt](kine_v4_provider-mvp/CHECK.txt)
 - [kine_v4_provider-mvp/HISTORY.json](kine_v4_provider-mvp/HISTORY.json)
 - [kine_v4_provider-mvp/SUMMARY.md](kine_v4_provider-mvp/SUMMARY.md)
 
-### KINE v5 policy-packs
+### Canonical hydrated pack
+
+#### KINE v5 policy-packs
 - [kine_v5_policy-packs/CHECK.txt](kine_v5_policy-packs/CHECK.txt)
 - [kine_v5_policy-packs/HISTORY.json](kine_v5_policy-packs/HISTORY.json)
 - [kine_v5_policy-packs/SUMMARY.md](kine_v5_policy-packs/SUMMARY.md)
@@ -180,4 +181,5 @@ Curated terminal transcripts may be placed under:
 
 Only sanitized final successful transcripts should be included publicly.  
 Do not include raw logs that reveal private paths, private repo layout, secrets, or premium implementation details.
+
 

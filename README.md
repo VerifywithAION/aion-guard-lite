@@ -75,7 +75,7 @@ The strongest current proof-backed posture is:
 - attack-lab scenario validation
 - defensive hardening validation
 - proof-backed evidence packs
-- V2-V6 execution-governance evolution
+- V2-V7 execution-governance evolution
 
 This is the reference posture evaluators and integrators should use first.
 
@@ -154,6 +154,7 @@ Wallet Guard Lite now has a visible execution-governance progression:
 | V4 | provider-wrapper MVP | provider-method evaluation before action |
 | V5 | policy packs | consumer / treasury / exchange / institutional profiles |
 | V6 | intel seed | first-time destination and threat-intel seeded posture |
+| V7 | impact intelligence | guardian-style consequence, loss-scope, and attack-pattern explanation |
 
 See the full matrix in [Evidence Index](docs/evidence/EVIDENCE_INDEX.md).
 
@@ -192,3 +193,4 @@ The strongest current truth remains bounded by the public evidence already linke
 Wallet Guard Lite is a **closed-core governed execution runtime** and **public-safe local API posture**.
 
 It sits between intent and irreversible execution, returns structured decisions, preserves reason surfaces, emits receipts, and now has a real public-safe proof path demonstrating that this behavior works through a wallet-style demo, attack-lab scenarios, defensive hardening validation, and the V2-V6 execution-governance progression.
+

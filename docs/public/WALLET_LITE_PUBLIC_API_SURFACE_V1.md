@@ -96,7 +96,7 @@ The same request may produce different posture depending on the selected policy 
     {
       "ok": true,
       "version": "wallet-guard-lite-api.v1",
-      "policyVersion": "kine.v6.intel-seed",
+      "policyVersion": "kine.v7.impact-intelligence",
       "policyProfile": "consumer",
       "chainFamily": "evm",
       "network": "sepolia",
@@ -144,7 +144,7 @@ The same request may produce different posture depending on the selected policy 
 
     {
       "ok": true,
-      "policyVersion": "kine.v6.intel-seed",
+      "policyVersion": "kine.v7.impact-intelligence",
       "policyProfile": "consumer",
       "providerMethod": "eth_signTypedData_v4",
       "decision": "BLOCK",
@@ -254,7 +254,7 @@ Wallet Guard Lite may also return public-safe impact interpretation fields:
 - impact
 - whyThisMatters
 - estimatedLossScope
-- ttackPatternFamily
+- attackPatternFamily
 - impactIntelligence
 
 These fields translate technical runtime decisions into human-readable consequence language.
@@ -268,4 +268,5 @@ Example uses:
 - support and investigation workflows
 
 This is still public-safe. It describes consequences, not private engine internals.
+
 

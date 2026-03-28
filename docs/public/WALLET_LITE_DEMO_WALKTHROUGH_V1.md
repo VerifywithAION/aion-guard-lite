@@ -1,4 +1,4 @@
-# Wallet Guard Lite Demo Walkthrough V1
+﻿# Wallet Guard Lite Demo Walkthrough V1
 
 ## Purpose
 
@@ -328,3 +328,52 @@ A new evaluator should leave this walkthrough understanding:
 - the proof path is evidence-backed
 - dangerous requests can be warned or blocked before execution
 - the system is public-safe without declassifying the private core
+---
+
+## V7 — Impact Intelligence demo
+
+### Goal
+Show that Wallet Guard Lite now explains not only the decision, but also the financial and exploit consequence.
+
+### Recommended local demo sequence
+
+1. Start the local Wallet Guard Lite API.
+2. Open the local UI.
+3. Load the Dev API key.
+4. Connect MetaMask on Sepolia.
+5. Run:
+   - Malicious Approval
+   - Wrapped Permit Sign
+   - First-time destination preview
+
+### Expected proof points
+
+#### Unlimited approval
+Expected outcome:
+- decision: BLOCK
+- easonCode: UNLIMITED_APPROVAL
+- visible impact explanation
+- visible loss-scope estimate
+- visible attack-pattern family
+
+#### Unlimited permit-style signature
+Expected outcome:
+- decision: BLOCK
+- easonCode: UNLIMITED_PERMIT_SIGNATURE
+- Guardian Insight explains hidden spending authority risk
+- attack pattern family should reflect permit phishing or equivalent permit-abuse posture
+
+#### First-time destination value transfer
+Expected outcome:
+- decision: WARN
+- easonCode: FIRST_TIME_DESTINATION or equivalent value-transfer warning posture
+- Guardian Insight explains unknown destination significance
+
+### Why this matters
+
+Earlier phases proved decisioning.
+
+V7 proves consequence translation.
+
+That means Wallet Guard Lite now helps users and integrators understand why a dangerous request matters in real-world terms.
+

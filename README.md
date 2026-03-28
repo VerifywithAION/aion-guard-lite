@@ -1,4 +1,4 @@
-# Wallet Guard Lite
+﻿# Wallet Guard Lite
 
 Wallet Guard Lite is a **closed-core governed execution runtime** with a **public-safe local API** that evaluates requests before irreversible execution.
 
@@ -22,7 +22,7 @@ A valid signature should not automatically imply immediate execution.
 A pre-execution decision layer that returns structured outcomes such as `ALLOW`, `WARN`, and `BLOCK` before a transaction or signing flow proceeds.
 
 **What can I run right now?**  
-A local Windows-first API + wallet-style demo UI with reproducible V2-V6 proof flows.
+A local Windows-first API + wallet-style demo UI with reproducible V2-V7 proof flows.
 
 **Best first proof path**  
 Read the demo walkthrough, then run the local API and reproduce the preview / provider-wrapper tests.
@@ -121,6 +121,7 @@ The strongest current public proof path is the combined demo + evidence posture:
 - [Attack Lab Validation Pack](wallet-lite-api/evidence/phase4_attack_lab/WALLET_LITE_ATTACK_LAB_VALIDATION_V1.md)
 - [Defensive Hardening Validation Pack](wallet-lite-api/evidence/phase5_defensive_hardening/WALLET_LITE_PHASE5_DEFENSIVE_HARDENING_LATEST.md)
 - [Evidence Index](docs/evidence/EVIDENCE_INDEX.md)
+- [V7 Impact Intelligence Notes](docs/public/WALLET_LITE_DEMO_WALKTHROUGH_V1.md)
 - [What Has Been Proven](docs/evidence/WHAT_HAS_BEEN_PROVEN.md)
 
 These artifacts show:

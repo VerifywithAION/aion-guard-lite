@@ -1,4 +1,4 @@
-# Wallet Lite Public API Surface V1
+﻿# Wallet Lite Public API Surface V1
 
 ## Purpose
 
@@ -244,3 +244,28 @@ This API surface does not expose:
 - premium rule-pack internals
 
 It describes how to consume the product, not how to rebuild the private core.
+---
+
+## V7 impact intelligence surface
+
+Wallet Guard Lite may also return public-safe impact interpretation fields:
+
+- explanation
+- impact
+- whyThisMatters
+- estimatedLossScope
+- ttackPatternFamily
+- impactIntelligence
+
+These fields translate technical runtime decisions into human-readable consequence language.
+
+Example uses:
+
+- wallet warning panels
+- treasury review consoles
+- partner risk drawers
+- anti-phishing education surfaces
+- support and investigation workflows
+
+This is still public-safe. It describes consequences, not private engine internals.
+

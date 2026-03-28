@@ -1,4 +1,4 @@
-# Wallet Guard Lite - Builder Quickstart V1
+﻿# Wallet Guard Lite - Builder Quickstart V1
 
 ## Goal
 
@@ -151,3 +151,18 @@ Read these in order:
 4. `docs/evidence/EVIDENCE_INDEX.md`
 
 That is the fastest path from first contact to reproducible proof.
+## V7 impact intelligence
+
+Wallet Guard Lite now returns additional consequence-oriented fields so integrators can explain not only the decision, but why it matters in real financial terms.
+
+New public-safe fields include:
+
+- explanation
+- impact
+- whyThisMatters
+- estimatedLossScope
+- attackPatternFamily
+- impactIntelligence
+
+This allows builders to render Wallet Guard Lite as a guardian-style protection layer rather than only a raw classifier.
+

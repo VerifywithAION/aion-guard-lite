@@ -58,6 +58,7 @@ For the fastest public-safe evaluation path, read in this order:
 | V4 | provider-wrapper MVP | provider-method evaluation including permit-style signature blocking | run wrapped request tests from local UI | `docs/evidence/kine_v4_provider-mvp/` |
 | V5 | policy packs | profile-dependent governance across consumer / treasury / exchange / institutional | switch policy profile and replay the same request | `docs/evidence/kine_v5_policy-packs/` |
 | V6 | intel seed | threat-intel seeded and first-time-destination-sensitive runtime posture | run first-time destination + known-bad-pattern tests locally | local demo walkthrough + current runtime posture |
+| V7 | impact intelligence | human-readable consequence, loss scope, and attack-pattern explanation layer | run malicious approval + wrapped permit + first-time destination tests and inspect Guardian Insight | local demo walkthrough + current runtime posture |
 
 ---
 
@@ -179,3 +180,4 @@ Curated terminal transcripts may be placed under:
 
 Only sanitized final successful transcripts should be included publicly.  
 Do not include raw logs that reveal private paths, private repo layout, secrets, or premium implementation details.
+

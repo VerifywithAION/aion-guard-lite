@@ -1,4 +1,4 @@
-# WALLET_LITE_PUBLIC_RELEASE_NOTE_V1
+﻿# WALLET_LITE_PUBLIC_RELEASE_NOTE_V1
 
 ## Purpose
 
@@ -126,3 +126,19 @@ Those remain future layers.
 Wallet Guard Lite is now publicly presented in a proof-backed, public-safe, technically legible posture.
 
 The strongest current truth is a closed-core governed execution runtime with a real local API surface, real evidence surface, and reproducible Windows-first, EVM-first proof path.
+---
+
+## V7 update
+
+Wallet Guard Lite now includes an impact-intelligence layer in its local API and demo posture.
+
+This means the system can now explain:
+
+- what a request does
+- what can happen next
+- why the decision matters
+- estimated loss scope
+- attack-pattern family
+
+This upgrade improves public clarity, integrator usefulness, and user trust without weakening the closed-core boundary.
+

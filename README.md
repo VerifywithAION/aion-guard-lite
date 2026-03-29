@@ -122,6 +122,7 @@ The strongest current public proof path is the combined demo + evidence posture:
 - [Defensive Hardening Validation Pack](wallet-lite-api/evidence/phase5_defensive_hardening/WALLET_LITE_PHASE5_DEFENSIVE_HARDENING_LATEST.md)
 - [Evidence Index](docs/evidence/EVIDENCE_INDEX.md)
 - [V7 Impact Intelligence Notes](docs/public/WALLET_LITE_DEMO_WALKTHROUGH_V1.md)
+- [V7 Hardening Note](docs/public/WALLET_LITE_V7_HARDENING_NOTE.md)
 - [What Has Been Proven](docs/evidence/WHAT_HAS_BEEN_PROVEN.md)
 
 These artifacts show:
@@ -140,6 +141,7 @@ These artifacts show:
 - provider-wrapper decisioning
 - policy-profile behavior
 - threat-intel seeded runtime behavior
+- private adversarial and deceptive-intent hardening posture
 
 ---
 
@@ -193,5 +195,6 @@ The strongest current truth remains bounded by the public evidence already linke
 Wallet Guard Lite is a **closed-core governed execution runtime** and **public-safe local API posture**.
 
 It sits between intent and irreversible execution, returns structured decisions, preserves reason surfaces, emits receipts, and now has a real public-safe proof path demonstrating that this behavior works through a wallet-style demo, attack-lab scenarios, defensive hardening validation, and the V2-V7 execution-governance progression.
+
 
 

@@ -34,6 +34,7 @@ The repo now includes:
 - example integration surfaces
 - a canonical proof narrative
 - a demo walkthrough
+- a public-safe hardening note
 - a public proof-backed README landing page
 
 ---
@@ -125,7 +126,7 @@ Those remain future layers.
 
 Wallet Guard Lite is now publicly presented in a proof-backed, public-safe, technically legible posture.
 
-The strongest current truth is a closed-core governed execution runtime with a real local API surface, real evidence surface, and reproducible Windows-first, EVM-first proof path.
+The strongest current truth is a closed-core governed execution runtime with a real local API surface, real evidence surface, reproducible Windows-first, EVM-first proof path, and additional private hardening reflected through a public-safe note without exposing the underlying attack corpus.
 ---
 
 ## V7 update
@@ -141,4 +142,5 @@ This means the system can now explain:
 - attack-pattern family
 
 This upgrade improves public clarity, integrator usefulness, and user trust without weakening the closed-core boundary.
+
 

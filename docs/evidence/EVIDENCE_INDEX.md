@@ -43,6 +43,7 @@ For the fastest public-safe evaluation path, read in this order:
 2. [What Has Been Proven](WHAT_HAS_BEEN_PROVEN.md)
 3. [Phase 4 Attack Lab Validation](../wallet-lite-api/evidence/phase4_attack_lab/WALLET_LITE_ATTACK_LAB_VALIDATION_V1.md)
 4. [Phase 5 Defensive Hardening Validation](../wallet-lite-api/evidence/phase5_defensive_hardening/WALLET_LITE_PHASE5_DEFENSIVE_HARDENING_LATEST.md)
+5. [V7 Hardening Note](../public/WALLET_LITE_V7_HARDENING_NOTE.md)
 
 ---
 
@@ -160,6 +161,9 @@ For the fastest public-safe evaluation path, read in this order:
 
 ---
 
+## Additional public-safe hardening reference
+
+- [../public/WALLET_LITE_V7_HARDENING_NOTE.md](../public/WALLET_LITE_V7_HARDENING_NOTE.md)
 ## Public posture and claim-boundary references
 
 - [PUBLIC_PRODUCT_BOUNDARY.md](PUBLIC_PRODUCT_BOUNDARY.md)
@@ -181,5 +185,6 @@ Curated terminal transcripts may be placed under:
 
 Only sanitized final successful transcripts should be included publicly.  
 Do not include raw logs that reveal private paths, private repo layout, secrets, or premium implementation details.
+
 
 

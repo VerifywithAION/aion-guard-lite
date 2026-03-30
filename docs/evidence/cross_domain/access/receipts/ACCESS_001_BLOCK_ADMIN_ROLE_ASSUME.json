@@ -1,0 +1,24 @@
+﻿{
+  "receiptVersion": 1,
+  "domain": "access",
+  "caseId": "ACCESS_001_BLOCK_ADMIN_ROLE_ASSUME",
+  "title": "Admin role assumption attempt",
+  "decision": "BLOCK",
+  "reason": "restricted_role_assumption",
+  "policy": "access_control_guard_v1",
+  "executionGate": "stop",
+  "invariantFamilies": [
+    "delegated_authority",
+    "harm_boundary"
+  ],
+  "intent": {
+    "action": "assume_role",
+    "requestedRole": "global_admin",
+    "actor": "user.delta"
+  },
+  "preview": {
+    "risk": "privilege_escalation",
+    "impact": "unrestricted_system_control"
+  },
+  "consequence": "Execution would grant unrestricted administrative authority."
+}

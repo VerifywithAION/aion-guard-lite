@@ -1,0 +1,25 @@
+﻿{
+  "receiptVersion": 1,
+  "domain": "m2m",
+  "caseId": "M2M_001_BLOCK_UNKNOWN_TRANSFER",
+  "title": "Automated transfer to unknown endpoint",
+  "decision": "BLOCK",
+  "reason": "unknown_destination_transfer",
+  "policy": "service_execution_guard_v1",
+  "executionGate": "stop",
+  "invariantFamilies": [
+    "unknown_destination",
+    "irreversibility",
+    "delegated_authority"
+  ],
+  "intent": {
+    "action": "automated_transfer",
+    "amount": "50,000 units",
+    "target": "unknown.external.endpoint"
+  },
+  "preview": {
+    "risk": "unverified_destination",
+    "effect": "irreversible_transfer_behavior"
+  },
+  "consequence": "Execution could move value or mutate state at an untrusted destination."
+}

@@ -1,0 +1,26 @@
+﻿{
+  "receiptVersion": 1,
+  "domain": "trading",
+  "caseId": "TRADING_001_BLOCK_OVERSIZE_ORDER",
+  "title": "Oversize order beyond policy",
+  "decision": "BLOCK",
+  "reason": "risk_boundary_violation",
+  "policy": "trading_guard_v1",
+  "executionGate": "stop",
+  "invariantFamilies": [
+    "threshold_violation",
+    "harm_boundary"
+  ],
+  "intent": {
+    "orderType": "place_order",
+    "size": "10x_allowed_risk",
+    "instrument": "BTC-PERP"
+  },
+  "preview": {
+    "violations": [
+      "max_position_size",
+      "risk_boundary"
+    ]
+  },
+  "consequence": "Execution would create unacceptable liquidation and drawdown risk."
+}

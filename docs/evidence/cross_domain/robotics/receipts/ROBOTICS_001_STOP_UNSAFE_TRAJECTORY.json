@@ -1,0 +1,24 @@
+﻿{
+  "receiptVersion": 1,
+  "domain": "robotics",
+  "caseId": "ROBOTICS_001_STOP_UNSAFE_TRAJECTORY",
+  "title": "Unsafe movement near human zone",
+  "decision": "STOP",
+  "reason": "physical_safety_boundary_violation",
+  "policy": "robotics_safety_guard_v1",
+  "executionGate": "immediate_stop",
+  "invariantFamilies": [
+    "harm_boundary",
+    "irreversibility"
+  ],
+  "intent": {
+    "command": "move_arm",
+    "trajectory": "human_proximity_zone",
+    "speed": "unsafe"
+  },
+  "preview": {
+    "risk": "collision_or_injury",
+    "boundary": "human_safety_perimeter"
+  },
+  "consequence": "Execution could cause physical harm or unsafe environmental interaction."
+}

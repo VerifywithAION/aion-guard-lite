@@ -1,0 +1,26 @@
+﻿{
+  "receiptVersion": 1,
+  "domain": "ai_agents",
+  "caseId": "AI_AGENT_001_BLOCK_EXTERNAL_PAYMENT",
+  "title": "External payment tool call",
+  "decision": "BLOCK",
+  "reason": "unauthorized_financial_execution",
+  "policy": "agent_financial_guard_v1",
+  "executionGate": "stop",
+  "invariantFamilies": [
+    "irreversibility",
+    "delegated_authority",
+    "unknown_destination"
+  ],
+  "intent": {
+    "tool_call": "send_payment",
+    "amount": "5 ETH",
+    "destination": "external_wallet"
+  },
+  "preview": {
+    "actionType": "financial_transfer",
+    "authority": "agent_controlled_wallet",
+    "risk": "irreversible_value_transfer"
+  },
+  "consequence": "Funds would be irreversibly transferred if the action were executed."
+}

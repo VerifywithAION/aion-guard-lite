@@ -1,0 +1,26 @@
+﻿{
+  "receiptVersion": 1,
+  "domain": "enterprise",
+  "caseId": "ENTERPRISE_001_REVIEW_LARGE_VENDOR_PAYMENT",
+  "title": "Large vendor payment requiring review",
+  "decision": "REVIEW_REQUIRED",
+  "reason": "approval_threshold_exceeded",
+  "policy": "enterprise_approval_v1",
+  "executionGate": "queue_for_review",
+  "invariantFamilies": [
+    "threshold_violation",
+    "human_review_requirement"
+  ],
+  "intent": {
+    "action": "approve_vendor_payment",
+    "amount": "$250,000",
+    "approver": "single_signer"
+  },
+  "preview": {
+    "violations": [
+      "single_approval_threshold_exceeded",
+      "multi_party_review_required"
+    ]
+  },
+  "consequence": "Execution without review would expose the organization to elevated fraud and governance risk."
+}

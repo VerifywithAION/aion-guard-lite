@@ -1,0 +1,35 @@
+﻿{
+    "receiptVersion":  1,
+    "evidenceFamily":  "cross_domain_ordeal_v1",
+    "generatedAt":  "2026-03-30T00:06:23.1724512-06:00",
+    "domain":  "access_control",
+    "caseId":  "ACCESS_002_ADMIN_ROLE_ASSUME",
+    "title":  "Admin role assumption attempt",
+    "actor":  "user.delta",
+    "intent":  "User attempts to assume unrestricted admin role.",
+    "proposedReality":  "User obtains global admin privileges.",
+    "preview":  {
+                    "actionType":  "assume_role",
+                    "target":  "global_admin",
+                    "authority":  "access",
+                    "value":  "0",
+                    "previewHints":  [
+                                         "privilege_escalation",
+                                         "high_impact",
+                                         "restricted_role"
+                                     ],
+                    "inferredRisk":  "CRITICAL"
+                },
+    "invariantFamilies":  [
+                              "delegated_authority"
+                          ],
+    "decision":  "BLOCK",
+    "reasonCode":  "HIGH_IMPACT_EXECUTION_RISK",
+    "consequence":  "The proposed action would create unacceptable financial, authority, or system risk.",
+    "governedReality":  "Action prevented before proposed reality became actual reality.",
+    "executionGate":  "STOP",
+    "expectedDecision":  "BLOCK",
+    "expectedGate":  "STOP",
+    "pass":  true,
+    "fingerprint":  "70817beafa9bcb63b7a0d4393381a51fed904651e4ffb32da2d44c85512d403d"
+}

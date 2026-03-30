@@ -1,0 +1,36 @@
+﻿{
+    "receiptVersion":  1,
+    "evidenceFamily":  "cross_domain_ordeal_v1",
+    "generatedAt":  "2026-03-30T00:06:23.1629263-06:00",
+    "domain":  "enterprise_approvals",
+    "caseId":  "ENT_003_ROLE_CHANGE_HIDDEN",
+    "title":  "Business approval hiding role elevation",
+    "actor":  "employee.gamma",
+    "intent":  "Approval request bundles payment with hidden privilege change.",
+    "proposedReality":  "Payment approval also grants elevated internal privileges.",
+    "preview":  {
+                    "actionType":  "approve_request",
+                    "target":  "vendor_and_privilege_bundle",
+                    "authority":  "business_ops",
+                    "value":  "$5000",
+                    "previewHints":  [
+                                         "hidden_consequence",
+                                         "privilege_escalation",
+                                         "mixed_intent"
+                                     ],
+                    "inferredRisk":  "CRITICAL"
+                },
+    "invariantFamilies":  [
+                              "hidden_consequence",
+                              "delegated_authority"
+                          ],
+    "decision":  "BLOCK",
+    "reasonCode":  "HIGH_IMPACT_EXECUTION_RISK",
+    "consequence":  "The proposed action would create unacceptable financial, authority, or system risk.",
+    "governedReality":  "Action prevented before proposed reality became actual reality.",
+    "executionGate":  "STOP",
+    "expectedDecision":  "BLOCK",
+    "expectedGate":  "STOP",
+    "pass":  true,
+    "fingerprint":  "991f2913123615d725b6e893892e888475d40390e1aceba752851448bd285dd1"
+}

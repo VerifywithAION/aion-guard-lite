@@ -1,0 +1,207 @@
+﻿{
+    "suite":  "cross_domain_ordeal_v1",
+    "generatedAt":  "2026-03-30T00:06:23.2292778-06:00",
+    "total":  18,
+    "passed":  18,
+    "failed":  0,
+    "results":  [
+                    {
+                        "id":  "AI_001_SAFE_TOOL",
+                        "domain":  "ai_agents",
+                        "decision":  "ALLOW",
+                        "expectedDecision":  "ALLOW",
+                        "executionGate":  "ALLOW",
+                        "expectedGate":  "ALLOW",
+                        "pass":  true,
+                        "reasonCode":  "WITHIN_APPROVED_POLICY",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\AI_001_SAFE_TOOL.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "AI_002_EXTERNAL_PAYMENT",
+                        "domain":  "ai_agents",
+                        "decision":  "BLOCK",
+                        "expectedDecision":  "BLOCK",
+                        "executionGate":  "STOP",
+                        "expectedGate":  "STOP",
+                        "pass":  true,
+                        "reasonCode":  "HIGH_IMPACT_EXECUTION_RISK",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\AI_002_EXTERNAL_PAYMENT.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "AI_003_DECEPTIVE_STATUS",
+                        "domain":  "ai_agents",
+                        "decision":  "BLOCK",
+                        "expectedDecision":  "BLOCK",
+                        "executionGate":  "STOP",
+                        "expectedGate":  "STOP",
+                        "pass":  true,
+                        "reasonCode":  "HIGH_IMPACT_EXECUTION_RISK",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\AI_003_DECEPTIVE_STATUS.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "TRADING_001_SAFE_REBALANCE",
+                        "domain":  "trading_systems",
+                        "decision":  "ALLOW",
+                        "expectedDecision":  "ALLOW",
+                        "executionGate":  "ALLOW",
+                        "expectedGate":  "ALLOW",
+                        "pass":  true,
+                        "reasonCode":  "WITHIN_APPROVED_POLICY",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\TRADING_001_SAFE_REBALANCE.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "TRADING_002_OVERSIZE_ORDER",
+                        "domain":  "trading_systems",
+                        "decision":  "BLOCK",
+                        "expectedDecision":  "BLOCK",
+                        "executionGate":  "STOP",
+                        "expectedGate":  "STOP",
+                        "pass":  true,
+                        "reasonCode":  "HIGH_IMPACT_EXECUTION_RISK",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\TRADING_002_OVERSIZE_ORDER.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "TRADING_003_HIDDEN_LEVERAGE",
+                        "domain":  "trading_systems",
+                        "decision":  "REVIEW",
+                        "expectedDecision":  "REVIEW",
+                        "executionGate":  "QUEUE",
+                        "expectedGate":  "QUEUE",
+                        "pass":  true,
+                        "reasonCode":  "REQUIRES_HUMAN_REVIEW",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\TRADING_003_HIDDEN_LEVERAGE.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "ENT_001_SMALL_VENDOR",
+                        "domain":  "enterprise_approvals",
+                        "decision":  "ALLOW",
+                        "expectedDecision":  "ALLOW",
+                        "executionGate":  "ALLOW",
+                        "expectedGate":  "ALLOW",
+                        "pass":  true,
+                        "reasonCode":  "WITHIN_APPROVED_POLICY",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\ENT_001_SMALL_VENDOR.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "ENT_002_LARGE_PAYMENT",
+                        "domain":  "enterprise_approvals",
+                        "decision":  "REVIEW",
+                        "expectedDecision":  "REVIEW",
+                        "executionGate":  "QUEUE",
+                        "expectedGate":  "QUEUE",
+                        "pass":  true,
+                        "reasonCode":  "REQUIRES_HUMAN_REVIEW",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\ENT_002_LARGE_PAYMENT.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "ENT_003_ROLE_CHANGE_HIDDEN",
+                        "domain":  "enterprise_approvals",
+                        "decision":  "BLOCK",
+                        "expectedDecision":  "BLOCK",
+                        "executionGate":  "STOP",
+                        "expectedGate":  "STOP",
+                        "pass":  true,
+                        "reasonCode":  "HIGH_IMPACT_EXECUTION_RISK",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\ENT_003_ROLE_CHANGE_HIDDEN.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "ACCESS_001_STANDARD_LOGIN",
+                        "domain":  "access_control",
+                        "decision":  "ALLOW",
+                        "expectedDecision":  "ALLOW",
+                        "executionGate":  "ALLOW",
+                        "expectedGate":  "ALLOW",
+                        "pass":  true,
+                        "reasonCode":  "WITHIN_APPROVED_POLICY",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\ACCESS_001_STANDARD_LOGIN.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "ACCESS_002_ADMIN_ROLE_ASSUME",
+                        "domain":  "access_control",
+                        "decision":  "BLOCK",
+                        "expectedDecision":  "BLOCK",
+                        "executionGate":  "STOP",
+                        "expectedGate":  "STOP",
+                        "pass":  true,
+                        "reasonCode":  "HIGH_IMPACT_EXECUTION_RISK",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\ACCESS_002_ADMIN_ROLE_ASSUME.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "ACCESS_003_MAINTENANCE_MASK",
+                        "domain":  "access_control",
+                        "decision":  "REVIEW",
+                        "expectedDecision":  "REVIEW",
+                        "executionGate":  "QUEUE",
+                        "expectedGate":  "QUEUE",
+                        "pass":  true,
+                        "reasonCode":  "REQUIRES_HUMAN_REVIEW",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\ACCESS_003_MAINTENANCE_MASK.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "M2M_001_TRUSTED_CALL",
+                        "domain":  "machine_to_machine",
+                        "decision":  "ALLOW",
+                        "expectedDecision":  "ALLOW",
+                        "executionGate":  "ALLOW",
+                        "expectedGate":  "ALLOW",
+                        "pass":  true,
+                        "reasonCode":  "WITHIN_APPROVED_POLICY",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\M2M_001_TRUSTED_CALL.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "M2M_002_UNKNOWN_TRANSFER",
+                        "domain":  "machine_to_machine",
+                        "decision":  "BLOCK",
+                        "expectedDecision":  "BLOCK",
+                        "executionGate":  "STOP",
+                        "expectedGate":  "STOP",
+                        "pass":  true,
+                        "reasonCode":  "HIGH_IMPACT_EXECUTION_RISK",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\M2M_002_UNKNOWN_TRANSFER.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "M2M_003_SHARED_STATE_ATTACK",
+                        "domain":  "machine_to_machine",
+                        "decision":  "REVIEW",
+                        "expectedDecision":  "REVIEW",
+                        "executionGate":  "QUEUE",
+                        "expectedGate":  "QUEUE",
+                        "pass":  true,
+                        "reasonCode":  "REQUIRES_HUMAN_REVIEW",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\M2M_003_SHARED_STATE_ATTACK.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "ROBOT_001_SAFE_MOVE",
+                        "domain":  "robotics",
+                        "decision":  "ALLOW",
+                        "expectedDecision":  "ALLOW",
+                        "executionGate":  "ALLOW",
+                        "expectedGate":  "ALLOW",
+                        "pass":  true,
+                        "reasonCode":  "WITHIN_APPROVED_POLICY",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\ROBOT_001_SAFE_MOVE.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "ROBOT_002_UNSAFE_TRAJECTORY",
+                        "domain":  "robotics",
+                        "decision":  "STOP",
+                        "expectedDecision":  "STOP",
+                        "executionGate":  "STOP",
+                        "expectedGate":  "STOP",
+                        "pass":  true,
+                        "reasonCode":  "PHYSICAL_HARM_BOUNDARY",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\ROBOT_002_UNSAFE_TRAJECTORY.ordeal_receipt.json"
+                    },
+                    {
+                        "id":  "ROBOT_003_UNKNOWN_ACTUATION",
+                        "domain":  "robotics",
+                        "decision":  "REVIEW",
+                        "expectedDecision":  "REVIEW",
+                        "executionGate":  "QUEUE",
+                        "expectedGate":  "QUEUE",
+                        "pass":  true,
+                        "reasonCode":  "REQUIRES_HUMAN_REVIEW",
+                        "receiptPath":  "C:\\Lab_Research\\aion-guard-lite\\docs\\evidence\\cross_domain\\ordeal_receipts\\ROBOT_003_UNKNOWN_ACTUATION.ordeal_receipt.json"
+                    }
+                ]
+}

@@ -1,0 +1,36 @@
+﻿{
+    "receiptVersion":  1,
+    "evidenceFamily":  "cross_domain_ordeal_v1",
+    "generatedAt":  "2026-03-30T00:06:23.1473493-06:00",
+    "domain":  "trading_systems",
+    "caseId":  "TRADING_003_HIDDEN_LEVERAGE",
+    "title":  "Normal-looking trade with hidden leverage escalation",
+    "actor":  "strategy.beta",
+    "intent":  "Trade appears normal but implies leverage escalation beyond policy.",
+    "proposedReality":  "System enters position with hidden leverage expansion.",
+    "preview":  {
+                    "actionType":  "place_order",
+                    "target":  "ETH-PERP",
+                    "authority":  "trading",
+                    "value":  "leverage_hidden",
+                    "previewHints":  [
+                                         "hidden_consequence",
+                                         "leverage_escalation",
+                                         "review_required"
+                                     ],
+                    "inferredRisk":  "HIGH"
+                },
+    "invariantFamilies":  [
+                              "hidden_consequence",
+                              "human_review"
+                          ],
+    "decision":  "REVIEW",
+    "reasonCode":  "REQUIRES_HUMAN_REVIEW",
+    "consequence":  "The proposed action has material consequence or ambiguity and requires review before execution.",
+    "governedReality":  "Action withheld pending review before reality changes.",
+    "executionGate":  "QUEUE",
+    "expectedDecision":  "REVIEW",
+    "expectedGate":  "QUEUE",
+    "pass":  true,
+    "fingerprint":  "78f00e0d0baadff17a7b7556f2aa3def0353e191195848c2a886b90f032371e0"
+}

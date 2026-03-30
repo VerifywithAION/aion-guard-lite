@@ -1,0 +1,36 @@
+﻿{
+    "receiptVersion":  1,
+    "evidenceFamily":  "cross_domain_ordeal_v1",
+    "generatedAt":  "2026-03-30T00:06:23.1936914-06:00",
+    "domain":  "machine_to_machine",
+    "caseId":  "M2M_003_SHARED_STATE_ATTACK",
+    "title":  "Shared-state mutation outside trust boundary",
+    "actor":  "service.echo",
+    "intent":  "Service mutates globally shared state outside normal trust boundary.",
+    "proposedReality":  "Service changes high-impact global config without explicit authorization.",
+    "preview":  {
+                    "actionType":  "shared_state_change",
+                    "target":  "global.config.core",
+                    "authority":  "service_execution",
+                    "value":  "0",
+                    "previewHints":  [
+                                         "high_impact",
+                                         "shared_state",
+                                         "review_required"
+                                     ],
+                    "inferredRisk":  "HIGH"
+                },
+    "invariantFamilies":  [
+                              "high_impact_state",
+                              "human_review"
+                          ],
+    "decision":  "REVIEW",
+    "reasonCode":  "REQUIRES_HUMAN_REVIEW",
+    "consequence":  "The proposed action has material consequence or ambiguity and requires review before execution.",
+    "governedReality":  "Action withheld pending review before reality changes.",
+    "executionGate":  "QUEUE",
+    "expectedDecision":  "REVIEW",
+    "expectedGate":  "QUEUE",
+    "pass":  true,
+    "fingerprint":  "7be7f05a3159c420ca7e48db9b7864e6960c91e94a91fb1063dae4ee8c21a65a"
+}

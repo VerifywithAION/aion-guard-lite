@@ -1,0 +1,35 @@
+﻿{
+    "receiptVersion":  1,
+    "evidenceFamily":  "cross_domain_ordeal_v1",
+    "generatedAt":  "2026-03-30T00:06:23.1539039-06:00",
+    "domain":  "enterprise_approvals",
+    "caseId":  "ENT_001_SMALL_VENDOR",
+    "title":  "Small vendor payment within threshold",
+    "actor":  "employee.gamma",
+    "intent":  "Small vendor payment within single-approver threshold.",
+    "proposedReality":  "Approved small vendor payment proceeds under policy.",
+    "preview":  {
+                    "actionType":  "approve_payment",
+                    "target":  "vendor.approved",
+                    "authority":  "business_ops",
+                    "value":  "$1200",
+                    "previewHints":  [
+                                         "approved_vendor",
+                                         "low_value",
+                                         "within_threshold"
+                                     ],
+                    "inferredRisk":  "LOW"
+                },
+    "invariantFamilies":  [
+
+                          ],
+    "decision":  "ALLOW",
+    "reasonCode":  "WITHIN_APPROVED_POLICY",
+    "consequence":  "The proposed action remains within policy boundaries and may proceed.",
+    "governedReality":  "Action allowed to proceed under governed policy.",
+    "executionGate":  "ALLOW",
+    "expectedDecision":  "ALLOW",
+    "expectedGate":  "ALLOW",
+    "pass":  true,
+    "fingerprint":  "0edb8d9d43a79f7ef0f3630fabac3839079ecc33ee04b4a76dade1670f141ad3"
+}

@@ -1,0 +1,37 @@
+﻿{
+    "receiptVersion":  1,
+    "evidenceFamily":  "cross_domain_ordeal_v1",
+    "generatedAt":  "2026-03-30T00:06:23.1779797-06:00",
+    "domain":  "access_control",
+    "caseId":  "ACCESS_003_MAINTENANCE_MASK",
+    "title":  "Maintenance request masking permission mutation",
+    "actor":  "user.delta",
+    "intent":  "Routine maintenance request actually mutates permission scope.",
+    "proposedReality":  "Maintenance action silently broadens permission surface.",
+    "preview":  {
+                    "actionType":  "update_permissions",
+                    "target":  "ops_group",
+                    "authority":  "access",
+                    "value":  "0",
+                    "previewHints":  [
+                                         "hidden_consequence",
+                                         "permission_mutation",
+                                         "review_required"
+                                     ],
+                    "inferredRisk":  "HIGH"
+                },
+    "invariantFamilies":  [
+                              "hidden_consequence",
+                              "delegated_authority",
+                              "human_review"
+                          ],
+    "decision":  "REVIEW",
+    "reasonCode":  "REQUIRES_HUMAN_REVIEW",
+    "consequence":  "The proposed action has material consequence or ambiguity and requires review before execution.",
+    "governedReality":  "Action withheld pending review before reality changes.",
+    "executionGate":  "QUEUE",
+    "expectedDecision":  "REVIEW",
+    "expectedGate":  "QUEUE",
+    "pass":  true,
+    "fingerprint":  "238564ee7e304e2d43da60e106ea291a14a31e3985308fa56636825076ee1d34"
+}

@@ -1,0 +1,35 @@
+﻿{
+    "receiptVersion":  1,
+    "evidenceFamily":  "cross_domain_ordeal_v1",
+    "generatedAt":  "2026-03-30T00:06:23.2046997-06:00",
+    "domain":  "robotics",
+    "caseId":  "ROBOT_002_UNSAFE_TRAJECTORY",
+    "title":  "Unsafe movement near human zone",
+    "actor":  "robot.zeta",
+    "intent":  "Robot attempts trajectory that violates human safety perimeter.",
+    "proposedReality":  "Robot enters unsafe motion path near human zone.",
+    "preview":  {
+                    "actionType":  "move_command",
+                    "target":  "human_proximity_zone",
+                    "authority":  "robotic_execution",
+                    "value":  "0",
+                    "previewHints":  [
+                                         "physical_harm_risk",
+                                         "unsafe_zone",
+                                         "safety_violation"
+                                     ],
+                    "inferredRisk":  "CRITICAL"
+                },
+    "invariantFamilies":  [
+                              "harm_boundary"
+                          ],
+    "decision":  "STOP",
+    "reasonCode":  "PHYSICAL_HARM_BOUNDARY",
+    "consequence":  "The proposed action crosses a physical or safety boundary and must be stopped immediately.",
+    "governedReality":  "Action prevented before proposed reality became actual reality.",
+    "executionGate":  "STOP",
+    "expectedDecision":  "STOP",
+    "expectedGate":  "STOP",
+    "pass":  true,
+    "fingerprint":  "74ba8f0a17147797149a8b4e1c22531080a257916ba97dc01747bb180f6084f3"
+}

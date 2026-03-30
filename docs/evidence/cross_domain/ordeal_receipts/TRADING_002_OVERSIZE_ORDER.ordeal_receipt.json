@@ -1,0 +1,37 @@
+﻿{
+    "receiptVersion":  1,
+    "evidenceFamily":  "cross_domain_ordeal_v1",
+    "generatedAt":  "2026-03-30T00:06:23.1428188-06:00",
+    "domain":  "trading_systems",
+    "caseId":  "TRADING_002_OVERSIZE_ORDER",
+    "title":  "Oversize order beyond max risk",
+    "actor":  "strategy.beta",
+    "intent":  "Order exceeds max size and risk boundary.",
+    "proposedReality":  "System places an order 10x above allowed risk.",
+    "preview":  {
+                    "actionType":  "place_order",
+                    "target":  "BTC-PERP",
+                    "authority":  "trading",
+                    "value":  "10x limit",
+                    "previewHints":  [
+                                         "risk_boundary_violation",
+                                         "oversize",
+                                         "liquidation_risk",
+                                         "threshold_violation"
+                                     ],
+                    "inferredRisk":  "CRITICAL"
+                },
+    "invariantFamilies":  [
+                              "harm_boundary",
+                              "threshold_violation"
+                          ],
+    "decision":  "BLOCK",
+    "reasonCode":  "HIGH_IMPACT_EXECUTION_RISK",
+    "consequence":  "The proposed action would create unacceptable financial, authority, or system risk.",
+    "governedReality":  "Action prevented before proposed reality became actual reality.",
+    "executionGate":  "STOP",
+    "expectedDecision":  "BLOCK",
+    "expectedGate":  "STOP",
+    "pass":  true,
+    "fingerprint":  "263c0688fa7710d002edae1e31befb2fdec506b6ab7c2ab12e6af761453f5add"
+}

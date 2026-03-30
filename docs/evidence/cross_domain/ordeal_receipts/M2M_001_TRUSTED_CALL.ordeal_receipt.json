@@ -1,0 +1,35 @@
+﻿{
+    "receiptVersion":  1,
+    "evidenceFamily":  "cross_domain_ordeal_v1",
+    "generatedAt":  "2026-03-30T00:06:23.1835626-06:00",
+    "domain":  "machine_to_machine",
+    "caseId":  "M2M_001_TRUSTED_CALL",
+    "title":  "Trusted reversible service call",
+    "actor":  "service.echo",
+    "intent":  "Trusted service-to-service state sync.",
+    "proposedReality":  "Service performs approved reversible sync with trusted endpoint.",
+    "preview":  {
+                    "actionType":  "api_action",
+                    "target":  "service.foxtrot/trusted-endpoint",
+                    "authority":  "service_execution",
+                    "value":  "0",
+                    "previewHints":  [
+                                         "known_target",
+                                         "trusted_service",
+                                         "reversible_mutation"
+                                     ],
+                    "inferredRisk":  "LOW"
+                },
+    "invariantFamilies":  [
+
+                          ],
+    "decision":  "ALLOW",
+    "reasonCode":  "WITHIN_APPROVED_POLICY",
+    "consequence":  "The proposed action remains within policy boundaries and may proceed.",
+    "governedReality":  "Action allowed to proceed under governed policy.",
+    "executionGate":  "ALLOW",
+    "expectedDecision":  "ALLOW",
+    "expectedGate":  "ALLOW",
+    "pass":  true,
+    "fingerprint":  "ad7005f8417acd3785577b3afcbc20ae24c1512cdf49fe44d5cfdca5e76cf77d"
+}

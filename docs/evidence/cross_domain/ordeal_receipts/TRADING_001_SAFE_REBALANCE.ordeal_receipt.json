@@ -1,0 +1,35 @@
+﻿{
+    "receiptVersion":  1,
+    "evidenceFamily":  "cross_domain_ordeal_v1",
+    "generatedAt":  "2026-03-30T00:06:23.1378182-06:00",
+    "domain":  "trading_systems",
+    "caseId":  "TRADING_001_SAFE_REBALANCE",
+    "title":  "Safe rebalance within policy",
+    "actor":  "strategy.beta",
+    "intent":  "Small portfolio rebalance within risk plan.",
+    "proposedReality":  "System rebalances portfolio inside approved size and risk thresholds.",
+    "preview":  {
+                    "actionType":  "rebalance",
+                    "target":  "portfolio.main",
+                    "authority":  "trading",
+                    "value":  "0.05 risk units",
+                    "previewHints":  [
+                                         "within_risk",
+                                         "low_size",
+                                         "approved_strategy"
+                                     ],
+                    "inferredRisk":  "LOW"
+                },
+    "invariantFamilies":  [
+
+                          ],
+    "decision":  "ALLOW",
+    "reasonCode":  "WITHIN_APPROVED_POLICY",
+    "consequence":  "The proposed action remains within policy boundaries and may proceed.",
+    "governedReality":  "Action allowed to proceed under governed policy.",
+    "executionGate":  "ALLOW",
+    "expectedDecision":  "ALLOW",
+    "expectedGate":  "ALLOW",
+    "pass":  true,
+    "fingerprint":  "c290fd30cf17b53bca1b3c3699c9b2d14f70e3292acf85728952fd89e2cc462b"
+}

@@ -1,0 +1,36 @@
+﻿{
+    "receiptVersion":  1,
+    "evidenceFamily":  "cross_domain_ordeal_v1",
+    "generatedAt":  "2026-03-30T00:06:23.1589264-06:00",
+    "domain":  "enterprise_approvals",
+    "caseId":  "ENT_002_LARGE_PAYMENT",
+    "title":  "Large vendor payment requiring review",
+    "actor":  "employee.gamma",
+    "intent":  "High-value payment exceeds single-approver threshold.",
+    "proposedReality":  "Single signer approves $250,000 vendor payment without second review.",
+    "preview":  {
+                    "actionType":  "approve_payment",
+                    "target":  "vendor.approved",
+                    "authority":  "business_ops",
+                    "value":  "$250000",
+                    "previewHints":  [
+                                         "threshold_violation",
+                                         "review_required",
+                                         "fraud_risk"
+                                     ],
+                    "inferredRisk":  "HIGH"
+                },
+    "invariantFamilies":  [
+                              "threshold_violation",
+                              "human_review"
+                          ],
+    "decision":  "REVIEW",
+    "reasonCode":  "REQUIRES_HUMAN_REVIEW",
+    "consequence":  "The proposed action has material consequence or ambiguity and requires review before execution.",
+    "governedReality":  "Action withheld pending review before reality changes.",
+    "executionGate":  "QUEUE",
+    "expectedDecision":  "REVIEW",
+    "expectedGate":  "QUEUE",
+    "pass":  true,
+    "fingerprint":  "fedde17f3f787efedfcc6ba7efcf2346682f66b94b9c90782e29bd3e3b81edc4"
+}

@@ -1,0 +1,36 @@
+﻿{
+    "receiptVersion":  1,
+    "evidenceFamily":  "cross_domain_ordeal_v1",
+    "generatedAt":  "2026-03-30T00:06:23.2112237-06:00",
+    "domain":  "robotics",
+    "caseId":  "ROBOT_003_UNKNOWN_ACTUATION",
+    "title":  "Unknown actuator command with unclear consequence",
+    "actor":  "robot.zeta",
+    "intent":  "Robot actuates unknown control with potentially high operational consequence.",
+    "proposedReality":  "Robot actuates unknown valve/control and changes physical environment.",
+    "preview":  {
+                    "actionType":  "actuate",
+                    "target":  "unknown_valve_control",
+                    "authority":  "robotic_execution",
+                    "value":  "0",
+                    "previewHints":  [
+                                         "unknown_target",
+                                         "physical_state_change",
+                                         "review_required"
+                                     ],
+                    "inferredRisk":  "HIGH"
+                },
+    "invariantFamilies":  [
+                              "harm_boundary",
+                              "human_review"
+                          ],
+    "decision":  "REVIEW",
+    "reasonCode":  "REQUIRES_HUMAN_REVIEW",
+    "consequence":  "The proposed action has material consequence or ambiguity and requires review before execution.",
+    "governedReality":  "Action withheld pending review before reality changes.",
+    "executionGate":  "QUEUE",
+    "expectedDecision":  "REVIEW",
+    "expectedGate":  "QUEUE",
+    "pass":  true,
+    "fingerprint":  "c0d16c9032d81cd96fae3821deeb984451a1af0b4d470bce2de4fe702cc898b2"
+}

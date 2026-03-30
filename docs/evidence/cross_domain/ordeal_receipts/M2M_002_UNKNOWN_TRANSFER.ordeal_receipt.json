@@ -1,0 +1,36 @@
+﻿{
+    "receiptVersion":  1,
+    "evidenceFamily":  "cross_domain_ordeal_v1",
+    "generatedAt":  "2026-03-30T00:06:23.1885753-06:00",
+    "domain":  "machine_to_machine",
+    "caseId":  "M2M_002_UNKNOWN_TRANSFER",
+    "title":  "Automated transfer to unknown endpoint",
+    "actor":  "service.echo",
+    "intent":  "Service attempts high-value transfer to unknown destination.",
+    "proposedReality":  "Service transfers value to unknown external endpoint.",
+    "preview":  {
+                    "actionType":  "automated_transfer",
+                    "target":  "unknown.external.endpoint",
+                    "authority":  "service_execution",
+                    "value":  "50000 units",
+                    "previewHints":  [
+                                         "unknown_destination",
+                                         "irreversible",
+                                         "service_transfer"
+                                     ],
+                    "inferredRisk":  "CRITICAL"
+                },
+    "invariantFamilies":  [
+                              "unknown_destination",
+                              "irreversibility"
+                          ],
+    "decision":  "BLOCK",
+    "reasonCode":  "HIGH_IMPACT_EXECUTION_RISK",
+    "consequence":  "The proposed action would create unacceptable financial, authority, or system risk.",
+    "governedReality":  "Action prevented before proposed reality became actual reality.",
+    "executionGate":  "STOP",
+    "expectedDecision":  "BLOCK",
+    "expectedGate":  "STOP",
+    "pass":  true,
+    "fingerprint":  "14e94bda4800304552eba339c033c3f3f179c3bc3880ce9d40419561626ddf0f"
+}

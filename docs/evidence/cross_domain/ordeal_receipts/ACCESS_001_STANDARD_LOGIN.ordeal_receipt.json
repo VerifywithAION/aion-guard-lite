@@ -1,0 +1,35 @@
+﻿{
+    "receiptVersion":  1,
+    "evidenceFamily":  "cross_domain_ordeal_v1",
+    "generatedAt":  "2026-03-30T00:06:23.1674533-06:00",
+    "domain":  "access_control",
+    "caseId":  "ACCESS_001_STANDARD_LOGIN",
+    "title":  "Normal approved readonly login",
+    "actor":  "user.delta",
+    "intent":  "Normal login to approved readonly admin surface.",
+    "proposedReality":  "User enters readonly admin area inside approved privileges.",
+    "preview":  {
+                    "actionType":  "login",
+                    "target":  "admin_portal_readonly",
+                    "authority":  "access",
+                    "value":  "0",
+                    "previewHints":  [
+                                         "approved_access",
+                                         "low_privilege_delta",
+                                         "known_target"
+                                     ],
+                    "inferredRisk":  "LOW"
+                },
+    "invariantFamilies":  [
+
+                          ],
+    "decision":  "ALLOW",
+    "reasonCode":  "WITHIN_APPROVED_POLICY",
+    "consequence":  "The proposed action remains within policy boundaries and may proceed.",
+    "governedReality":  "Action allowed to proceed under governed policy.",
+    "executionGate":  "ALLOW",
+    "expectedDecision":  "ALLOW",
+    "expectedGate":  "ALLOW",
+    "pass":  true,
+    "fingerprint":  "bc19bbec69437612f944042f5a0540219b7f655d99eef6c99010044e56997e39"
+}

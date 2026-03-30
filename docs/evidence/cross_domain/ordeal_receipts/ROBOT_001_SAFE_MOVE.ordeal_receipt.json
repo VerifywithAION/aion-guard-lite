@@ -1,0 +1,35 @@
+﻿{
+    "receiptVersion":  1,
+    "evidenceFamily":  "cross_domain_ordeal_v1",
+    "generatedAt":  "2026-03-30T00:06:23.1990226-06:00",
+    "domain":  "robotics",
+    "caseId":  "ROBOT_001_SAFE_MOVE",
+    "title":  "Safe robotic movement",
+    "actor":  "robot.zeta",
+    "intent":  "Robot moves within approved lane and speed constraints.",
+    "proposedReality":  "Robot performs safe bounded movement in approved area.",
+    "preview":  {
+                    "actionType":  "move_command",
+                    "target":  "pickup_zone_a",
+                    "authority":  "robotic_execution",
+                    "value":  "0",
+                    "previewHints":  [
+                                         "within_safety_boundary",
+                                         "approved_zone",
+                                         "low_risk"
+                                     ],
+                    "inferredRisk":  "LOW"
+                },
+    "invariantFamilies":  [
+
+                          ],
+    "decision":  "ALLOW",
+    "reasonCode":  "WITHIN_APPROVED_POLICY",
+    "consequence":  "The proposed action remains within policy boundaries and may proceed.",
+    "governedReality":  "Action allowed to proceed under governed policy.",
+    "executionGate":  "ALLOW",
+    "expectedDecision":  "ALLOW",
+    "expectedGate":  "ALLOW",
+    "pass":  true,
+    "fingerprint":  "64097c2a41b7092086909a29c9e2e1f2c4d31fab6186d6a99602c974a009c2e7"
+}

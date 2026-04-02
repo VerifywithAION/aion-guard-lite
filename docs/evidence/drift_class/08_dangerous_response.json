@@ -1,0 +1,53 @@
+﻿{
+    "ok":  true,
+    "version":  "wallet-guard-lite-api.v1",
+    "policyVersion":  "kine.v7.impact-intelligence",
+    "policyProfile":  "institutional",
+    "chainFamily":  "evm",
+    "network":  "mainnet",
+    "decision":  "BLOCK",
+    "riskLevel":  "CRITICAL",
+    "reasonCode":  "INSTITUTIONAL_VALUE_TRANSFER_BLOCKED",
+    "message":  "Institutional policy blocked non-self value transfer.",
+    "ruleHits":  [
+                     "VALUE_TRANSFER",
+                     "POLICY_PACK_INSTITUTIONAL"
+                 ],
+    "overrideRequired":  false,
+    "overrideUsed":  false,
+    "simulatedImpact":  {
+                            "balanceChange":  "278500000",
+                            "permissionChange":  "NONE",
+                            "approvalScope":  "NONE",
+                            "destinationType":  "EOA_OR_UNKNOWN",
+                            "from":  "0xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                            "to":  "0xFEEEFEEEFEEEFEEEFEEEFEEEFEEEFEEEFEEEFEEE",
+                            "providerMethod":  null,
+                            "userFacingSummary":  "This request has been blocked by constitutional execution policy."
+                        },
+    "impactIntelligence":  {
+                               "explanation":  "Wallet Guard Lite identified a structurally dangerous request and blocked execution.",
+                               "impact":  "The request should not proceed through the guarded flow.",
+                               "whyThisMatters":  "Blocking prevents clearly unsafe actions from reaching the execution handoff. The active policy profile is stricter because this environment assumes higher consequence for mistakes.",
+                               "estimatedLossScope":  "prevented before execution",
+                               "attackPatternFamily":  "blocked_high_risk"
+                           },
+    "explanation":  "Wallet Guard Lite identified a structurally dangerous request and blocked execution.",
+    "impact":  "The request should not proceed through the guarded flow.",
+    "whyThisMatters":  "Blocking prevents clearly unsafe actions from reaching the execution handoff. The active policy profile is stricter because this environment assumes higher consequence for mistakes.",
+    "estimatedLossScope":  "prevented before execution",
+    "attackPatternFamily":  "blocked_high_risk",
+    "receipt":  {
+                    "id":  "c7a68a9e-90bf-4d5d-a92a-eb199c541f38",
+                    "timestamp":  "2026-04-02T18:28:52.056Z",
+                    "policyVersion":  "kine.v7.impact-intelligence",
+                    "policyProfile":  "institutional",
+                    "ruleHits":  [
+                                     "VALUE_TRANSFER",
+                                     "POLICY_PACK_INSTITUTIONAL"
+                                 ],
+                    "txFingerprint":  "bc711cb810bb6e7f7759ee307510417085617d0ab019480a15c76a7b84ddb810",
+                    "overrideRequired":  false,
+                    "overrideUsed":  false
+                }
+}

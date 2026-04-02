@@ -1,0 +1,89 @@
+﻿{
+    "suite":  "aion_v2_gradient_proof",
+    "generatedAt":  "2026-04-02T12:28:52.0963138-06:00",
+    "baseUrl":  "http://127.0.0.1:8787",
+    "runtimeHealthy":  true,
+    "cases":  [
+                  {
+                      "label":  "SAFE",
+                      "requestPath":  "C:\\Lab_Research\\_AION_V2_GRADIENT_PROOF_20260402_122851\\03_safe_request.json",
+                      "responsePath":  "C:\\Lab_Research\\_AION_V2_GRADIENT_PROOF_20260402_122851\\04_safe_response.json",
+                      "decision":  "ALLOW",
+                      "reasonCode":  "SELF_TRANSFER",
+                      "riskLevel":  "LOW",
+                      "message":  "Self-transfer detected",
+                      "ruleHits":  "SELF_TRANSFER",
+                      "receiptFields":  [
+                                            "id",
+                                            "overrideRequired",
+                                            "overrideUsed",
+                                            "policyProfile",
+                                            "policyVersion",
+                                            "ruleHits",
+                                            "timestamp",
+                                            "txFingerprint"
+                                        ]
+                  },
+                  {
+                      "label":  "SUSPICIOUS",
+                      "requestPath":  "C:\\Lab_Research\\_AION_V2_GRADIENT_PROOF_20260402_122851\\05_suspicious_request.json",
+                      "responsePath":  "C:\\Lab_Research\\_AION_V2_GRADIENT_PROOF_20260402_122851\\06_suspicious_response.json",
+                      "decision":  "WARN",
+                      "reasonCode":  "FIRST_TIME_DESTINATION",
+                      "riskLevel":  "HIGH",
+                      "message":  "First-time interaction with destination address.",
+                      "ruleHits":  [
+                                       "VALUE_TRANSFER",
+                                       "FIRST_TIME_DESTINATION"
+                                   ],
+                      "receiptFields":  [
+                                            "id",
+                                            "overrideRequired",
+                                            "overrideUsed",
+                                            "policyProfile",
+                                            "policyVersion",
+                                            "ruleHits",
+                                            "timestamp",
+                                            "txFingerprint"
+                                        ]
+                  },
+                  {
+                      "label":  "DANGEROUS",
+                      "requestPath":  "C:\\Lab_Research\\_AION_V2_GRADIENT_PROOF_20260402_122851\\07_dangerous_request.json",
+                      "responsePath":  "C:\\Lab_Research\\_AION_V2_GRADIENT_PROOF_20260402_122851\\08_dangerous_response.json",
+                      "decision":  "BLOCK",
+                      "reasonCode":  "INSTITUTIONAL_VALUE_TRANSFER_BLOCKED",
+                      "riskLevel":  "CRITICAL",
+                      "message":  "Institutional policy blocked non-self value transfer.",
+                      "ruleHits":  [
+                                       "VALUE_TRANSFER",
+                                       "POLICY_PACK_INSTITUTIONAL"
+                                   ],
+                      "receiptFields":  [
+                                            "id",
+                                            "overrideRequired",
+                                            "overrideUsed",
+                                            "policyProfile",
+                                            "policyVersion",
+                                            "ruleHits",
+                                            "timestamp",
+                                            "txFingerprint"
+                                        ]
+                  }
+              ],
+    "gradientAssessment":  {
+                               "observedDecisions":  [
+                                                         "ALLOW",
+                                                         "WARN",
+                                                         "BLOCK"
+                                                     ],
+                               "uniqueDecisions":  [
+                                                       "ALLOW",
+                                                       "BLOCK",
+                                                       "WARN"
+                                                   ],
+                               "distinctCount":  3,
+                               "hasGradient":  true,
+                               "idealGradient":  true
+                           }
+}

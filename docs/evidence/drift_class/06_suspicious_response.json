@@ -1,0 +1,54 @@
+﻿{
+    "ok":  true,
+    "version":  "wallet-guard-lite-api.v1",
+    "policyVersion":  "kine.v7.impact-intelligence",
+    "policyProfile":  "consumer",
+    "chainFamily":  "evm",
+    "network":  "mainnet",
+    "decision":  "WARN",
+    "riskLevel":  "HIGH",
+    "reasonCode":  "FIRST_TIME_DESTINATION",
+    "message":  "First-time interaction with destination address.",
+    "ruleHits":  [
+                     "VALUE_TRANSFER",
+                     "FIRST_TIME_DESTINATION"
+                 ],
+    "overrideRequired":  true,
+    "overrideUsed":  false,
+    "simulatedImpact":  {
+                            "balanceChange":  "250",
+                            "permissionChange":  "NONE",
+                            "approvalScope":  "NONE",
+                            "destinationType":  "EOA_OR_UNKNOWN",
+                            "from":  "0x1111111111111111111111111111111111111111",
+                            "to":  "0x9999999999999999999999999999999999999999",
+                            "providerMethod":  null,
+                            "userFacingSummary":  "This is the first time this wallet has interacted with this destination.",
+                            "destinationSeenBefore":  false
+                        },
+    "impactIntelligence":  {
+                               "explanation":  "This is the first recorded interaction with this destination in the current local runtime context.",
+                               "impact":  "Unknown destinations increase uncertainty because there is no prior trust or behavior context.",
+                               "whyThisMatters":  "Many wallet drains begin with users interacting with a destination they have never seen before.",
+                               "estimatedLossScope":  "up to current transfer amount",
+                               "attackPatternFamily":  "unknown_destination"
+                           },
+    "explanation":  "This is the first recorded interaction with this destination in the current local runtime context.",
+    "impact":  "Unknown destinations increase uncertainty because there is no prior trust or behavior context.",
+    "whyThisMatters":  "Many wallet drains begin with users interacting with a destination they have never seen before.",
+    "estimatedLossScope":  "up to current transfer amount",
+    "attackPatternFamily":  "unknown_destination",
+    "receipt":  {
+                    "id":  "8414ffe8-7c8d-43d3-833c-b73150926b0f",
+                    "timestamp":  "2026-04-02T18:28:52.043Z",
+                    "policyVersion":  "kine.v7.impact-intelligence",
+                    "policyProfile":  "consumer",
+                    "ruleHits":  [
+                                     "VALUE_TRANSFER",
+                                     "FIRST_TIME_DESTINATION"
+                                 ],
+                    "txFingerprint":  "38fce7c4a97aad4a0962b8ad2ae128fa2f0fc010423aac57923e7431c8f41c9b",
+                    "overrideRequired":  true,
+                    "overrideUsed":  false
+                }
+}

@@ -1,0 +1,9 @@
+﻿{
+    "chainFamily":  "evm",
+    "network":  "mainnet",
+    "from":  "0x1111111111111111111111111111111111111111",
+    "to":  "0x9999999999999999999999999999999999999999",
+    "value":  "250",
+    "data":  "0x",
+    "policyProfile":  "consumer"
+}

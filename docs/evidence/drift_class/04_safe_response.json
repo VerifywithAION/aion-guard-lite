@@ -1,0 +1,51 @@
+﻿{
+    "ok":  true,
+    "version":  "wallet-guard-lite-api.v1",
+    "policyVersion":  "kine.v7.impact-intelligence",
+    "policyProfile":  "consumer",
+    "chainFamily":  "evm",
+    "network":  "mainnet",
+    "decision":  "ALLOW",
+    "riskLevel":  "LOW",
+    "reasonCode":  "SELF_TRANSFER",
+    "message":  "Self-transfer detected",
+    "ruleHits":  [
+                     "SELF_TRANSFER"
+                 ],
+    "overrideRequired":  false,
+    "overrideUsed":  false,
+    "simulatedImpact":  {
+                            "balanceChange":  "0.0001",
+                            "permissionChange":  "NONE",
+                            "approvalScope":  "NONE",
+                            "destinationType":  "EOA_OR_UNKNOWN",
+                            "from":  "0x1111111111111111111111111111111111111111",
+                            "to":  "0x1111111111111111111111111111111111111111",
+                            "providerMethod":  null,
+                            "userFacingSummary":  "This appears to be a self-transfer."
+                        },
+    "impactIntelligence":  {
+                               "explanation":  "This request appears to transfer value back to the same wallet address.",
+                               "impact":  "The request does not appear to grant third-party control or move value to an external destination.",
+                               "whyThisMatters":  "Self-transfers are often low-risk baselines useful for verifying the guard path.",
+                               "estimatedLossScope":  "0.0001",
+                               "attackPatternFamily":  "self_transfer"
+                           },
+    "explanation":  "This request appears to transfer value back to the same wallet address.",
+    "impact":  "The request does not appear to grant third-party control or move value to an external destination.",
+    "whyThisMatters":  "Self-transfers are often low-risk baselines useful for verifying the guard path.",
+    "estimatedLossScope":  "0.0001",
+    "attackPatternFamily":  "self_transfer",
+    "receipt":  {
+                    "id":  "6207c783-a82c-4551-87f7-8963aff6b615",
+                    "timestamp":  "2026-04-02T18:28:52.007Z",
+                    "policyVersion":  "kine.v7.impact-intelligence",
+                    "policyProfile":  "consumer",
+                    "ruleHits":  [
+                                     "SELF_TRANSFER"
+                                 ],
+                    "txFingerprint":  "66de57fe5e1325283385e571c4affbb3900e072b91ae32cbf71c564b4946cea0",
+                    "overrideRequired":  false,
+                    "overrideUsed":  false
+                }
+}

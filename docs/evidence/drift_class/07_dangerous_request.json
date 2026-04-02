@@ -1,0 +1,9 @@
+﻿{
+    "chainFamily":  "evm",
+    "network":  "mainnet",
+    "from":  "0xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "to":  "0xFEEEFEEEFEEEFEEEFEEEFEEEFEEEFEEEFEEEFEEE",
+    "value":  "278500000",
+    "data":  "0x",
+    "policyProfile":  "institutional"
+}

@@ -1,0 +1,8 @@
+﻿{
+    "ok":  true,
+    "service":  "wallet-guard-lite-api",
+    "port":  8787,
+    "policyVersion":  "kine.v7.impact-intelligence",
+    "defaultPolicyProfile":  "consumer",
+    "decisionLogPath":  "C:\\Lab_Research\\wallet-lite-api\\data\\kine_decisions.jsonl"
+}

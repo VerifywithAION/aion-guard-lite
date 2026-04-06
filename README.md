@@ -1,4 +1,4 @@
-﻿# Wallet Guard Lite
+# Wallet Guard Lite
 
 Wallet Guard Lite is a **closed-core governed execution runtime** with a **public-safe local API** that evaluates requests before irreversible execution.
 
@@ -198,3 +198,17 @@ It sits between intent and irreversible execution, returns structured decisions,
 
 
 
+
+<!-- AION_COUNTERFACTUAL_OVERLAY_START -->
+## Counterfactual overlay
+
+Wallet Guard Lite also tracks an additive counterfactual overlay.
+
+This layer is optional and non-breaking.
+
+It strengthens the wallet execution gate by testing nearby transaction futures around the current request.
+
+See:
+- `docs/architecture/COUNTERFACTUAL_OVERLAY_ARCHITECTURE_V1.md`
+- `docs/evidence/domain/COUNTERFACTUAL_OVERLAY_EXECUTION_NOTE_V1.md`
+<!-- AION_COUNTERFACTUAL_OVERLAY_END -->

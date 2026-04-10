@@ -1,4 +1,4 @@
-# Wallet Guard Lite
+﻿# Wallet Guard Lite
 
 Wallet Guard Lite is a **closed-core governed execution runtime** with a **public-safe local API** that evaluates requests before irreversible execution.
 
@@ -38,8 +38,10 @@ This is currently a **local-first, proof-backed runtime posture**, not a public 
 1. [Builder Quickstart](wallet-lite-api/docs/WALLET_GUARD_LITE_BUILDER_QUICKSTART_V1.md)
 2. [Public API Surface](docs/public/WALLET_LITE_PUBLIC_API_SURFACE_V1.md)
 3. [Demo Walkthrough](docs/public/WALLET_LITE_DEMO_WALKTHROUGH_V1.md)
-4. [Evidence Index](docs/evidence/EVIDENCE_INDEX.md)
-5. [Public Claim Boundary](docs/public/WALLET_LITE_PUBLIC_CLAIM_BOUNDARY_V1.md)
+4. [Public Release Note](docs/public/PUBLIC_RELEASE_NOTE_V1.md)
+5. [Evidence Index](docs/evidence/EVIDENCE_INDEX.md)
+6. [Public Claim Boundary](docs/public/WALLET_LITE_PUBLIC_CLAIM_BOUNDARY_V1.md)
+7. [Live Integration Execution Proof](docs/evidence/domain/LIVE_INTEGRATION_EXECUTION_PROOF_V1.md)
 
 ---
 
@@ -76,6 +78,7 @@ The strongest current proof-backed posture is:
 - defensive hardening validation
 - proof-backed evidence packs
 - V2-V7 execution-governance evolution
+- live external integration proof with structured decisions and receipts
 
 This is the reference posture evaluators and integrators should use first.
 
@@ -93,6 +96,7 @@ The current intended public usage posture is:
 
 - **Yes**: public users can run the local API and local UI
 - **Yes**: public users can reproduce the same preview and provider-wrapper flows shown in evidence
+- **Yes**: public users can inspect public-safe proof artifacts for execution governance behavior
 - **No**: this is not yet a public hosted production gateway
 - **No**: this does not declassify the private core
 
@@ -124,6 +128,7 @@ The strongest current public proof path is the combined demo + evidence posture:
 - [V7 Impact Intelligence Notes](docs/public/WALLET_LITE_DEMO_WALKTHROUGH_V1.md)
 - [V7 Hardening Note](docs/public/WALLET_LITE_V7_HARDENING_NOTE.md)
 - [What Has Been Proven](docs/evidence/WHAT_HAS_BEEN_PROVEN.md)
+- [Live Integration Execution Proof](docs/evidence/domain/LIVE_INTEGRATION_EXECUTION_PROOF_V1.md)
 
 These artifacts show:
 
@@ -142,6 +147,7 @@ These artifacts show:
 - policy-profile behavior
 - threat-intel seeded runtime behavior
 - private adversarial and deceptive-intent hardening posture
+- live external integration behavior with structured decision outputs
 
 ---
 
@@ -190,14 +196,25 @@ The strongest current truth remains bounded by the public evidence already linke
 
 ---
 
+## Live integration note
+
+A live external integration was completed where an external system routed requests into AION, AION returned structured governed decisions, receipts were generated, and outputs were persisted and mirrored in real time.
+
+This proves the **external-callable execution governance loop** in a live integration posture.
+
+Decision diversity (`ALLOW / WARN / BLOCK`) was also achieved once the request body matched the expected normalized import shape used by the policy engine.
+
+See:
+- [Public Release Note](docs/public/PUBLIC_RELEASE_NOTE_V1.md)
+- [Live Integration Execution Proof](docs/evidence/domain/LIVE_INTEGRATION_EXECUTION_PROOF_V1.md)
+
+---
+
 ## Canonical summary
 
 Wallet Guard Lite is a **closed-core governed execution runtime** and **public-safe local API posture**.
 
-It sits between intent and irreversible execution, returns structured decisions, preserves reason surfaces, emits receipts, and now has a real public-safe proof path demonstrating that this behavior works through a wallet-style demo, attack-lab scenarios, defensive hardening validation, and the V2-V7 execution-governance progression.
-
-
-
+It sits between intent and irreversible execution, returns structured decisions, preserves reason surfaces, emits receipts, and now has a real public-safe proof path demonstrating that this behavior works through a wallet-style demo, attack-lab scenarios, defensive hardening validation, the V2-V7 execution-governance progression, and live external integration proof.
 
 <!-- AION_COUNTERFACTUAL_OVERLAY_START -->
 ## Counterfactual overlay
@@ -212,3 +229,13 @@ See:
 - `docs/architecture/COUNTERFACTUAL_OVERLAY_ARCHITECTURE_V1.md`
 - `docs/evidence/domain/COUNTERFACTUAL_OVERLAY_EXECUTION_NOTE_V1.md`
 <!-- AION_COUNTERFACTUAL_OVERLAY_END -->
+
+---
+
+## Contact
+
+For research, integration, or collaboration:
+
+- **X:** [@AIxAION](https://x.com/AIxAION)
+- **LinkedIn:** http://bit.ly/4dGK9mv
+- **Email:** AIxAmail@proton.me
